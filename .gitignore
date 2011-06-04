@@ -1,0 +1,11 @@
+*.txt
+*.pyc
+
+*.dat
+*.pkl
+
+*.out
+
+tools/
+!tools/svm-python-v204/
+
