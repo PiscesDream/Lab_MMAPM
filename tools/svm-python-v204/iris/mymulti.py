@@ -156,7 +156,7 @@ def classification_score(x, y, sm, sparm):
 #   print '<W, psi(x, y)> =', np.dot(sm.w[:], sparse2array(psi(x, y, sm, sparm)[:], sm.size_psi))
 #   print '<W, psi(x, ybar)> =', np.dot(sm.w[:], sparse2array(psi(x, ybar, sm, sparm)[:], sm.size_psi))
 #   print '<W, diff_psi(x, y, ybar)> =', np.dot(sm.w[:], sparse2array(diff_psi(x, y, ybar, sm, sparm)[:], sm.size_psi))
-#   pdb.set_trace()
+#   pdb.set_trace() 
     score = 0
     for ind, ele in x:
         try:

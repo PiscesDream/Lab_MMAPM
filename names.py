@@ -12,4 +12,7 @@ localFeaturesFilename = os.path.join(featureDir, 'localFeaturesRaw.pkl')
 globalFeaturesFilename = os.path.join(featureDir,'globalFeaturesRaw.pkl')
 localBoWFilename = os.path.join(featureDir,'localBoW.pkl')
 globalBoWFilename = os.path.join(featureDir,'globalBow.pkl')
+BoWInGroup100 = os.path.join(featureDir,'[K=100]BoWInGroup.pkl')
+BoWInGroup500 = os.path.join(featureDir,'[K=500]BoWInGroup.pkl')
+BoWInGroup5 = os.path.join(featureDir,'[K=5]BoWInGroup.pkl')
 

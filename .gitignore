@@ -9,3 +9,5 @@
 tools/
 !tools/svm-python-v204/
 
+*.jpg
+*.png

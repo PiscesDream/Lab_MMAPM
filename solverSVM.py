@@ -70,5 +70,3 @@ if __name__ == '__main__':
             print '\taccuracy = %.3f%%'%l[-1]
             sys.stdout.flush()
         print '>>> average accuracy = %.3f%%'%np.mean(l)
-
-
