@@ -26,7 +26,8 @@ from Metric.LDL import LDL
 import sys
 
 class MLMNN(object):
-    def __init__(self, M, K, mu, dim, lmbd, localM=True, globalM=True): 
+    def __init__(self, M, K, mu, dim, lmbd, 
+                localM=True, globalM=True, normalize_axis=None, kernelf=None): 
         sys.setrecursionlimit(10000)
         self.localM = localM
         self.globalM = globalM 
@@ -36,6 +37,8 @@ class MLMNN(object):
         self.mu = mu
         self.dim = dim # dim = localdim = globladim = pcadim 
         self.lmbd = lmbd # lmbd*local + (1-lmbd)*global
+        self.normalize_axis = normalize_axis
+        self.kernelf = kernelf
 
         self._x = T.tensor3('_x', dtype='float32')
         self._stackx = T.tensor3('_stackx', dtype='float32')
@@ -45,6 +48,7 @@ class MLMNN(object):
         self._neighborpairs = T.imatrix('_neighborpairs')
 
     def build(self):
+        self.debug = []
         lM = []
         lpullerror = []
         lpusherror = []
@@ -83,7 +87,7 @@ class MLMNN(object):
                 continue
             M = theano.shared(value=np.eye(self.dim, dtype='float32'), name='M', borrow=True)
             if i == 0:
-                pullerror, pusherror = self._local_error(M, i)
+                pullerror, pusherror = self._global_error(M, i, None)
             else:
                 pullerror, pusherror = self._global_error(M, i, gM[-1])
             error = (1-self.mu) * pullerror + self.mu * pusherror
@@ -118,8 +122,12 @@ class MLMNN(object):
         #x = normalize(x.reshape(x.shape[0]*self.M, -1), 'l1').reshape(x.shape[0], -1)
         #testx = normalize(testx.reshape(testx.shape[0]*self.M, -1), 'l1').reshape(testx.shape[0], -1)
         # normalize in each sample
-        x = normalize(x)
-        testx = normalize(testx)
+        if self.kernelf:
+            x = self.kernelf(x)
+            testx = self.kernelf(testx)
+        if self.normalize_axis:
+            x = normalize(x, axis=self.normalize_axis)
+            testx = normalize(testx, axis=self.normalize_axis)
 
         self.maxS = maxS
         orix = x
@@ -159,12 +167,18 @@ class MLMNN(object):
 
         self.train_local_model = theano.function(
             [self._set, self._neighborpairs, self._lr], 
-            [T.stack(self.lpullerror), 
+            [
+            T.stack(self.lpullerror), 
             T.stack(self.gpullerror), 
             T.stack(self.lpusherror),
             T.stack(self.gpusherror)],
             updates = updates,
             givens = givens)
+
+#       get_debug = theano.function(
+#           [self._set], 
+#           self.debug,
+#           givens = {self._stackx: np.asarray(stackx, dtype='float32')})
 
         __x = x
         lr = np.array([lr]*(self.M*2), dtype='float32')
@@ -183,6 +197,8 @@ class MLMNN(object):
                 print '\tlpull:{}\tgpull:{}\n\tlpush:{}\tgpush:{}'.\
                     format(res[0, :self.M], res[0, self.M:],\
                            res[1, :self.M], res[1, self.M:])
+                
+                #print np.array(get_debug(active_set))
 
                 for i in xrange(self.M):
                     _M = lM[i].get_value() 
@@ -216,13 +232,13 @@ class MLMNN(object):
 #           print '[svm]train-acc: %.3f%% test-acc: %.3f%% %s'%(\
 #               train_acc, test_acc, ' '*30)
 
-            print 'visualizing round{} ...'.format(_)
-            title = 'round{}.train'.format(_) 
-            visualize(__x, y, title+'_acc{}'.format(train_acc), 
-                './visualized/{}.png'.format(title))
-            title = 'round{}.test'.format(_) 
-            visualize(__testx, testy, title+'_acc{}'.format(test_acc),
-                './visualized/{}.png'.format(title))
+#           print 'visualizing round{} ...'.format(_)
+#           title = 'round{}.train'.format(_) 
+#           visualize(__x, y, title+'_acc{}'.format(train_acc), 
+#               './visualized/{}.png'.format(title))
+#           title = 'round{}.test'.format(_) 
+#           visualize(__testx, testy, title+'_acc{}'.format(test_acc),
+#               './visualized/{}.png'.format(title))
             
         if autosave:
             print 'Auto saving ...'
@@ -241,7 +257,10 @@ class MLMNN(object):
 
     def transform(self, x):
         #x = normalize(x.reshape(x.shape[0]*self.M, -1)).reshape(x.shape[0], -1)
-        x = normalize(x)
+        if self.kernelf:
+            x = self.kernelf(x)
+        if self.normalize_axis:
+            x = normalize(x, axis=self.normalize_axis)
 
         n = x.shape[0]
         x = x.reshape(n*self.M, -1)
@@ -271,27 +290,74 @@ class MLMNN(object):
         return eigv.dot(eig).dot(nplinalg.inv(eigv))
 
     def _global_error(self, targetM, i, lastM):
-        pull_error = 0.
-        ivectors = self._stackx[:, i, :][self._neighborpairs[:, 0]]
-        jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
-        diffv1 = ivectors - jvectors
-        distMcur = diffv1.dot(targetM).dot(diffv1.T)
-        ivectors = self._stackx[:, i-1, :][self._neighborpairs[:, 0]]
-        jvectors = self._stackx[:, i-1, :][self._neighborpairs[:, 1]]
-        diffv2 = ivectors - jvectors
-        distMlast = diffv2.dot(lastM).dot(diffv2.T)
-        pull_error = linalg.trace(T.maximum(distMcur - distMlast + 1, 0))
+        mask = T.neq(self._y[self._set[:, 1]], self._y[self._set[:, 2]])
+        f = T.tanh #T.nnet.sigmoid
+        if i == 0:
+            # pull_error for global 0
+            pull_error = 0.
+            ivectors = self._stackx[:, i, :][self._neighborpairs[:, 0]]
+            jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
+            diffv = ivectors - jvectors
+            pull_error = linalg.trace(diffv.dot(targetM).dot(diffv.T))
 
-        push_error = 0.0
-#       ivectors = self._x[:, i, :][self._set[:, 0]]
-#       jvectors = self._x[:, i, :][self._set[:, 1]]
-#       lvectors = self._x[:, i, :][self._set[:, 2]]
-#       diffij = ivectors - jvectors
-#       diffil = ivectors - lvectors
-#       lossij = diffij.dot(targetM).dot(diffij.T)
-#       lossil = diffil.dot(targetM).dot(diffil.T)
-#       mask = T.neq(self._y[self._set[:, 0]], self._y[self._set[:, 2]])
-#       push_error = linalg.trace(mask*T.maximum(lossij - lossil + 1, 0))
+            # push_error for global 0
+            push_error = 0.0
+            ivectors = self._stackx[:, i, :][self._set[:, 0]]
+            jvectors = self._stackx[:, i, :][self._set[:, 1]]
+            lvectors = self._stackx[:, i, :][self._set[:, 2]]
+            diffij = ivectors - jvectors
+            diffil = ivectors - lvectors
+            lossij = diffij.dot(targetM).dot(diffij.T)
+            lossil = diffil.dot(targetM).dot(diffil.T)
+            #cur_prediction = T.diag(lossij - lossil)
+            cur_prediction = f(T.diag(lossil - lossij))
+
+            ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
+            jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
+            lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
+            diffij = ivectors - jvectors
+            diffil = ivectors - lvectors
+            lossij = diffij.dot(diffij.T)
+            lossil = diffil.dot(diffil.T)
+            #lst_prediction = T.diag(lossij - lossil)
+            lst_prediction = f(T.diag(lossil - lossij))
+            push_error = T.sum(mask*(lst_prediction - cur_prediction))
+
+        else:
+            ivectors = self._stackx[:, i, :][self._neighborpairs[:, 0]]
+            jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
+            diffv1 = ivectors - jvectors
+            distMcur = diffv1.dot(targetM).dot(diffv1.T)
+            ivectors = self._stackx[:, i-1, :][self._neighborpairs[:, 0]]
+            jvectors = self._stackx[:, i-1, :][self._neighborpairs[:, 1]]
+            diffv2 = ivectors - jvectors
+            distMlast = diffv2.dot(lastM).dot(diffv2.T)
+            pull_error = linalg.trace(T.maximum(distMcur - distMlast + 1, 0))
+
+
+            # self.debug.append( self._y[self._set[:, 0] )
+
+            push_error = 0.0
+            ivectors = self._stackx[:, i, :][self._set[:, 0]]
+            jvectors = self._stackx[:, i, :][self._set[:, 1]]
+            lvectors = self._stackx[:, i, :][self._set[:, 2]]
+            diffij = ivectors - jvectors
+            diffil = ivectors - lvectors
+            lossij = diffij.dot(targetM).dot(diffij.T)
+            lossil = diffil.dot(targetM).dot(diffil.T)
+            #cur_prediction = T.diag(lossij - lossil)
+            cur_prediction = f(T.diag(lossil - lossij))
+
+            ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
+            jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
+            lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
+            diffij = ivectors - jvectors
+            diffil = ivectors - lvectors
+            lossij = diffij.dot(lastM).dot(diffij.T)
+            lossil = diffil.dot(lastM).dot(diffil.T)
+            #lst_prediction = T.diag(lossij - lossil)
+            lst_prediction = f(T.diag(lossil - lossij))
+            push_error = T.sum(mask*(lst_prediction - cur_prediction))
 
         return pull_error, push_error 
 
@@ -355,45 +421,26 @@ class MLMNN(object):
         #self.neighborpairs = np.array(neighborpairs, dtype='int32')
         return np.array(np.vstack([np.repeat(np.arange(x.shape[0]), self.K), neighbors.flatten()]).T, dtype='int32')
 
-def HW():
-    from sklearn.cross_validation import train_test_split
-    from sklearn.preprocessing import label_binarize
-    x, y = cPickle.load(open('/home/shaofan/HW/myo/all.dat', 'r'))
-
-    trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33)
-    print trainx.shape
-    print testx.shape
-    print trainy.shape
-    print testy.shape
-
-    print 'visualizing round ...'
-    title = 'original.train' 
-    visualize(trainx, trainy, title, 
-        './visualized/{}.png'.format(title))
-    title = 'original.test' 
-    visualize(testx, testy, title,
-        './visualized/{}.png'.format(title))
-
-    mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=-1, lmbd=0.5, localM=True, globalM=False) 
-    mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=10000, lr=1e-1, max_iter=15, reset=5,
-        Part=None,
-        verbose=True)
-
+def square_kernel(x):
+    #x = np.hstack([x, x**2])
+    return x
 
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
 
-    K = 100 
-    Time = 1.0
+    K = 200 
+    Time = 0.1
 
     trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
     print trainx.shape
     print trainy.shape
    
-    mlmnn = MLMNN(M=10, K=7, mu=0.5, dim=30, lmbd=0.5, localM=True, globalM=True) 
+    mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=100, lmbd=0.5, 
+                    normalize_axis=0,
+                    kernelf=None,
+                    localM=True, globalM=True) 
     mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=10000, lr=2, max_iter=15, reset=5,
+        maxS=5000, lr=2, max_iter=50, reset=10,
         Part=None,
         verbose=True)
 

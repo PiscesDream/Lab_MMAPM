@@ -137,8 +137,13 @@ def getBagOfWordInGroup(data, K=100, groups=10, T=1.0, **kwargs):
     x = []
     print 'T={}'.format(T)
     for tag in data:
-        if data[tag].get('type', 'test') == 'test': continue
-        x.extend(data[tag]['x'][data[tag]['t']<=T])
+        if data[tag].get('type', 'test') == 'test': 
+            continue
+
+        if True: # cluster on all set
+            x.extend(data[tag]['x'])
+        else:
+            x.extend(data[tag]['x'][data[tag]['t']<=T])
 #        x.extend(data[tag]['x'])
     x = np.array(x)
 
@@ -225,7 +230,7 @@ def __(K, T):
     SSVM_Data(trainx, testx, trainy, testy, dirname)
 
 def main():
-    K = 200
+    K = 400
     T = 0.1
 
     lf = cPickle.load(open(localFeaturesFilename, 'r'))

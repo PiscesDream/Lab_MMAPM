@@ -25,8 +25,8 @@ import numpy.linalg as nplinalg
 from Metric.LDL import LDL
 import sys
 
-class MLMNN(object):
-    def __init__(self, M, K, mu, dim, lmbd, localM=False, globalM=True): 
+class MLMNN_L(object):
+    def __init__(self, M, K, mu, dim, lmbd, Lm=None, localM=True, globalM=True, normalize_axis=None): 
         sys.setrecursionlimit(10000)
         self.localM = localM
         self.globalM = globalM 
@@ -35,9 +35,11 @@ class MLMNN(object):
         self.K = K
         self.mu = mu
         self.dim = dim # dim = localdim = globladim = pcadim 
+        self.Lm = Lm if Lm else self.dim
         self.lmbd = lmbd # lmbd*local + (1-lmbd)*global
+        self.normalize_axis = normalize_axis
 
-#        self._x = T.tensor3('_x', dtype='float32')
+        self._x = T.tensor3('_x', dtype='float32')
         self._stackx = T.tensor3('_stackx', dtype='float32')
         self._y = T.ivector('_y') 
         self._lr = T.vector('_lr', dtype='float32')
@@ -46,27 +48,65 @@ class MLMNN(object):
 
     def build(self):
         self.debug = []
+        lL = []
+        lpullerror = []
+        lpusherror = []
+        lupdate = []
+        initarray = np.ones((self.dim, self.Lm), dtype='float32')
+        for i in xrange(self.M):
+            if not self.localM: 
+                lL.append(theano.shared(value=initarray, name='L', borrow=True))
+                lpullerror.append(0.0)
+                lpusherror.append(0.0)
+                continue
+            L = theano.shared(value=initarray, name='L', borrow=True)
+            pullerror, pusherror = self._local_error(L, i)
+            error = (1-self.mu) * pullerror + self.mu * pusherror
+            update = (L, L - self._lr[i] * T.grad(error, L))
+
+            #self.debug.append(T.grad(error, L))
+
+            lL.append(L)
+            lpullerror.append((1-self.mu)*pullerror)
+            lpusherror.append(self.mu*pusherror)
+            lupdate.append(update)
+
+        self.lL = lL
+        self.lpusherror = lpusherror
+        self.lpullerror = lpullerror
+        self.lupdate = lupdate
+
         #gError = 0.0
-        gM = []
+        gL = []
         gpullerror = []
         gpusherror = []
         gupdate = []
         for i in xrange(self.M):
-            M = theano.shared(value=np.eye(self.dim, dtype='float32'), name='M', borrow=True)
+            if not self.globalM: 
+                gL.append(theano.shared(value=initarray, name='L', borrow=True))
+                gpullerror.append(0.0)
+                gpusherror.append(0.0)
+                continue
+            L = theano.shared(value=initarray, name='L', borrow=True)
             if i == 0:
-                pullerror, pusherror = self._global_error(M, i, None)
+                pullerror, pusherror = self._global_error(L, i, None)
             else:
-                pullerror, pusherror = self._global_error(M, i, gM[-1])
+                pullerror, pusherror = self._global_error(L, i, gL[-1])
             error = (1-self.mu) * pullerror + self.mu * pusherror
-            update = (M, M - self._lr[i] * T.grad(error, M))
         #    gError += error#*(float(i+1)/self.M)
+            update = (L, L - self._lr[i+self.M] * T.grad(error, L))
 
-            gM.append(M)
+            #self.debug.append(T.grad(error, L))
+            #self.debug.append(T.grad(pusherror, L))
+
+            gL.append(L)
             gpullerror.append((1-self.mu)*pullerror)
             gpusherror.append(self.mu*pusherror)
             gupdate.append(update)
+#       if self.globalL: 
+#           gupdate = [(gL[i], gL[i] - self._lr[i+self.M]*T.grad(gError, L)) for i in xrange(self.M)]
 
-        self.gM = gM
+        self.gL = gL
         self.gpusherror = gpusherror
         self.gpullerror = gpullerror
         self.gupdate = gupdate
@@ -87,8 +127,9 @@ class MLMNN(object):
         #x = normalize(x.reshape(x.shape[0]*self.M, -1), 'l1').reshape(x.shape[0], -1)
         #testx = normalize(testx.reshape(testx.shape[0]*self.M, -1), 'l1').reshape(testx.shape[0], -1)
         # normalize in each sample
-        x = normalize(x)
-        testx = normalize(testx)
+        if self.normalize_axis:
+            x = normalize(x, axis=self.normalize_axis)
+            testx = normalize(testx, axis=self.normalize_axis)
 
         self.maxS = maxS
         orix = x
@@ -111,68 +152,73 @@ class MLMNN(object):
             stackx[i] += stackx[i-1]
 
         try:
-            gM = self.gM
+            lL = self.lL
+            gL = self.gL
         except:
             self.build()
-            gM = self.gM
+            lL = self.lL
+            gL = self.gL
 
-        updates = self.gupdate  
-        givens = {self._stackx: np.asarray(stackx, dtype='float32'),
+        updates = []  
+        givens = {self._x: np.asarray(x, dtype='float32'),
                   self._y: np.asarray(y, dtype='int32')}
+        if self.localM: updates.extend(self.lupdate)
+        if self.globalM: 
+            updates.extend(self.gupdate)
+            givens.update({self._stackx: np.asarray(stackx, dtype='float32')})
+
+        self.train_local_model = theano.function(
+            [self._set, self._neighborpairs, self._lr], 
+            [
+            T.stack(self.lpullerror), 
+            T.stack(self.gpullerror), 
+            T.stack(self.lpusherror),
+            T.stack(self.gpusherror)],
+            updates = updates,
+            givens = givens)
+
+#       get_debug = theano.function(
+#           [self._set, self._neighborpairs], 
+#           self.debug,
+#           givens = givens,
+#           on_unused_input='warn'
+#           )
 
         __x = x
-        __lr = lr
-        for stage in xrange(self.M):
-            print 'stage {}'.format(stage)
-            lr = np.array([__lr]*(self.M), dtype='float32')
-            # normal
-#           neighbors = self._get_neighbors(stackx[:, stage, :], y)
-#           self.train_local_model = theano.function(
-#               [self._set, self._neighborpairs, self._lr], 
-#               [T.stack(self.gpullerror), T.stack(self.gpusherror)],
-#               updates = [updates[stage]],
-#               givens = givens)
-
-
-            # odd-even training
-            neighbors = self._get_neighbors(stackx[:, stage, :], y)
-            self.train_local_model = theano.function(
-                [self._set, self._neighborpairs, self._lr], 
-                [T.stack(self.gpullerror), T.stack(self.gpusherror)],
-                updates = [updates[stage]],
-                givens = givens)
-
-#           get_debug = theano.function(
-#               [self._neighborpairs], 
-#               self.debug,
-#               givens = givens)
+        lr = np.array([lr]*(self.M*2), dtype='float32')
+        for _ in xrange(40):
+            neighbors = self._get_neighbors(__x, y)
             t = 0
             while t < max_iter:
                 if t % reset == 0:
                     active_set = self._get_active_set(x, y, neighbors)
-                    last_error = np.array([np.inf]*(self.M))
+                    last_error = np.array([np.inf]*(self.M*2))
 
-#                print 'Iter: {} lr: {} '.format(t, lr)
-                print 'Iter: {}'.format(t, lr)
+                print 'Iter: {} lr: {} '.format(t, lr)
 
-                res = np.array(self.train_local_model(active_set, neighbors, lr)).reshape(-1, self.M)
+                res = np.array(self.train_local_model(active_set, neighbors, lr)).reshape(-1, self.M*2)
                 error = res.T.sum(1)
-                print '\tlpush:{}\n\tgpush:{}'.format(res[0], res[1])
-#               diag = get_debug(neighbors)
-#               for ele in diag:
-#                   print ele.max(), ele.min(), ele.sum(), ele.var()
+                print '\tlpull:{}\tgpull:{}\n\tlpush:{}\tgpush:{}'.\
+                    format(res[0, :self.M], res[0, self.M:],\
+                           res[1, :self.M], res[1, self.M:])
+                
 
-                for i in [stage]:
-                    _M = gM[i].get_value() 
-                    gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
+# no projection is needed
+#               for i in xrange(self.M):
+#                   _M = lM[i].get_value() 
+#                   lM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
+#               for i in xrange(self.M):
+#                   _M = gM[i].get_value() 
+#                   gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
 
                 lr = lr*1.01*(last_error>error) + lr*0.5*(last_error<=error) 
 
                 last_error = error
                 t += 1
             
-            __x = self.transform(orix, stage)
-            __testx = self.transform(testx, stage)
+
+            __x = self.transform(orix)
+            __testx = self.transform(testx)
             train_acc, train_cfm = knn(__x, __x, y, y, None, self.K, cfmatrix=True)
 
             test_acc, test_cfm = knn(__x, __testx, y, testy, None, self.K, cfmatrix=True)
@@ -181,6 +227,14 @@ class MLMNN(object):
                 train_acc, test_acc, ' '*30)
             print 'train confusion matrix:\n {}\ntest confusion matrix:\n {}'.format(
                 train_cfm, test_cfm)
+
+#           __y = label_binarize(y, classes=range(8))
+#           __testy = label_binarize(testy, classes=range(8))
+#           svm = OneVsRestClassifier(SVC(kernel='rbf')).fit(__x, __y)
+#           train_acc = float((svm.predict(__x) == __y).sum())/y.shape[0]
+#           test_acc = float((svm.predict(__testx) == __testy).sum())/testy.shape[0]
+#           print '[svm]train-acc: %.3f%% test-acc: %.3f%% %s'%(\
+#               train_acc, test_acc, ' '*30)
 
 #           print 'visualizing round{} ...'.format(_)
 #           title = 'round{}.train'.format(_) 
@@ -205,9 +259,10 @@ class MLMNN(object):
         obj.__dict__.update(attributes)
         return obj
 
-    def transform(self, x, N=-1):
+    def transform(self, x):
         #x = normalize(x.reshape(x.shape[0]*self.M, -1)).reshape(x.shape[0], -1)
-        x = normalize(x)
+        if self.normalize_axis:
+            x = normalize(x, axis=self.normalize_axis)
 
         n = x.shape[0]
         x = x.reshape(n*self.M, -1)
@@ -217,8 +272,14 @@ class MLMNN(object):
         newx = []
         localdim = globaldim = 0
         for i in xrange(self.M):
-            stackx += x[:, i, :]
-        newx.append(stackx.dot(LDL(self.gM[N].get_value(), combined=True))*(1-self.lmbd))
+            if self.localM:
+                L = self.lL[i].get_value() #LDL(self.lM[i].get_value(), combined=True)
+                newx.append(x[:, i, :].dot(L)*self.lmbd )
+            #print 'MS[{}] Size: {} rank: {} segment: {}'.format(i, self.lM[i].get_value().shape, nplinalg.matrix_rank(self.lM[i].get_value()), newx[-1].shape)
+
+            if self.globalM:
+                stackx += x[:, i, :]
+        newx.append(stackx.dot(self.gL[-1].get_value())*(1-self.lmbd))
         newx = np.hstack(newx)
         newx[np.isnan(newx)] = 0
         newx[np.isinf(newx)] = 0
@@ -230,7 +291,9 @@ class MLMNN(object):
         eig = np.diag(eig)
         return eigv.dot(eig).dot(nplinalg.inv(eigv))
 
-    def _global_error(self, targetM, i, lastM):
+    def _global_error(self, targetL, i, lastL):
+        targetM = targetL.dot(targetL.T)
+
         mask = T.neq(self._y[self._set[:, 1]], self._y[self._set[:, 2]])
         f = T.tanh #T.nnet.sigmoid
         if i == 0:
@@ -253,6 +316,9 @@ class MLMNN(object):
             #cur_prediction = T.diag(lossij - lossil)
             cur_prediction = f(T.diag(lossil - lossij))
 
+            # ">>>"
+            #self.debug.append(targetL.dot(targetL.T))#T.grad(T.sum(lossij), targetL) )
+
             ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
             jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
             lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
@@ -264,7 +330,10 @@ class MLMNN(object):
             lst_prediction = f(T.diag(lossil - lossij))
             push_error = T.sum(mask*(lst_prediction - cur_prediction))
 
+
         else:
+            lastM = lastL.dot(lastL.T) 
+
             ivectors = self._stackx[:, i, :][self._neighborpairs[:, 0]]
             jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
             diffv1 = ivectors - jvectors
@@ -301,6 +370,32 @@ class MLMNN(object):
             #lst_prediction = T.diag(lossij - lossil)
             lst_prediction = f(T.diag(lossil - lossij))
             push_error = T.sum(mask*(lst_prediction - cur_prediction))
+
+        return pull_error, push_error 
+
+    def _local_error(self, targetL, i):
+        targetM = targetL.dot(targetL.T)
+
+        pull_error = 0.
+        ivectors = self._x[:, i, :][self._neighborpairs[:, 0]]
+        jvectors = self._x[:, i, :][self._neighborpairs[:, 1]]
+        diffv = ivectors - jvectors
+        pull_error = linalg.trace(diffv.dot(targetM).dot(diffv.T))
+
+        push_error = 0.0
+        ivectors = self._x[:, i, :][self._set[:, 0]]
+        jvectors = self._x[:, i, :][self._set[:, 1]]
+        lvectors = self._x[:, i, :][self._set[:, 2]]
+        diffij = ivectors - jvectors
+        diffil = ivectors - lvectors
+        lossij = diffij.dot(targetM).dot(diffij.T)
+        lossil = diffil.dot(targetM).dot(diffil.T)
+        mask = T.neq(self._y[self._set[:, 0]], self._y[self._set[:, 2]])
+        push_error = linalg.trace(mask*T.maximum(lossij - lossil + 1, 0))
+
+#       print np.sqrt((i+1.0)/self.M)
+#       pull_error = pull_error * np.sqrt((i+1.0)/self.M)
+#       push_error = push_error * np.sqrt((i+1.0)/self.M)
 
         return pull_error, push_error 
 
@@ -342,18 +437,19 @@ class MLMNN(object):
 
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
-    theano.config.on_unused_input='warn'
 
-    K = 100 
+    K = 200 
     Time = 0.1
 
     trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
     print trainx.shape
     print trainy.shape
    
-    mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=100, lmbd=0.5, globalM=True) 
+    mlmnn = MLMNN_L(M=1, K=5, mu=0.5, dim=50, lmbd=0.5, 
+                    normalize_axis=1,
+                    localM=True, globalM=True) 
     mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=10000, lr=5, max_iter=100, reset=20,
+        maxS=5000, lr=2e-2, max_iter=50, reset=10,
         Part=None,
         verbose=True)
 
