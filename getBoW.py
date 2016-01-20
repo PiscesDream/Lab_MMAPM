@@ -87,7 +87,6 @@ def BIT_DATA(lf, gf, K=400, T=1.0, **kwargs):
     return train_x, train_y, test_x, test_y
 
 
-
 def JPL_DATA(lf, gf, K=400, T=1.0, **kwargs):
     train = set(np.random.choice(range(1, 13), size=(6,), replace=False))
     test = set(range(1, 13)) - train
@@ -134,23 +133,26 @@ def sparse(x):
 
 
 def getBagOfWordInGroup(data, K=100, groups=10, T=1.0, **kwargs):
-    x = []
-    print 'T={}'.format(T)
-    for tag in data:
-        if data[tag].get('type', 'test') == 'test': 
-            continue
+    print 'K={} T={}'.format(K, T)
+    if 'codebook' in kwargs:
+        codebook = kwargs['codebook']
+        print 'codebook loaded'
+    else:
+        x = []
+        print 'T={}'.format(T)
+        for tag in data:
+#       if data[tag].get('type', 'test') == 'test': 
+#           continue
 
-        if True: # cluster on all set
-            x.extend(data[tag]['x'])
-        else:
-            x.extend(data[tag]['x'][data[tag]['t']<=T])
+            if True: # cluster on all set
+                x.extend(data[tag]['x'])
+#        else:
+#            x.extend(data[tag]['x'][data[tag]['t']<=T])
 #        x.extend(data[tag]['x'])
-    x = np.array(x)
-
-    print 'K={}'.format(K)
-    print 'All x.shape={}'.format(x.shape)
-    codebook = getCodebook(x, K, **kwargs)
-    print 'code done'
+        x = np.array(x)
+        print 'Clustering x.shape={}'.format(x.shape)
+        codebook = getCodebook(x, K, **kwargs)
+        print 'codebook done'
 
     x = []
     y = []
@@ -170,7 +172,7 @@ def getBagOfWordInGroup(data, K=100, groups=10, T=1.0, **kwargs):
     y = np.array(y)
     print 'Final x.shape={}'.format(x.shape)
     print 'Final y.shape={}'.format(y.shape)
-    return x, y, tags 
+    return x, y, tags, codebook
 
 def BIT_DATA_InGroup(lf, gf, **kwargs):
     n = len(lf)
@@ -190,7 +192,7 @@ def BIT_DATA_InGroup(lf, gf, **kwargs):
     assert(ltags == gtags)
     assert(ly == gy).all()
 
-    tag = map(lambda x: x.split('/')[-2], ltags)
+    tag = map(lambda x: x.split('_')[-1], ltags)
     yset = list(set(tag))
     y = map(lambda x: yset.index(x), tag)
 
@@ -207,6 +209,24 @@ def BIT_DATA_InGroup(lf, gf, **kwargs):
 #    train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.33)
 #    return train_x, train_y, test_x, test_y
 
+def DATA_InGroup(lf, gf, **kwargs):
+    if 'lcodebook' in kwargs: kwargs['codebook'] = kwargs['lcodebook']
+    lx, ly, ltags, lcodebook = getBagOfWordInGroup(lf, **kwargs)
+    if 'gcodebook' in kwargs: kwargs['codebook'] = kwargs['gcodebook']
+    gx, gy, gtags, gcodebook = getBagOfWordInGroup(gf, **kwargs)
+    assert(ltags == gtags)
+    assert(ly == gy).all()
+
+    tag = map(lambda x: x.split('_')[-2], ltags)
+    yset = list(set(tag))
+    y = map(lambda x: yset.index(x), tag)
+
+    x = np.concatenate([lx, gx], 2)
+    x = x.reshape(x.shape[0], -1)
+    y = np.array(y)
+
+    return x, y, lcodebook, gcodebook 
+
 def SSVM_Data(trainx, testx, trainy, testy, dir):
     with open(os.path.join(dir, 'train.dat'), 'w') as f:
         for x, y in zip(trainx, trainy):
@@ -218,9 +238,12 @@ def SSVM_Data(trainx, testx, trainy, testy, dir):
     print '{} data is ready'.format(dir)
 
 def __(K, T):
-    trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, T),'r'))
+    try:
+        trainx, testx, trainy, testy = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, T),'r'))
+    except:
+        x, y = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, T),'r'))
+        trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33)
 
-#    train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.33)
     dirname = './data/K={}_T={}/'.format(K, T)
     import os
     try:
@@ -229,19 +252,43 @@ def __(K, T):
         pass
     SSVM_Data(trainx, testx, trainy, testy, dirname)
 
-def main():
-    K = 400
-    T = 0.1
-
+def getWithoutCodebook(K = 200, T = 1.0):
     lf = cPickle.load(open(localFeaturesFilename, 'r'))
     gf = cPickle.load(open(globalFeaturesFilename, 'r'))
     
-    trainx, testx, trainy, testy = BIT_DATA_InGroup(lf, gf, K=K, verbose=True, T=T)
-    cPickle.dump((trainx, testx, trainy, testy), open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, T), 'w'))
+    x, y, lcodebook, gcodebook = DATA_InGroup(lf, gf, K=K, verbose=True, T=T)
+    cPickle.dump((x, y), open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, T), 'w'))
+    cPickle.dump((lcodebook, gcodebook), open('{}/[K={}][T={}]BoWInGroup.codebook.pkl'.format(featureDir, K, T), 'w'))
 
-    __(K=K, T=T)
+
+    train_x, train_y, test_x, test_y =  BIT_DATA(lf, gf, K=100, T=1.0, verbose=True)
+    print train_x
+    print train_y
+    print test_x
+    print test_y
+    SSVM_Data(train_x, train_y, './data')
+    print 'done'
+
+
+
+def getWithCodebook(K = 400, T = 0.1):
+    print 'loading {}'.format(localFeaturesFilename)
+    lf = cPickle.load(open(localFeaturesFilename, 'r'))
+    print 'loading {}'.format(globalFeaturesFilename)
+    gf = cPickle.load(open(globalFeaturesFilename, 'r'))
+    print 'loading {}'.format('{}/[K={}][T={}]BoWInGroup.codebook.pkl'.format(featureDir, K, T))
+    lcodebook, gcodebook = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.codebook.pkl'.format(featureDir, K, 1.0), 'r'))
+
+    x, y, lcodebook, gcodebook = DATA_InGroup(lf, gf, K=K, verbose=True, T=T, lcodebook=lcodebook, gcodebook=gcodebook)
+    cPickle.dump((x, y), open(globalcodedfilename(K, T), 'w'))
+
+def main():
+    __(K=200, T=1.0)
     return
-    return 
+
+    getWithoutCodebook(K=200, T=1.0)
+
+
 
 #   for tag in lf:
 #       print '{} -> {}'.format(lf[tag]['y'], tag.split('/')[-2])
@@ -264,14 +311,6 @@ def main():
 #   cPickle.dump(lf, open(localFeaturesFilename, 'w'))
 #   cPickle.dump(gf, open(globalFeaturesFilename, 'w'))
 #   return
-
-    train_x, train_y, test_x, test_y =  BIT_DATA(lf, gf, K=100, T=1.0, verbose=True)
-    print train_x
-    print train_y
-    print test_x
-    print test_y
-    SSVM_Data(train_x, train_y, './data')
-    print 'done'
 
 
     # print fpa_data(lf, gf)

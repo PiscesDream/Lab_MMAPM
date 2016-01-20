@@ -1,0 +1,1108 @@
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/42_8_2.avi
+  Total frames:              96
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.0363
+  Frame:    40 - IPs[this:10, total: 112] - Perf: Avg FPS= 6.40173
+  Frame:    60 - IPs[this:10, total: 480] - Perf: Avg FPS= 6.40935
+  Frame:    80 - IPs[this:24, total: 840] - Perf: Avg FPS= 5.83453
+-> Detected 1038 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/0_1_4.avi
+  Total frames:              108
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.67979
+  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 3.80301
+  Frame:    60 - IPs[this:18, total: 328] - Perf: Avg FPS= 3.8696
+  Frame:    80 - IPs[this:20, total: 904] - Perf: Avg FPS= 3.86601
+  Frame:   100 - IPs[this:40, total:1631] - Perf: Avg FPS= 3.84772
+-> Detected 1881 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/21_4_0.avi
+  Total frames:              147
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.62769
+  Frame:    40 - IPs[this:27, total: 227] - Perf: Avg FPS= 3.75749
+  Frame:    60 - IPs[this:24, total: 654] - Perf: Avg FPS= 3.71204
+  Frame:    80 - IPs[this: 4, total:1091] - Perf: Avg FPS= 3.73412
+  Frame:   100 - IPs[this:24, total:1316] - Perf: Avg FPS= 3.7644
+  Frame:   120 - IPs[this:29, total:1700] - Perf: Avg FPS= 3.76302
+  Frame:   140 - IPs[this:21, total:2226] - Perf: Avg FPS= 3.73562
+-> Detected 2369 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/28_5_3.avi
+  Total frames:              146
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.80679
+  Frame:    40 - IPs[this: 0, total:   0] - Perf: Avg FPS= 9.1591
+  Frame:    60 - IPs[this: 2, total:  73] - Perf: Avg FPS= 9.1852
+  Frame:    80 - IPs[this: 0, total:  82] - Perf: Avg FPS= 9.26207
+  Frame:   100 - IPs[this: 0, total:  82] - Perf: Avg FPS= 9.32744
+  Frame:   120 - IPs[this: 1, total: 119] - Perf: Avg FPS= 9.34121
+  Frame:   140 - IPs[this: 0, total: 151] - Perf: Avg FPS= 9.36213
+-> Detected 151 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/9_2_2.avi
+  Total frames:              91
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.43405
+  Frame:    40 - IPs[this:29, total: 251] - Perf: Avg FPS= 3.48111
+  Frame:    60 - IPs[this:46, total: 954] - Perf: Avg FPS= 3.42862
+  Frame:    80 - IPs[this:39, total:1757] - Perf: Avg FPS= 3.40121
+-> Detected 2261 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/55_10_4.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.75581
+  Frame:    40 - IPs[this:10, total:  78] - Perf: Avg FPS= 6.17765
+  Frame:    60 - IPs[this:18, total: 338] - Perf: Avg FPS= 6.09107
+  Frame:    80 - IPs[this: 7, total: 659] - Perf: Avg FPS= 5.49216
+-> Detected 741 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/31_6_5.avi
+  Total frames:              122
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.93353
+  Frame:    40 - IPs[this: 7, total: 132] - Perf: Avg FPS= 4.12167
+  Frame:    60 - IPs[this:15, total: 381] - Perf: Avg FPS= 4.14863
+  Frame:    80 - IPs[this:26, total: 866] - Perf: Avg FPS= 4.13585
+  Frame:   100 - IPs[this:35, total:1393] - Perf: Avg FPS= 4.12323
+  Frame:   120 - IPs[this:22, total:1885] - Perf: Avg FPS= 4.12229
+-> Detected 1978 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/3_1_3.avi
+  Total frames:              126
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.2704
+  Frame:    40 - IPs[this: 3, total:   6] - Perf: Avg FPS= 6.69581
+  Frame:    60 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.81075
+  Frame:    80 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.89893
+  Frame:   100 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.95499
+  Frame:   120 - IPs[this: 6, total: 151] - Perf: Avg FPS= 6.9738
+-> Detected 164 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/56_10_5.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.09499
+  Frame:    40 - IPs[this:12, total: 123] - Perf: Avg FPS= 5.33497
+  Frame:    60 - IPs[this:16, total: 332] - Perf: Avg FPS= 5.38169
+  Frame:    80 - IPs[this:25, total: 736] - Perf: Avg FPS= 5.27367
+-> Detected 916 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/13_3_2.avi
+  Total frames:              98
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.80383
+  Frame:    40 - IPs[this:20, total: 275] - Perf: Avg FPS= 3.83982
+  Frame:    60 - IPs[this:28, total: 947] - Perf: Avg FPS= 3.73119
+  Frame:    80 - IPs[this:23, total:1574] - Perf: Avg FPS= 3.72662
+-> Detected 2254 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/5_1_5.avi
+  Total frames:              111
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.51223
+  Frame:    40 - IPs[this:30, total: 325] - Perf: Avg FPS= 3.54774
+  Frame:    60 - IPs[this:23, total: 830] - Perf: Avg FPS= 3.52757
+  Frame:    80 - IPs[this:33, total:1507] - Perf: Avg FPS= 3.501
+  Frame:   100 - IPs[this:30, total:2303] - Perf: Avg FPS= 3.47309
+-> Detected 2571 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/16_3_5.avi
+  Total frames:              143
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.63395
+  Frame:    40 - IPs[this:16, total:  61] - Perf: Avg FPS= 2.70822
+  Frame:    60 - IPs[this:44, total: 610] - Perf: Avg FPS= 2.69581
+  Frame:    80 - IPs[this:42, total:1269] - Perf: Avg FPS= 2.67593
+  Frame:   100 - IPs[this:46, total:2088] - Perf: Avg FPS= 2.61744
+  Frame:   120 - IPs[this:36, total:2702] - Perf: Avg FPS= 2.61663
+  Frame:   140 - IPs[this:37, total:3381] - Perf: Avg FPS= 2.61746
+-> Detected 3544 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/58_10_1.avi
+  Total frames:              132
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.97339
+  Frame:    40 - IPs[this: 2, total: 108] - Perf: Avg FPS= 7.46382
+  Frame:    60 - IPs[this:23, total: 438] - Perf: Avg FPS= 7.48495
+  Frame:    80 - IPs[this: 0, total: 601] - Perf: Avg FPS= 7.56332
+  Frame:   100 - IPs[this: 8, total: 683] - Perf: Avg FPS= 7.52218
+  Frame:   120 - IPs[this:15, total:1002] - Perf: Avg FPS= 7.52868
+-> Detected 1120 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/4_1_0.avi
+  Total frames:              183
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.49974
+  Frame:    40 - IPs[this: 3, total:  41] - Perf: Avg FPS= 3.6128
+  Frame:    60 - IPs[this:35, total: 401] - Perf: Avg FPS= 3.54151
+  Frame:    80 - IPs[this:26, total:1126] - Perf: Avg FPS= 3.50261
+  Frame:   100 - IPs[this:11, total:1457] - Perf: Avg FPS= 3.51606
+  Frame:   120 - IPs[this: 9, total:1628] - Perf: Avg FPS= 3.53373
+  Frame:   140 - IPs[this: 4, total:1865] - Perf: Avg FPS= 3.54619
+  Frame:   160 - IPs[this:26, total:2438] - Perf: Avg FPS= 3.53593
+  Frame:   180 - IPs[this:22, total:3115] - Perf: Avg FPS= 3.52301
+-> Detected 3189 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/7_2_5.avi
+  Total frames:              99
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.12005
+  Frame:    40 - IPs[this:24, total: 100] - Perf: Avg FPS= 3.29082
+  Frame:    60 - IPs[this:30, total: 792] - Perf: Avg FPS= 3.23472
+  Frame:    80 - IPs[this:52, total:1772] - Perf: Avg FPS= 3.20469
+-> Detected 2455 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/52_9_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.0844
+  Frame:    40 - IPs[this:13, total:  43] - Perf: Avg FPS= 6.5083
+  Frame:    60 - IPs[this:12, total: 201] - Perf: Avg FPS= 6.56635
+  Frame:    80 - IPs[this: 4, total: 319] - Perf: Avg FPS= 6.64916
+  Frame:   100 - IPs[this: 0, total: 338] - Perf: Avg FPS= 6.72506
+  Frame:   120 - IPs[this:17, total: 529] - Perf: Avg FPS= 6.7363
+-> Detected 665 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/2_1_1.avi
+  Total frames:              172
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.3752
+  Frame:    40 - IPs[this: 3, total:  35] - Perf: Avg FPS= 3.54923
+  Frame:    60 - IPs[this:17, total: 176] - Perf: Avg FPS= 3.53032
+  Frame:    80 - IPs[this:40, total: 912] - Perf: Avg FPS= 3.49338
+  Frame:   100 - IPs[this:22, total:1609] - Perf: Avg FPS= 3.47299
+  Frame:   120 - IPs[this: 6, total:1722] - Perf: Avg FPS= 3.49973
+  Frame:   140 - IPs[this:55, total:2243] - Perf: Avg FPS= 3.49497
+  Frame:   160 - IPs[this:31, total:3075] - Perf: Avg FPS= 3.47459
+-> Detected 3459 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/23_4_5.avi
+  Total frames:              109
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.20983
+  Frame:    40 - IPs[this:28, total: 315] - Perf: Avg FPS= 3.36171
+  Frame:    60 - IPs[this:21, total: 749] - Perf: Avg FPS= 3.39492
+  Frame:    80 - IPs[this:34, total:1386] - Perf: Avg FPS= 3.38946
+  Frame:   100 - IPs[this: 7, total:1847] - Perf: Avg FPS= 3.40835
+-> Detected 1955 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/8_2_0.avi
+  Total frames:              123
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.94873
+  Frame:    40 - IPs[this:35, total: 286] - Perf: Avg FPS= 4.004
+  Frame:    60 - IPs[this:18, total: 722] - Perf: Avg FPS= 4.07538
+  Frame:    80 - IPs[this: 1, total: 867] - Perf: Avg FPS= 4.15842
+  Frame:   100 - IPs[this:19, total:1163] - Perf: Avg FPS= 4.18575
+  Frame:   120 - IPs[this:20, total:1681] - Perf: Avg FPS= 4.1874
+-> Detected 1752 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/36_7_5.avi
+  Total frames:              107
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.49556
+  Frame:    40 - IPs[this: 5, total:  32] - Perf: Avg FPS= 4.74359
+  Frame:    60 - IPs[this:16, total: 261] - Perf: Avg FPS= 4.77243
+  Frame:    80 - IPs[this:30, total: 670] - Perf: Avg FPS= 4.7473
+  Frame:   100 - IPs[this:18, total:1087] - Perf: Avg FPS= 4.73347
+-> Detected 1221 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/45_8_5.avi
+  Total frames:              102
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.27542
+  Frame:    40 - IPs[this: 8, total: 169] - Perf: Avg FPS= 4.50333
+  Frame:    60 - IPs[this:17, total: 538] - Perf: Avg FPS= 4.45785
+  Frame:    80 - IPs[this:48, total:1141] - Perf: Avg FPS= 4.46143
+  Frame:   100 - IPs[this:31, total:1868] - Perf: Avg FPS= 4.45131
+-> Detected 1951 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/34_6_0.avi
+  Total frames:              144
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.63433
+  Frame:    40 - IPs[this: 4, total: 107] - Perf: Avg FPS= 6.73469
+  Frame:    60 - IPs[this:10, total: 300] - Perf: Avg FPS= 6.71612
+  Frame:    80 - IPs[this:11, total: 580] - Perf: Avg FPS= 6.6816
+  Frame:   100 - IPs[this: 6, total: 714] - Perf: Avg FPS= 6.71186
+  Frame:   120 - IPs[this: 4, total: 778] - Perf: Avg FPS= 6.7466
+  Frame:   140 - IPs[this:14, total:1036] - Perf: Avg FPS= 6.7297
+-> Detected 1117 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/1_1_2.avi
+  Total frames:              118
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.74293
+  Frame:    40 - IPs[this: 3, total:  84] - Perf: Avg FPS= 2.83927
+  Frame:    60 - IPs[this:19, total: 449] - Perf: Avg FPS= 2.87731
+  Frame:    80 - IPs[this:49, total:1240] - Perf: Avg FPS= 2.8602
+  Frame:   100 - IPs[this:34, total:1974] - Perf: Avg FPS= 2.81601
+-> Detected 2740 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/32_6_1.avi
+  Total frames:              169
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.85975
+  Frame:    40 - IPs[this: 5, total: 114] - Perf: Avg FPS= 5.2024
+  Frame:    60 - IPs[this:16, total: 267] - Perf: Avg FPS= 5.3259
+  Frame:    80 - IPs[this:22, total: 580] - Perf: Avg FPS= 5.25652
+  Frame:   100 - IPs[this: 6, total: 813] - Perf: Avg FPS= 5.28601
+  Frame:   120 - IPs[this: 6, total: 888] - Perf: Avg FPS= 5.35278
+  Frame:   140 - IPs[this:24, total:1156] - Perf: Avg FPS= 5.3694
+  Frame:   160 - IPs[this:19, total:1522] - Perf: Avg FPS= 5.37136
+-> Detected 1689 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/59_10_2.avi
+  Total frames:              94
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.21711
+  Frame:    40 - IPs[this: 3, total:  56] - Perf: Avg FPS= 6.62187
+  Frame:    60 - IPs[this:23, total: 290] - Perf: Avg FPS= 6.68177
+  Frame:    80 - IPs[this:14, total: 552] - Perf: Avg FPS= 6.69463
+-> Detected 742 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/10_2_1.avi
+  Total frames:              133
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.36896
+  Frame:    40 - IPs[this:25, total: 243] - Perf: Avg FPS= 3.53663
+  Frame:    60 - IPs[this:48, total:1117] - Perf: Avg FPS= 3.50285
+  Frame:    80 - IPs[this: 7, total:1729] - Perf: Avg FPS= 3.51253
+  Frame:   100 - IPs[this:36, total:2134] - Perf: Avg FPS= 3.53729
+  Frame:   120 - IPs[this:46, total:2905] - Perf: Avg FPS= 3.50929
+-> Detected 3367 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/47_8_1.avi
+  Total frames:              159
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.10289
+  Frame:    40 - IPs[this:12, total:  96] - Perf: Avg FPS= 6.49378
+  Frame:    60 - IPs[this:14, total: 534] - Perf: Avg FPS= 6.45957
+  Frame:    80 - IPs[this: 4, total: 803] - Perf: Avg FPS= 6.5082
+  Frame:   100 - IPs[this: 5, total: 893] - Perf: Avg FPS= 6.57756
+  Frame:   120 - IPs[this: 8, total:1008] - Perf: Avg FPS= 6.61274
+  Frame:   140 - IPs[this:27, total:1323] - Perf: Avg FPS= 6.60999
+-> Detected 1766 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/40_7_1.avi
+  Total frames:              147
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.51161
+  Frame:    40 - IPs[this:15, total: 104] - Perf: Avg FPS= 6.79598
+  Frame:    60 - IPs[this:22, total: 530] - Perf: Avg FPS= 6.71322
+  Frame:    80 - IPs[this: 1, total: 819] - Perf: Avg FPS= 6.73394
+  Frame:   100 - IPs[this: 2, total: 823] - Perf: Avg FPS= 6.84444
+  Frame:   120 - IPs[this:16, total:1084] - Perf: Avg FPS= 6.84144
+  Frame:   140 - IPs[this:13, total:1486] - Perf: Avg FPS= 6.80804
+-> Detected 1596 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/53_9_1.avi
+  Total frames:              146
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.76583
+  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 6.2043
+  Frame:    60 - IPs[this: 6, total: 256] - Perf: Avg FPS= 6.28019
+  Frame:    80 - IPs[this: 8, total: 466] - Perf: Avg FPS= 6.19701
+  Frame:   100 - IPs[this: 0, total: 483] - Perf: Avg FPS= 6.30519
+  Frame:   120 - IPs[this: 9, total: 619] - Perf: Avg FPS= 6.33086
+  Frame:   140 - IPs[this:11, total: 826] - Perf: Avg FPS= 6.3538
+-> Detected 921 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/18_4_4.avi
+  Total frames:              106
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.14907
+  Frame:    40 - IPs[this: 8, total: 176] - Perf: Avg FPS= 5.49312
+  Frame:    60 - IPs[this:12, total: 462] - Perf: Avg FPS= 5.58818
+  Frame:    80 - IPs[this: 7, total: 540] - Perf: Avg FPS= 5.58719
+  Frame:   100 - IPs[this:23, total: 905] - Perf: Avg FPS= 5.61019
+-> Detected 1008 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/46_8_3.avi
+  Total frames:              133
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 11.1833
+  Frame:    40 - IPs[this: 3, total:  32] - Perf: Avg FPS= 12.4023
+  Frame:    60 - IPs[this: 8, total: 163] - Perf: Avg FPS= 12.7032
+  Frame:    80 - IPs[this: 2, total: 240] - Perf: Avg FPS= 12.9477
+  Frame:   100 - IPs[this: 1, total: 262] - Perf: Avg FPS= 13.1598
+  Frame:   120 - IPs[this: 3, total: 351] - Perf: Avg FPS= 13.2308
+-> Detected 372 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/51_9_4.avi
+  Total frames:              114
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.63025
+  Frame:    40 - IPs[this: 6, total:  13] - Perf: Avg FPS= 5.65228
+  Frame:    60 - IPs[this:11, total: 191] - Perf: Avg FPS= 5.72293
+  Frame:    80 - IPs[this: 3, total: 424] - Perf: Avg FPS= 5.74967
+  Frame:   100 - IPs[this:12, total: 619] - Perf: Avg FPS= 5.77222
+-> Detected 773 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/33_6_3.avi
+  Total frames:              127
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.9242
+  Frame:    40 - IPs[this: 9, total: 145] - Perf: Avg FPS= 11.2607
+  Frame:    60 - IPs[this:13, total: 409] - Perf: Avg FPS= 11.2135
+  Frame:    80 - IPs[this:10, total: 605] - Perf: Avg FPS= 11.2583
+  Frame:   100 - IPs[this: 2, total: 702] - Perf: Avg FPS= 11.372
+  Frame:   120 - IPs[this: 7, total: 771] - Perf: Avg FPS= 11.479
+-> Detected 788 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/25_5_4.avi
+  Total frames:              60
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.9217
+  Frame:    40 - IPs[this:28, total: 362] - Perf: Avg FPS= 3.76127
+  Frame:    60 - IPs[this:22, total: 928] - Perf: Avg FPS= 3.72187
+-> Detected 928 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/48_9_3.avi
+  Total frames:              129
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.472
+  Frame:    40 - IPs[this: 2, total:  10] - Perf: Avg FPS= 11.4882
+  Frame:    60 - IPs[this: 1, total:  66] - Perf: Avg FPS= 11.831
+  Frame:    80 - IPs[this: 0, total:  67] - Perf: Avg FPS= 12.1024
+  Frame:   100 - IPs[this: 3, total:  76] - Perf: Avg FPS= 12.1426
+  Frame:   120 - IPs[this: 1, total: 104] - Perf: Avg FPS= 11.1188
+-> Detected 106 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/35_7_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.82826
+  Frame:    40 - IPs[this: 4, total:  53] - Perf: Avg FPS= 6.99703
+  Frame:    60 - IPs[this: 8, total: 238] - Perf: Avg FPS= 6.77152
+  Frame:    80 - IPs[this: 4, total: 472] - Perf: Avg FPS= 6.80599
+  Frame:   100 - IPs[this: 5, total: 573] - Perf: Avg FPS= 6.87196
+  Frame:   120 - IPs[this:15, total: 701] - Perf: Avg FPS= 6.90483
+-> Detected 890 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/11_2_3.avi
+  Total frames:              133
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.96421
+  Frame:    40 - IPs[this: 5, total:  83] - Perf: Avg FPS= 9.17807
+  Frame:    60 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.28368
+  Frame:    80 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.37353
+  Frame:   100 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.42068
+  Frame:   120 - IPs[this: 4, total: 198] - Perf: Avg FPS= 9.41994
+-> Detected 241 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/26_5_2.avi
+  Total frames:              77
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.41298
+  Frame:    40 - IPs[this:31, total: 441] - Perf: Avg FPS= 3.41821
+  Frame:    60 - IPs[this:29, total:1017] - Perf: Avg FPS= 3.39365
+-> Detected 1446 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/15_3_3.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.73437
+  Frame:    40 - IPs[this: 4, total:  52] - Perf: Avg FPS= 8.42966
+  Frame:    60 - IPs[this: 0, total: 131] - Perf: Avg FPS= 8.37186
+  Frame:    80 - IPs[this: 0, total: 133] - Perf: Avg FPS= 8.62732
+  Frame:   100 - IPs[this: 0, total: 133] - Perf: Avg FPS= 8.77818
+  Frame:   120 - IPs[this:11, total: 183] - Perf: Avg FPS= 8.85128
+-> Detected 325 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/12_3_4.avi
+  Total frames:              95
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.03125
+  Frame:    40 - IPs[this: 3, total:  16] - Perf: Avg FPS= 4.29114
+  Frame:    60 - IPs[this:11, total: 257] - Perf: Avg FPS= 4.31711
+  Frame:    80 - IPs[this:44, total: 883] - Perf: Avg FPS= 4.27393
+-> Detected 1418 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/17_3_0.avi
+  Total frames:              121
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.47696
+  Frame:    40 - IPs[this:40, total: 325] - Perf: Avg FPS= 3.51296
+  Frame:    60 - IPs[this:29, total:1043] - Perf: Avg FPS= 3.47205
+  Frame:    80 - IPs[this:12, total:1689] - Perf: Avg FPS= 3.46223
+  Frame:   100 - IPs[this:43, total:2197] - Perf: Avg FPS= 3.47046
+  Frame:   120 - IPs[this:61, total:3006] - Perf: Avg FPS= 3.41261
+-> Detected 3074 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/14_3_1.avi
+  Total frames:              168
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.23287
+  Frame:    40 - IPs[this:29, total: 309] - Perf: Avg FPS= 4.27943
+  Frame:    60 - IPs[this:37, total: 811] - Perf: Avg FPS= 4.24916
+  Frame:    80 - IPs[this:36, total:1528] - Perf: Avg FPS= 4.20259
+  Frame:   100 - IPs[this: 2, total:1775] - Perf: Avg FPS= 4.22773
+  Frame:   120 - IPs[this:15, total:1888] - Perf: Avg FPS= 4.26208
+  Frame:   140 - IPs[this:27, total:2407] - Perf: Avg FPS= 4.25229
+  Frame:   160 - IPs[this:22, total:3208] - Perf: Avg FPS= 4.06316
+-> Detected 3548 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/30_6_2.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.44463
+  Frame:    40 - IPs[this: 6, total: 130] - Perf: Avg FPS= 4.61126
+  Frame:    60 - IPs[this: 8, total: 330] - Perf: Avg FPS= 4.73517
+  Frame:    80 - IPs[this:15, total: 657] - Perf: Avg FPS= 4.7801
+-> Detected 871 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/54_10_0.avi
+  Total frames:              119
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.701
+  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 8.39602
+  Frame:    60 - IPs[this: 4, total:  79] - Perf: Avg FPS= 8.57975
+  Frame:    80 - IPs[this: 4, total: 201] - Perf: Avg FPS= 8.63368
+  Frame:   100 - IPs[this: 8, total: 255] - Perf: Avg FPS= 8.7078
+-> Detected 396 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/20_4_2.avi
+  Total frames:              120
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.91383
+  Frame:    40 - IPs[this:26, total: 277] - Perf: Avg FPS= 4.07366
+  Frame:    60 - IPs[this:21, total: 682] - Perf: Avg FPS= 4.10132
+  Frame:    80 - IPs[this:10, total:1025] - Perf: Avg FPS= 4.1223
+  Frame:   100 - IPs[this:26, total:1363] - Perf: Avg FPS= 4.12919
+  Frame:   120 - IPs[this:15, total:1740] - Perf: Avg FPS= 4.14028
+-> Detected 1740 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/6_2_4.avi
+  Total frames:              101
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.13692
+  Frame:    40 - IPs[this:25, total: 211] - Perf: Avg FPS= 3.29649
+  Frame:    60 - IPs[this:17, total: 612] - Perf: Avg FPS= 3.32554
+  Frame:    80 - IPs[this:34, total:1188] - Perf: Avg FPS= 3.31374
+  Frame:   100 - IPs[this:72, total:1967] - Perf: Avg FPS= 3.29439
+-> Detected 2030 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/43_8_4.avi
+  Total frames:              84
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.70544
+  Frame:    40 - IPs[this: 9, total: 221] - Perf: Avg FPS= 4.89345
+  Frame:    60 - IPs[this:20, total: 581] - Perf: Avg FPS= 4.9311
+  Frame:    80 - IPs[this:29, total:1119] - Perf: Avg FPS= 4.91417
+-> Detected 1275 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/49_9_5.avi
+  Total frames:              117
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.32013
+  Frame:    40 - IPs[this: 3, total:  43] - Perf: Avg FPS= 5.78947
+  Frame:    60 - IPs[this: 2, total: 152] - Perf: Avg FPS= 5.92065
+  Frame:    80 - IPs[this: 7, total: 382] - Perf: Avg FPS= 5.84902
+  Frame:   100 - IPs[this:11, total: 552] - Perf: Avg FPS= 5.90359
+-> Detected 794 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/37_7_4.avi
+  Total frames:              110
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.939
+  Frame:    40 - IPs[this:13, total:  82] - Perf: Avg FPS= 5.31761
+  Frame:    60 - IPs[this:19, total: 298] - Perf: Avg FPS= 5.38854
+  Frame:    80 - IPs[this: 5, total: 488] - Perf: Avg FPS= 5.34798
+  Frame:   100 - IPs[this:20, total: 785] - Perf: Avg FPS= 5.37544
+-> Detected 987 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/39_7_3.avi
+  Total frames:              116
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.2165
+  Frame:    40 - IPs[this: 0, total:   2] - Perf: Avg FPS= 11.1561
+  Frame:    60 - IPs[this: 0, total:  69] - Perf: Avg FPS= 11.4378
+  Frame:    80 - IPs[this: 0, total:  69] - Perf: Avg FPS= 11.6404
+  Frame:   100 - IPs[this: 2, total:  94] - Perf: Avg FPS= 11.7382
+-> Detected 129 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/44_8_4.avi
+  Total frames:              59
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.50081
+  Frame:    40 - IPs[this:16, total: 268] - Perf: Avg FPS= 6.49557
+-> Detected 504 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/29_5_5.avi
+  Total frames:              105
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.00704
+  Frame:    40 - IPs[this:14, total: 292] - Perf: Avg FPS= 3.0373
+  Frame:    60 - IPs[this:24, total: 824] - Perf: Avg FPS= 3.06382
+  Frame:    80 - IPs[this:23, total:1512] - Perf: Avg FPS= 3.06782
+  Frame:   100 - IPs[this:28, total:2012] - Perf: Avg FPS= 3.0509
+-> Detected 2125 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/22_4_3.avi
+  Total frames:              81
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 9.96018
+  Frame:    40 - IPs[this: 2, total:  18] - Perf: Avg FPS= 10.2164
+  Frame:    60 - IPs[this: 1, total:  76] - Perf: Avg FPS= 10.2379
+  Frame:    80 - IPs[this: 9, total: 158] - Perf: Avg FPS= 10.2411
+-> Detected 165 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/27_5_1.avi
+  Total frames:              145
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.13705
+  Frame:    40 - IPs[this: 8, total:  72] - Perf: Avg FPS= 4.10511
+  Frame:    60 - IPs[this:28, total: 592] - Perf: Avg FPS= 4.07673
+  Frame:    80 - IPs[this:17, total:1111] - Perf: Avg FPS= 4.0668
+  Frame:   100 - IPs[this: 2, total:1222] - Perf: Avg FPS= 4.10914
+  Frame:   120 - IPs[this:19, total:1572] - Perf: Avg FPS= 4.10982
+  Frame:   140 - IPs[this:31, total:2022] - Perf: Avg FPS= 4.09457
+-> Detected 2174 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/50_9_2.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.14351
+  Frame:    40 - IPs[this:14, total:  78] - Perf: Avg FPS= 6.56201
+  Frame:    60 - IPs[this:10, total: 269] - Perf: Avg FPS= 6.65493
+  Frame:    80 - IPs[this:29, total: 515] - Perf: Avg FPS= 6.68551
+-> Detected 669 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/38_7_2.avi
+  Total frames:              92
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.04903
+  Frame:    40 - IPs[this: 8, total: 260] - Perf: Avg FPS= 5.83585
+  Frame:    60 - IPs[this:18, total: 639] - Perf: Avg FPS= 5.85921
+  Frame:    80 - IPs[this:17, total: 872] - Perf: Avg FPS= 5.91802
+-> Detected 1084 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/57_10_3.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 14.6176
+  Frame:    40 - IPs[this: 5, total:  15] - Perf: Avg FPS= 14.9222
+  Frame:    60 - IPs[this: 0, total:  36] - Perf: Avg FPS= 15.0079
+  Frame:    80 - IPs[this: 2, total:  63] - Perf: Avg FPS= 15.07
+-> Detected 72 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/24_5_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.99732
+  Frame:    40 - IPs[this: 5, total:  12] - Perf: Avg FPS= 5.13818
+  Frame:    60 - IPs[this:24, total: 143] - Perf: Avg FPS= 5.1432
+  Frame:    80 - IPs[this:18, total: 543] - Perf: Avg FPS= 5.07643
+  Frame:   100 - IPs[this: 2, total: 831] - Perf: Avg FPS= 5.05366
+  Frame:   120 - IPs[this:29, total:1191] - Perf: Avg FPS= 5.03267
+-> Detected 1534 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/19_4_1.avi
+  Total frames:              157
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.3013
+  Frame:    40 - IPs[this:32, total: 117] - Perf: Avg FPS= 4.49373
+  Frame:    60 - IPs[this:25, total: 541] - Perf: Avg FPS= 4.40059
+  Frame:    80 - IPs[this:19, total:1180] - Perf: Avg FPS= 4.38348
+  Frame:   100 - IPs[this: 1, total:1280] - Perf: Avg FPS= 4.45194
+  Frame:   120 - IPs[this:33, total:1556] - Perf: Avg FPS= 4.47553
+  Frame:   140 - IPs[this:26, total:2189] - Perf: Avg FPS= 4.40579
+-> Detected 2707 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/UTI1_segement/41_8_0.avi
+  Total frames:              169
+  frame interval:            0-100000000
+  output file:               ./UTI1/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.11016
+  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 5.41462
+  Frame:    60 - IPs[this:12, total: 100] - Perf: Avg FPS= 5.48505
+  Frame:    80 - IPs[this:23, total: 395] - Perf: Avg FPS= 5.46907
+  Frame:   100 - IPs[this: 6, total: 712] - Perf: Avg FPS= 5.46143
+  Frame:   120 - IPs[this: 5, total: 883] - Perf: Avg FPS= 5.48338
+  Frame:   140 - IPs[this: 7, total:1131] - Perf: Avg FPS= 5.4865
+  Frame:   160 - IPs[this: 3, total:1319] - Perf: Avg FPS= 5.50067
+-> Detected 1400 points

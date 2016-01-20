@@ -29,28 +29,26 @@ if __name__ == '__main__':
             sys.stdout.flush()
 
             data[tag] = {}
-            data[tag]['y'] = int(tag.split('_')[1])
-            command = ' '.join([
-                './tools/dense_trajectory_release_v1.2/release/DenseTrack ',
-                os.path.join('/', tag)+'.avi',
-                '-L', '10',  #trajectory length
-                ])
-            print '\texec: {}'.format(command)
-            res = os.popen(command).readlines()
-#           print res
-#           from pdb import set_trace
-#           set_trace()
-            with open(os.path.join(denseDir, tag.split('/')[-1])+'.txt', 'w') as f:
-                f.writelines(res)
-            #with open(os.path.join(denseDir, tag.split('/')[-1])+'.txt', 'r') as f:
-            #    res = f.readlines()
+            data[tag]['y'] = int(tag.split('_')[-1])
+#           command = ' '.join([
+#               './tools/dense_trajectory_release_v1.2/release/DenseTrack',
+#               os.path.join('/', tag)+'.avi',
+#               '-L', '10',  #trajectory length
+#               ])
+#           print '\texec: {}'.format(command)
+#           res = os.popen(command).readlines()
+#           with open(os.path.join(denseDir, tag.split('/')[-1])+'.txt', 'w') as f:
+#               f.writelines(res)
+            with open(os.path.join(denseDir, tag.split('/')[-1])+'.txt', 'r') as f:
+                res = f.readlines()
             res = np.array(map(lambda x: x.strip().split('\t'), res), dtype=float)
             print '\tshape: {}'.format(res.shape)
 
             # Trajectory: 2*trajectory length(30)
             # HOG: 8x[spatial cells]x[spatial cells]x[temporal cells] (default 96 dimension) 
             # HOF: 9x[spatial cells]x[spatial cells]x[temporal cells] (default 108 dimension) 
-            data[tag]['x'] = res[:, 10:10+2*10+96+108] 
+            #data[tag]['x'] = res[:, 10:10+2*10+96+108] 
+            data[tag]['x'] = res[:, 10:]
             data[tag]['t'] = res[:, 9] 
 
         for tag in data:
@@ -76,10 +74,15 @@ if __name__ == '__main__':
 
 
         print 'Getting STIP...'
+        #call(command.split(' '))
         # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opencv_alias 
-        # command = '{}/bin/stipdet.out -i ./BIT/video-list.txt -vpath {} -o {} -det harris3d -vis no'.format(harris3d_dir, '/', POI)
         #print command 
         #call(command.split(' '))
+        # print 'Executing {} ...'.format(r"export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opencv_alias")
+        # call("export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opencv_alias")
+        #command = '{}/bin/stipdet.out -i {} -vpath {} -o {} -det harris3d -vis no'.format(harris3d_dir, videolistFile, '/', POI)
+        #print 'Executing {} ...'.format(command)
+        #raise Exception
 
         print 'Finding STIP...'
         sys.stdout.flush()
@@ -95,7 +98,7 @@ if __name__ == '__main__':
                 elif line.startswith('# '):
                     tag = line.strip().split(' ')[-1]
                     data[tag] = {}
-                    data[tag]['y'] = int(tag.split('_')[1])
+                    data[tag]['y'] = int(tag.split('_')[-1])
                     data[tag]['x'] = []
                     data[tag]['t'] = []
                 else:

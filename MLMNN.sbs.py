@@ -8,6 +8,7 @@ import numpy.linalg as linalg
 import cPickle
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import normalize
+from sklearn.cross_validation import train_test_split
 
 from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
@@ -22,7 +23,7 @@ import theano
 import theano.tensor as T
 import theano.tensor.nlinalg as linalg
 import numpy.linalg as nplinalg
-from Metric.LDL import LDL
+from MLGPU.LDL.ldl2 import LDL
 import sys
 
 class MLMNN(object):
@@ -58,6 +59,7 @@ class MLMNN(object):
             else:
                 pullerror, pusherror = self._global_error(M, i, gM[-1])
             error = (1-self.mu) * pullerror + self.mu * pusherror
+#            error += (M**2).sum() 
             update = (M, M - self._lr[i] * T.grad(error, M))
         #    gError += error#*(float(i+1)/self.M)
 
@@ -73,7 +75,7 @@ class MLMNN(object):
 
 
     def fit(self, x, y, testx, testy,
-        maxS=100, lr=1e-7, max_iter=100, reset=20, 
+        maxS=100, lr=1e-7, max_iter=100, reset=20, testiter=10,
         Part=None,
         verbose=False, autosave=True): #
 
@@ -119,10 +121,9 @@ class MLMNN(object):
         updates = self.gupdate  
         givens = {self._stackx: np.asarray(stackx, dtype='float32'),
                   self._y: np.asarray(y, dtype='int32')}
-
         __x = x
         __lr = lr
-        for stage in xrange(self.M):
+        for stage in range(self.M):
             print 'stage {}'.format(stage)
             lr = np.array([__lr]*(self.M), dtype='float32')
             # normal
@@ -134,21 +135,28 @@ class MLMNN(object):
 #               givens = givens)
 
 
-            # odd-even training
+            # step by step 
             neighbors = self._get_neighbors(stackx[:, stage, :], y)
             self.train_local_model = theano.function(
                 [self._set, self._neighborpairs, self._lr], 
                 [T.stack(self.gpullerror), T.stack(self.gpusherror)],
                 updates = [updates[stage]],
                 givens = givens)
+            self.theano_project = theano.function([], [], 
+                updates=[(gM[stage], self._theano_project_sd(gM[stage]))])
 
 #           get_debug = theano.function(
 #               [self._neighborpairs], 
 #               self.debug,
 #               givens = givens)
             t = 0
-            while t < max_iter:
+            _lr = lr
+            while t <= max_iter:
+                if t % testiter == 0:
+                    self.fittest(orix, testx, y, testy, stage)
+
                 if t % reset == 0:
+                    lr = _lr
                     active_set = self._get_active_set(x, y, neighbors)
                     last_error = np.array([np.inf]*(self.M))
 
@@ -162,25 +170,17 @@ class MLMNN(object):
 #               for ele in diag:
 #                   print ele.max(), ele.min(), ele.sum(), ele.var()
 
-                for i in [stage]:
-                    _M = gM[i].get_value() 
-                    gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
+                self.theano_project()
+               #for i in [stage]:
+               #    _M = gM[i].get_value() 
+               #    gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
 
                 lr = lr*1.01*(last_error>error) + lr*0.5*(last_error<=error) 
 
                 last_error = error
                 t += 1
             
-            __x = self.transform(orix, stage)
-            __testx = self.transform(testx, stage)
-            train_acc, train_cfm = knn(__x, __x, y, y, None, self.K, cfmatrix=True)
 
-            test_acc, test_cfm = knn(__x, __testx, y, testy, None, self.K, cfmatrix=True)
-            print 'shape: {}'.format(__x.shape)
-            print 'train-acc: %.3f%% test-acc: %.3f%% %s'%(\
-                train_acc, test_acc, ' '*30)
-            print 'train confusion matrix:\n {}\ntest confusion matrix:\n {}'.format(
-                train_cfm, test_cfm)
 
 #           print 'visualizing round{} ...'.format(_)
 #           title = 'round{}.train'.format(_) 
@@ -194,6 +194,18 @@ class MLMNN(object):
             print 'Auto saving ...'
             self.save('temp.MLMNN')
         return self
+
+    def fittest(self, trainx, testx, trainy, testy, stage):
+        __x = self.transform(trainx, stage)
+        __testx = self.transform(testx, stage)
+        train_acc, train_cfm = knn(__x, __x, trainy, trainy, None, self.K, cfmatrix=True)
+
+        test_acc, test_cfm = knn(__x, __testx, trainy, testy, None, self.K, cfmatrix=True)
+        print 'shape: {}'.format(__x.shape)
+        print 'train-acc: %.3f%% test-acc: %.3f%% %s'%(\
+            train_acc, test_acc, ' '*30)
+        print 'train confusion matrix:\n {}\ntest confusion matrix:\n {}'.format(
+            train_cfm, test_cfm)
 
     def save(self, filename):
         cPickle.dump((self.__class__, self.__dict__), open(filename, 'w'))
@@ -224,6 +236,14 @@ class MLMNN(object):
         newx[np.isinf(newx)] = 0
         return newx
 
+    def _theano_project_sd(self, mat):
+        # force symmetric
+        mat = (mat+mat.T)/2.0
+        eig, eigv = linalg.eig(mat)
+        eig = T.maximum(eig, 0)
+        eig = T.diag(eig)
+        return eigv.dot(eig).dot(eigv.T) 
+
     def _numpy_project_sd(self, mat):
         eig, eigv = nplinalg.eig(mat)
         eig[eig < 0] = 0
@@ -232,7 +252,11 @@ class MLMNN(object):
 
     def _global_error(self, targetM, i, lastM):
         mask = T.neq(self._y[self._set[:, 1]], self._y[self._set[:, 2]])
-        f = T.tanh #T.nnet.sigmoid
+        f = T.nnet.sigmoid # T.tanh 
+        g = lambda x, y: x*(1-y) #lambda x: T.maximum(x, 0)
+        # g(lst_prediction - cur_prediction) 
+        # f(T.diag(lossil - lossij))
+
         if i == 0:
             # pull_error for global 0
             pull_error = 0.
@@ -240,67 +264,43 @@ class MLMNN(object):
             jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
             diffv = ivectors - jvectors
             pull_error = linalg.trace(diffv.dot(targetM).dot(diffv.T))
-
-            # push_error for global 0
-            push_error = 0.0
-            ivectors = self._stackx[:, i, :][self._set[:, 0]]
-            jvectors = self._stackx[:, i, :][self._set[:, 1]]
-            lvectors = self._stackx[:, i, :][self._set[:, 2]]
-            diffij = ivectors - jvectors
-            diffil = ivectors - lvectors
-            lossij = diffij.dot(targetM).dot(diffij.T)
-            lossil = diffil.dot(targetM).dot(diffil.T)
-            #cur_prediction = T.diag(lossij - lossil)
-            cur_prediction = f(T.diag(lossil - lossij))
-
-            ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
-            jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
-            lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
-            diffij = ivectors - jvectors
-            diffil = ivectors - lvectors
-            lossij = diffij.dot(diffij.T)
-            lossil = diffil.dot(diffil.T)
-            #lst_prediction = T.diag(lossij - lossil)
-            lst_prediction = f(T.diag(lossil - lossij))
-            push_error = T.sum(mask*(lst_prediction - cur_prediction))
-
         else:
             ivectors = self._stackx[:, i, :][self._neighborpairs[:, 0]]
             jvectors = self._stackx[:, i, :][self._neighborpairs[:, 1]]
             diffv1 = ivectors - jvectors
             distMcur = diffv1.dot(targetM).dot(diffv1.T)
-            ivectors = self._stackx[:, i-1, :][self._neighborpairs[:, 0]]
-            jvectors = self._stackx[:, i-1, :][self._neighborpairs[:, 1]]
-            diffv2 = ivectors - jvectors
-            distMlast = diffv2.dot(lastM).dot(diffv2.T)
-            pull_error = linalg.trace(T.maximum(distMcur - distMlast + 1, 0))
+#           ivectors = self._stackx[:, i-1, :][self._neighborpairs[:, 0]]
+#           jvectors = self._stackx[:, i-1, :][self._neighborpairs[:, 1]]
+#           diffv2 = ivectors - jvectors
+#           distMlast = diffv2.dot(lastM).dot(diffv2.T)
+            pull_error = linalg.trace(T.maximum(distMcur, 0))
 
 
-            # self.debug.append( self._y[self._set[:, 0] )
+        push_error = 0.0
+        ivectors = self._stackx[:, i, :][self._set[:, 0]]
+        jvectors = self._stackx[:, i, :][self._set[:, 1]]
+        lvectors = self._stackx[:, i, :][self._set[:, 2]]
+        diffij = ivectors - jvectors
+        diffil = ivectors - lvectors
+        lossij = diffij.dot(targetM).dot(diffij.T)
+        lossil = diffil.dot(targetM).dot(diffil.T)
+        #cur_prediction = T.diag(lossij - lossil)
+        cur_prediction = f(T.diag(lossil - lossij))
 
-
-
-            push_error = 0.0
-            ivectors = self._stackx[:, i, :][self._set[:, 0]]
-            jvectors = self._stackx[:, i, :][self._set[:, 1]]
-            lvectors = self._stackx[:, i, :][self._set[:, 2]]
-            diffij = ivectors - jvectors
-            diffil = ivectors - lvectors
-            lossij = diffij.dot(targetM).dot(diffij.T)
-            lossil = diffil.dot(targetM).dot(diffil.T)
-            #cur_prediction = T.diag(lossij - lossil)
-            cur_prediction = f(T.diag(lossil - lossij))
-
-            ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
-            jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
-            lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
-            diffij = ivectors - jvectors
-            diffil = ivectors - lvectors
+        ivectors = self._stackx[:, i-1, :][self._set[:, 0]]
+        jvectors = self._stackx[:, i-1, :][self._set[:, 1]]
+        lvectors = self._stackx[:, i-1, :][self._set[:, 2]]
+        diffij = ivectors - jvectors
+        diffil = ivectors - lvectors
+        if i == 0:
+            lossij = diffij.dot(diffij.T)
+            lossil = diffil.dot(diffil.T)
+        else:
             lossij = diffij.dot(lastM).dot(diffij.T)
             lossil = diffil.dot(lastM).dot(diffil.T)
-            #lst_prediction = T.diag(lossij - lossil)
-            lst_prediction = f(T.diag(lossil - lossij))
-            push_error = T.sum(mask*(lst_prediction - cur_prediction))
+        lst_prediction = f(T.diag(lossil - lossij))
+        push_error = T.sum(mask*(g(lst_prediction, cur_prediction)))
+
 
         return pull_error, push_error 
 
@@ -344,17 +344,23 @@ if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
     theano.config.on_unused_input='warn'
 
-    K = 100 
-    Time = 0.1
+    K = 200
+    Time = 0.4
 
-    trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
+    from names import featureDir, globalcodedfilename
+    x, y= cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
+    x = x.reshape(x.shape[0], 10, -1)[:, :int(Time*10), :].reshape(x.shape[0], -1)
+
+    #x, y = cPickle.load(open(globalcodedfilename(K, Time), 'r'))
+    trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33) 
+#    trainx, testx, trainy, testy = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, Time),'r'))
+
     print trainx.shape
     print trainy.shape
    
-    mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=100, lmbd=0.5, globalM=True) 
+    mlmnn = MLMNN(M=int(Time*10), K=8, mu=0.9, dim=50, lmbd=0.5, globalM=True) 
     mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=10000, lr=5, max_iter=100, reset=20,
-        Part=None,
+        maxS=10000, lr=2, max_iter=500, reset=50, testiter=100, Part=None,
         verbose=True)
 
 

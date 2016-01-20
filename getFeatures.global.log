@@ -1,1602 +1,241 @@
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0021.avi -L 10
-	shape: (669, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0011.avi -L 10
-	shape: (2879, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0044.avi -L 10
-	shape: (827, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0036.avi -L 10
-	shape: (2342, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0017.avi -L 10
-	shape: (117, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0049.avi -L 10
-	shape: (432, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0046.avi -L 10
-	shape: (181, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0041.avi -L 10
-	shape: (8175, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0005.avi -L 10
-	shape: (254, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0050.avi -L 10
-	shape: (1841, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0045.avi -L 10
-	shape: (1352, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0047.avi -L 10
-	shape: (2738, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0027.avi -L 10
-	shape: (4332, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0003.avi -L 10
-	shape: (233, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0014.avi -L 10
-	shape: (2599, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0034.avi -L 10
-	shape: (497, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0004.avi -L 10
-	shape: (2960, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0002.avi -L 10
-	shape: (313, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0006.avi -L 10
-	shape: (232, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0028.avi -L 10
-	shape: (989, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0033.avi -L 10
-	shape: (1690, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0008.avi -L 10
-	shape: (1731, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0043.avi -L 10
-	shape: (114, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0010.avi -L 10
-	shape: (379, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0031.avi -L 10
-	shape: (419, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0023.avi -L 10
-	shape: (1464, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0040.avi -L 10
-	shape: (543, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0019.avi -L 10
-	shape: (556, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0032.avi -L 10
-	shape: (4210, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0015.avi -L 10
-	shape: (1061, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0029.avi -L 10
-	shape: (2349, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0024.avi -L 10
-	shape: (280, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0001.avi -L 10
-	shape: (305, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0038.avi -L 10
-	shape: (2384, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0016.avi -L 10
-	shape: (78, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0035.avi -L 10
-	shape: (1782, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0020.avi -L 10
-	shape: (394, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0039.avi -L 10
-	shape: (766, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0022.avi -L 10
-	shape: (3158, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0042.avi -L 10
-	shape: (132, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0013.avi -L 10
-	shape: (159, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0026.avi -L 10
-	shape: (307, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0037.avi -L 10
-	shape: (2225, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0009.avi -L 10
-	shape: (1605, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0018.avi -L 10
-	shape: (1018, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0012.avi -L 10
-	shape: (1674, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0030.avi -L 10
-	shape: (4617, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0048.avi -L 10
-	shape: (761, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0025.avi -L 10
-	shape: (1793, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0007.avi -L 10
-	shape: (3113, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0023.avi -L 10
-	shape: (299, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0028.avi -L 10
-	shape: (1107, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0049.avi -L 10
-	shape: (490, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0043.avi -L 10
-	shape: (1564, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0012.avi -L 10
-	shape: (915, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0044.avi -L 10
-	shape: (1705, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0014.avi -L 10
-	shape: (3006, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0018.avi -L 10
-	shape: (2275, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0004.avi -L 10
-	shape: (751, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0048.avi -L 10
-	shape: (610, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0022.avi -L 10
-	shape: (374, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0019.avi -L 10
-	shape: (1535, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0005.avi -L 10
-	shape: (411, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0031.avi -L 10
-	shape: (602, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0025.avi -L 10
-	shape: (195, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0037.avi -L 10
-	shape: (138, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0002.avi -L 10
-	shape: (1814, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0050.avi -L 10
-	shape: (439, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0008.avi -L 10
-	shape: (484, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0041.avi -L 10
-	shape: (2582, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0026.avi -L 10
-	shape: (856, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0029.avi -L 10
-	shape: (1226, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0007.avi -L 10
-	shape: (662, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0016.avi -L 10
-	shape: (534, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0033.avi -L 10
-	shape: (2860, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0015.avi -L 10
-	shape: (2655, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0030.avi -L 10
-	shape: (1027, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0011.avi -L 10
-	shape: (487, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0027.avi -L 10
-	shape: (176, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0013.avi -L 10
-	shape: (3040, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0046.avi -L 10
-	shape: (691, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0032.avi -L 10
-	shape: (158, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0047.avi -L 10
-	shape: (650, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0017.avi -L 10
-	shape: (1809, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0003.avi -L 10
-	shape: (607, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0024.avi -L 10
-	shape: (1732, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0001.avi -L 10
-	shape: (1771, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0035.avi -L 10
-	shape: (2994, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0042.avi -L 10
-	shape: (4399, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0006.avi -L 10
-	shape: (386, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0045.avi -L 10
-	shape: (617, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0020.avi -L 10
-	shape: (211, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0034.avi -L 10
-	shape: (297, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0021.avi -L 10
-	shape: (42, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0040.avi -L 10
-	shape: (1990, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0010.avi -L 10
-	shape: (251, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0038.avi -L 10
-	shape: (602, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0036.avi -L 10
-	shape: (2183, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0009.avi -L 10
-	shape: (337, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/pat/pat_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/pat/pat_0039.avi -L 10
-	shape: (1978, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0022.avi -L 10
-	shape: (3123, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0033.avi -L 10
-	shape: (1730, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0009.avi -L 10
-	shape: (488, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0011.avi -L 10
-	shape: (3275, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0045.avi -L 10
-	shape: (2134, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0001.avi -L 10
-	shape: (5137, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0030.avi -L 10
-	shape: (1953, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0012.avi -L 10
-	shape: (2221, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0029.avi -L 10
-	shape: (1075, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0014.avi -L 10
-	shape: (1155, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0006.avi -L 10
-	shape: (3451, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0018.avi -L 10
-	shape: (2468, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0032.avi -L 10
-	shape: (1912, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0037.avi -L 10
-	shape: (3348, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0021.avi -L 10
-	shape: (1233, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0017.avi -L 10
-	shape: (2611, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0044.avi -L 10
-	shape: (4668, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0046.avi -L 10
-	shape: (2420, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0047.avi -L 10
-	shape: (1238, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0034.avi -L 10
-	shape: (2270, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0036.avi -L 10
-	shape: (1874, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0013.avi -L 10
-	shape: (1355, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0041.avi -L 10
-	shape: (2926, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0005.avi -L 10
-	shape: (2189, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0031.avi -L 10
-	shape: (955, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0025.avi -L 10
-	shape: (951, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0016.avi -L 10
-	shape: (1343, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0048.avi -L 10
-	shape: (1338, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0023.avi -L 10
-	shape: (3432, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0019.avi -L 10
-	shape: (2032, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0039.avi -L 10
-	shape: (2733, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0035.avi -L 10
-	shape: (1572, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0026.avi -L 10
-	shape: (867, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0042.avi -L 10
-	shape: (758, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0028.avi -L 10
-	shape: (477, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0038.avi -L 10
-	shape: (6452, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0043.avi -L 10
-	shape: (2113, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0008.avi -L 10
-	shape: (1149, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0010.avi -L 10
-	shape: (4343, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0002.avi -L 10
-	shape: (1833, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0024.avi -L 10
-	shape: (224, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0004.avi -L 10
-	shape: (1081, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0050.avi -L 10
-	shape: (1158, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0027.avi -L 10
-	shape: (897, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0015.avi -L 10
-	shape: (4290, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0007.avi -L 10
-	shape: (2359, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0049.avi -L 10
-	shape: (3121, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0040.avi -L 10
-	shape: (4064, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0020.avi -L 10
-	shape: (4076, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/box/box_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/box/box_0003.avi -L 10
-	shape: (305, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0004.avi -L 10
-	shape: (2273, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0033.avi -L 10
-	shape: (5101, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0027.avi -L 10
-	shape: (1644, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0046.avi -L 10
-	shape: (1275, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0014.avi -L 10
-	shape: (4077, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0043.avi -L 10
-	shape: (4882, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0003.avi -L 10
-	shape: (2359, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0009.avi -L 10
-	shape: (1880, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0047.avi -L 10
-	shape: (921, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0001.avi -L 10
-	shape: (3469, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0029.avi -L 10
-	shape: (2036, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0039.avi -L 10
-	shape: (4674, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0002.avi -L 10
-	shape: (2079, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0035.avi -L 10
-	shape: (4323, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0023.avi -L 10
-	shape: (1392, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0034.avi -L 10
-	shape: (2246, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0015.avi -L 10
-	shape: (3868, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0005.avi -L 10
-	shape: (1955, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0012.avi -L 10
-	shape: (4336, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0030.avi -L 10
-	shape: (1926, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0013.avi -L 10
-	shape: (1836, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0024.avi -L 10
-	shape: (1944, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0008.avi -L 10
-	shape: (5532, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0025.avi -L 10
-	shape: (5176, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0019.avi -L 10
-	shape: (4961, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0010.avi -L 10
-	shape: (5068, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0020.avi -L 10
-	shape: (1356, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0036.avi -L 10
-	shape: (2160, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0038.avi -L 10
-	shape: (4397, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0026.avi -L 10
-	shape: (4113, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0044.avi -L 10
-	shape: (1679, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0045.avi -L 10
-	shape: (947, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0040.avi -L 10
-	shape: (3873, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0048.avi -L 10
-	shape: (1073, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0022.avi -L 10
-	shape: (1989, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0049.avi -L 10
-	shape: (3157, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0011.avi -L 10
-	shape: (1339, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0041.avi -L 10
-	shape: (3581, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0042.avi -L 10
-	shape: (3849, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0050.avi -L 10
-	shape: (1629, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0016.avi -L 10
-	shape: (3240, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0007.avi -L 10
-	shape: (1067, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0032.avi -L 10
-	shape: (1335, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0021.avi -L 10
-	shape: (822, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0028.avi -L 10
-	shape: (1485, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0031.avi -L 10
-	shape: (1605, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0017.avi -L 10
-	shape: (3147, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0006.avi -L 10
-	shape: (2175, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0018.avi -L 10
-	shape: (3834, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hug/hug_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hug/hug_0037.avi -L 10
-	shape: (3667, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0039.avi -L 10
-	shape: (3190, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0010.avi -L 10
-	shape: (541, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0050.avi -L 10
-	shape: (610, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0017.avi -L 10
-	shape: (2359, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0033.avi -L 10
-	shape: (1908, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0024.avi -L 10
-	shape: (2044, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0030.avi -L 10
-	shape: (517, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0005.avi -L 10
-	shape: (777, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0028.avi -L 10
-	shape: (730, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0025.avi -L 10
-	shape: (185, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0015.avi -L 10
-	shape: (512, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0013.avi -L 10
-	shape: (350, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0002.avi -L 10
-	shape: (1462, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0004.avi -L 10
-	shape: (2393, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0037.avi -L 10
-	shape: (464, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0021.avi -L 10
-	shape: (4498, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0048.avi -L 10
-	shape: (533, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0022.avi -L 10
-	shape: (1264, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0027.avi -L 10
-	shape: (1930, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0007.avi -L 10
-	shape: (958, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0023.avi -L 10
-	shape: (1897, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0034.avi -L 10
-	shape: (1036, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0019.avi -L 10
-	shape: (545, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0040.avi -L 10
-	shape: (599, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0001.avi -L 10
-	shape: (474, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0008.avi -L 10
-	shape: (1035, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0046.avi -L 10
-	shape: (1884, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0043.avi -L 10
-	shape: (946, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0031.avi -L 10
-	shape: (740, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0012.avi -L 10
-	shape: (515, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0011.avi -L 10
-	shape: (567, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0018.avi -L 10
-	shape: (2315, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0035.avi -L 10
-	shape: (458, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0044.avi -L 10
-	shape: (1279, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0003.avi -L 10
-	shape: (2457, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0032.avi -L 10
-	shape: (419, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0041.avi -L 10
-	shape: (3102, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0016.avi -L 10
-	shape: (2314, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0006.avi -L 10
-	shape: (707, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0038.avi -L 10
-	shape: (308, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0042.avi -L 10
-	shape: (754, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0047.avi -L 10
-	shape: (1136, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0049.avi -L 10
-	shape: (1278, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0009.avi -L 10
-	shape: (815, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0014.avi -L 10
-	shape: (517, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0036.avi -L 10
-	shape: (358, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0045.avi -L 10
-	shape: (4256, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0029.avi -L 10
-	shape: (490, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0026.avi -L 10
-	shape: (377, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0020.avi -L 10
-	shape: (638, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0011.avi -L 10
-	shape: (9233, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0007.avi -L 10
-	shape: (3354, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0023.avi -L 10
-	shape: (2519, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0034.avi -L 10
-	shape: (1785, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0045.avi -L 10
-	shape: (3865, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0018.avi -L 10
-	shape: (2881, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0038.avi -L 10
-	shape: (5653, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0008.avi -L 10
-	shape: (2008, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0016.avi -L 10
-	shape: (3337, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0006.avi -L 10
-	shape: (2804, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0047.avi -L 10
-	shape: (364, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0009.avi -L 10
-	shape: (1932, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0024.avi -L 10
-	shape: (1695, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0046.avi -L 10
-	shape: (5114, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0049.avi -L 10
-	shape: (6014, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0021.avi -L 10
-	shape: (5297, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0001.avi -L 10
-	shape: (7424, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0033.avi -L 10
-	shape: (1999, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0004.avi -L 10
-	shape: (1924, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0032.avi -L 10
-	shape: (1896, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0039.avi -L 10
-	shape: (3487, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0027.avi -L 10
-	shape: (2219, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0028.avi -L 10
-	shape: (1784, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0041.avi -L 10
-	shape: (3296, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0003.avi -L 10
-	shape: (2266, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0044.avi -L 10
-	shape: (1096, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0031.avi -L 10
-	shape: (1689, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0035.avi -L 10
-	shape: (4960, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0022.avi -L 10
-	shape: (834, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0026.avi -L 10
-	shape: (1263, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0025.avi -L 10
-	shape: (5049, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0014.avi -L 10
-	shape: (861, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0043.avi -L 10
-	shape: (1581, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0042.avi -L 10
-	shape: (2262, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0030.avi -L 10
-	shape: (2976, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0029.avi -L 10
-	shape: (2124, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0013.avi -L 10
-	shape: (9542, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0036.avi -L 10
-	shape: (2254, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0037.avi -L 10
-	shape: (4539, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0040.avi -L 10
-	shape: (4012, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0017.avi -L 10
-	shape: (3088, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0050.avi -L 10
-	shape: (3383, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0048.avi -L 10
-	shape: (932, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0012.avi -L 10
-	shape: (1383, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0015.avi -L 10
-	shape: (6400, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0010.avi -L 10
-	shape: (1996, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0005.avi -L 10
-	shape: (1187, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0020.avi -L 10
-	shape: (5929, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0002.avi -L 10
-	shape: (4574, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/push/push_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/push/push_0019.avi -L 10
-	shape: (3663, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0001.avi -L 10
-	shape: (1817, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0050.avi -L 10
-	shape: (2873, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0008.avi -L 10
-	shape: (1705, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0021.avi -L 10
-	shape: (3003, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0004.avi -L 10
-	shape: (2169, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0046.avi -L 10
-	shape: (4189, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0026.avi -L 10
-	shape: (2679, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0045.avi -L 10
-	shape: (3321, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0032.avi -L 10
-	shape: (5618, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0042.avi -L 10
-	shape: (1864, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0047.avi -L 10
-	shape: (4127, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0009.avi -L 10
-	shape: (1326, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0039.avi -L 10
-	shape: (3250, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0040.avi -L 10
-	shape: (2404, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0038.avi -L 10
-	shape: (1758, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0037.avi -L 10
-	shape: (3666, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0035.avi -L 10
-	shape: (1181, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0028.avi -L 10
-	shape: (1064, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0006.avi -L 10
-	shape: (1379, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0049.avi -L 10
-	shape: (1353, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0018.avi -L 10
-	shape: (3561, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0022.avi -L 10
-	shape: (1407, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0027.avi -L 10
-	shape: (3897, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0002.avi -L 10
-	shape: (2570, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0019.avi -L 10
-	shape: (1657, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0048.avi -L 10
-	shape: (3203, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0007.avi -L 10
-	shape: (2241, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0013.avi -L 10
-	shape: (1257, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0016.avi -L 10
-	shape: (2527, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0017.avi -L 10
-	shape: (3200, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0041.avi -L 10
-	shape: (1849, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0020.avi -L 10
-	shape: (2564, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0010.avi -L 10
-	shape: (1457, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0025.avi -L 10
-	shape: (819, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0014.avi -L 10
-	shape: (2767, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0003.avi -L 10
-	shape: (658, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0031.avi -L 10
-	shape: (1893, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0012.avi -L 10
-	shape: (2891, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0033.avi -L 10
-	shape: (1274, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0005.avi -L 10
-	shape: (2356, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0034.avi -L 10
-	shape: (1738, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0036.avi -L 10
-	shape: (5411, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0024.avi -L 10
-	shape: (1172, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0043.avi -L 10
-	shape: (2558, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0029.avi -L 10
-	shape: (1268, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0044.avi -L 10
-	shape: (2296, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0030.avi -L 10
-	shape: (2363, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0011.avi -L 10
-	shape: (1989, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0023.avi -L 10
-	shape: (531, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/kick/kick_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/kick/kick_0015.avi -L 10
-	shape: (3802, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0035 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0035.avi -L 10
-	shape: (2053, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0008 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0008.avi -L 10
-	shape: (561, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0032 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0032.avi -L 10
-	shape: (488, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0007 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0007.avi -L 10
-	shape: (1974, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0018 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0018.avi -L 10
-	shape: (796, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0037 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0037.avi -L 10
-	shape: (592, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0038 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0038.avi -L 10
-	shape: (888, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0048 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0048.avi -L 10
-	shape: (467, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0050 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0050.avi -L 10
-	shape: (459, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0013 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0013.avi -L 10
-	shape: (640, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0044 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0044.avi -L 10
-	shape: (733, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0047 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0047.avi -L 10
-	shape: (1092, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0046 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0046.avi -L 10
-	shape: (906, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0043 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0043.avi -L 10
-	shape: (941, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0006 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0006.avi -L 10
-	shape: (344, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0029 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0029.avi -L 10
-	shape: (563, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0003 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0003.avi -L 10
-	shape: (435, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0017 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0017.avi -L 10
-	shape: (515, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0039 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0039.avi -L 10
-	shape: (328, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0045 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0045.avi -L 10
-	shape: (384, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0001 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0001.avi -L 10
-	shape: (1664, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0021 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0021.avi -L 10
-	shape: (931, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0011 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0011.avi -L 10
-	shape: (1057, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0033 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0033.avi -L 10
-	shape: (362, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0002 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0002.avi -L 10
-	shape: (1661, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0042 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0042.avi -L 10
-	shape: (1032, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0019 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0019.avi -L 10
-	shape: (133, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0040 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0040.avi -L 10
-	shape: (610, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0012 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0012.avi -L 10
-	shape: (471, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0014 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0014.avi -L 10
-	shape: (893, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0004 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0004.avi -L 10
-	shape: (3046, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0024 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0024.avi -L 10
-	shape: (192, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0026 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0026.avi -L 10
-	shape: (427, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0030 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0030.avi -L 10
-	shape: (716, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0027 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0027.avi -L 10
-	shape: (1223, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0036 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0036.avi -L 10
-	shape: (572, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0028 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0028.avi -L 10
-	shape: (762, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0005 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0005.avi -L 10
-	shape: (246, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0010 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0010.avi -L 10
-	shape: (487, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0049 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0049.avi -L 10
-	shape: (707, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0025 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0025.avi -L 10
-	shape: (2065, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0023 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0023.avi -L 10
-	shape: (739, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0031 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0031.avi -L 10
-	shape: (1772, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0034 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0034.avi -L 10
-	shape: (902, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0016 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0016.avi -L 10
-	shape: (626, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0015 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0015.avi -L 10
-	shape: (1344, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0041 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0041.avi -L 10
-	shape: (2598, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0020 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0020.avi -L 10
-	shape: (885, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0009 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0009.avi -L 10
-	shape: (355, 426)
-handling video /home/share/shaofan/BIT-Interaction/videos/bend/bend_0022 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack  /home/share/shaofan/BIT-Interaction/videos/bend/bend_0022.avi -L 10
-	shape: (142, 426)
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0030] has (1926, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0022] has (834, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0046] has (4189, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0032] has (1335, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0001] has (5137, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0003] has (305, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0002] has (1833, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0005] has (2189, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0004] has (1081, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0007] has (2359, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0006] has (3451, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0009] has (488, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0008] has (1149, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0035] has (4323, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0029] has (1268, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0028] has (1064, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0036] has (2160, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0023] has (531, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0022] has (1407, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0021] has (3003, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0037] has (3667, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0027] has (3897, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0026] has (2679, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0025] has (819, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0024] has (1172, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0018] has (1018, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0019] has (556, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0016] has (78, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0017] has (117, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0014] has (2599, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0015] has (1061, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0012] has (1674, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0013] has (159, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0010] has (379, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0011] has (2879, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0021] has (1233, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0005] has (1187, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0004] has (1924, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0007] has (3354, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0006] has (2804, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0001] has (7424, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0003] has (2266, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0002] has (4574, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0050] has (459, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0009] has (1932, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0008] has (2008, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0050] has (1629, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0014] has (517, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0015] has (512, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0016] has (2314, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0017] has (2359, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0010] has (541, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0011] has (567, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0012] has (515, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0013] has (350, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0018] has (2315, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0019] has (545, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0045] has (2134, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0044] has (4668, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0047] has (1238, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0046] has (2420, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0041] has (2926, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0040] has (4064, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0043] has (2113, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0042] has (758, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0032] has (488, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0033] has (362, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0030] has (716, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0031] has (1772, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0049] has (3121, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0048] has (1338, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0034] has (902, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0035] has (2053, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0020] has (2564, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0033] has (5101, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0012] has (4336, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0013] has (1836, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0010] has (5068, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0011] has (1339, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0016] has (3240, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0017] has (3147, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0014] has (4077, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0015] has (3868, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0018] has (3834, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0019] has (4961, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0034] has (2246, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0023] has (1897, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0001] has (1771, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0003] has (607, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0002] has (1814, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0005] has (411, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0004] has (751, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0007] has (662, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0006] has (386, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0009] has (337, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0008] has (484, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0050] has (3383, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0050] has (610, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0027] has (4332, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0026] has (307, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0025] has (1793, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0024] has (280, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0023] has (1464, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0022] has (3158, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0021] has (669, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0020] has (394, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0029] has (2349, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0028] has (989, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0029] has (490, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0028] has (730, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0018] has (2468, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0019] has (2032, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0016] has (1343, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0017] has (2611, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0014] has (1155, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0015] has (4290, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0012] has (2221, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0013] has (1355, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0010] has (4343, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0011] has (3275, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0046] has (691, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0038] has (1758, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0039] has (3250, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0034] has (1738, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0035] has (1181, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0036] has (5411, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0037] has (3666, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0030] has (2363, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0031] has (1893, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0032] has (5618, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0033] has (1274, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0049] has (1353, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0048] has (3203, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0041] has (1849, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0049] has (490, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0043] has (2558, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0042] has (1864, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0045] has (3321, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0044] has (2296, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0047] has (4127, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0048] has (610, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0016] has (3337, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0017] has (3088, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0014] has (861, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0015] has (6400, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0012] has (1383, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0013] has (9542, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0010] has (1996, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0011] has (9233, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0018] has (2881, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0019] has (3663, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0045] has (617, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0044] has (1705, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0047] has (650, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0028] has (1485, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0041] has (2582, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0040] has (1990, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0043] has (1564, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0042] has (4399, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0023] has (1392, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0022] has (1989, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0021] has (822, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0020] has (1356, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0027] has (1644, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0026] has (4113, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0025] has (5176, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0024] has (1944, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0029] has (2036, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0034] has (2270, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0035] has (1572, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0036] has (1874, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0015] has (3802, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0030] has (1953, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0031] has (955, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0032] has (1912, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0011] has (1989, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0050] has (1158, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0009] has (355, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0008] has (561, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0007] has (1974, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0006] has (344, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0005] has (246, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0004] has (3046, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0003] has (435, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0002] has (1661, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0001] has (1664, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0005] has (2356, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0004] has (2169, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0007] has (2241, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0006] has (1379, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0001] has (1817, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0022] has (3123, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0003] has (658, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0002] has (2570, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0009] has (1326, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0008] has (1705, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0029] has (1075, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0028] has (477, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0034] has (497, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0035] has (1782, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0036] has (2342, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0037] has (2225, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0030] has (4617, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0031] has (419, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0032] has (4210, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0033] has (1690, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0038] has (2384, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0039] has (766, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0018] has (2275, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0019] has (1535, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0016] has (534, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0017] has (1809, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0014] has (3006, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0015] has (2655, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0012] has (915, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0013] has (3040, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0010] has (251, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0011] has (487, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0048] has (533, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0049] has (707, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0048] has (467, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0043] has (941, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0042] has (1032, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0041] has (2598, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0040] has (610, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0047] has (1092, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0046] has (906, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0045] has (384, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0044] has (733, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0038] has (308, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0039] has (3190, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0036] has (358, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0037] has (464, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0034] has (1036, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0035] has (458, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0032] has (419, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0033] has (1908, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0030] has (517, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0031] has (740, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0050] has (2873, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0038] has (4397, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0039] has (4674, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0029] has (2124, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0028] has (1784, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0023] has (2519, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0031] has (1605, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0021] has (5297, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0020] has (5929, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0027] has (2219, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0026] has (1263, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0025] has (5049, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0024] has (1695, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0027] has (176, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0026] has (856, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0025] has (195, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0024] has (1732, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0023] has (299, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0022] has (374, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0021] has (42, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0020] has (211, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0029] has (1226, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0028] has (1107, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0010] has (487, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0011] has (1057, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0012] has (471, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0013] has (640, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0014] has (893, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0015] has (1344, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0016] has (626, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0017] has (515, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0018] has (796, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0019] has (133, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0027] has (897, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0026] has (867, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0025] has (951, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0024] has (224, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0049] has (432, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0048] has (761, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0045] has (1352, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0023] has (3432, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0047] has (2738, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0046] has (181, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0041] has (8175, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0040] has (543, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0043] has (114, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0042] has (132, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0016] has (2527, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0017] has (3200, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0014] has (2767, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0037] has (3348, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0012] has (2891, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0013] has (1257, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0010] has (1457, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0033] has (1730, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0020] has (4076, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0038] has (6452, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/box/box_0039] has (2733, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0018] has (3561, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0019] has (1657, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0025] has (185, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0024] has (2044, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0027] has (1930, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0034] has (297, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0026] has (377, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0035] has (2994, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0021] has (4498, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0020] has (638, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0041] has (3581, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0040] has (3873, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0043] has (4882, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0042] has (3849, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0045] has (947, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0044] has (1679, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0047] has (921, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0046] has (1275, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0049] has (3157, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0048] has (1073, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0022] has (1264, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0009] has (1605, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0008] has (1731, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0001] has (305, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0038] has (602, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0003] has (233, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0002] has (313, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0005] has (254, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0004] has (2960, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0007] has (3113, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0006] has (232, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0009] has (815, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0008] has (1035, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0003] has (2457, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0002] has (1462, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0001] has (474, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0007] has (958, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0006] has (707, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0005] has (777, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0004] has (2393, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0029] has (563, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0028] has (762, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0021] has (931, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0020] has (885, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0023] has (739, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0022] has (142, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0025] has (2065, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0024] has (192, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0027] has (1223, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0026] has (427, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0038] has (888, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0039] has (328, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0044] has (827, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0036] has (572, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/bend/bend_0037] has (592, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/handshake/handshake_0050] has (1841, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0039] has (1978, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0038] has (5653, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0039] has (3487, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0034] has (1785, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0035] has (4960, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0036] has (2254, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0037] has (4539, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0030] has (2976, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0031] has (1689, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0032] has (1896, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0033] has (1999, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0005] has (1955, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0004] has (2273, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0007] has (1067, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0006] has (2175, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0001] has (3469, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0003] has (2359, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0002] has (2079, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0009] has (1880, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hug/hug_0008] has (5532, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0049] has (6014, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0048] has (932, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0036] has (2183, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0037] has (138, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0030] has (1027, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0031] has (602, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0032] has (158, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0033] has (2860, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0041] has (3296, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0040] has (4012, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0043] has (1581, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0042] has (2262, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0045] has (3865, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0044] has (1096, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0047] has (364, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/push/push_0046] has (5114, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/pat/pat_0050] has (439, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0049] has (1278, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/kick/kick_0040] has (2404, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0047] has (1136, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0046] has (1884, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0045] has (4256, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0044] has (1279, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0043] has (946, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0042] has (754, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0041] has (3102, 224) features
-tag[/home/share/shaofan/BIT-Interaction/videos/hifive/hifive_0040] has (599, 224) features
-Dumping global features to features/globalFeaturesRaw.pkl ...
-features/localFeaturesRaw.pkl existed, overwrite?[y/N]
+handling video /home/share/shaofan/UTI1_segement/42_8_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/42_8_2.avi -L 10
+	shape: (11293, 426)
+handling video /home/share/shaofan/UTI1_segement/0_1_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/0_1_4.avi -L 10
+	shape: (20540, 426)
+handling video /home/share/shaofan/UTI1_segement/21_4_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/21_4_0.avi -L 10
+	shape: (23397, 426)
+handling video /home/share/shaofan/UTI1_segement/28_5_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/28_5_3.avi -L 10
+	shape: (1727, 426)
+handling video /home/share/shaofan/UTI1_segement/9_2_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/9_2_2.avi -L 10
+	shape: (22559, 426)
+handling video /home/share/shaofan/UTI1_segement/55_10_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/55_10_4.avi -L 10
+	shape: (10030, 426)
+handling video /home/share/shaofan/UTI1_segement/31_6_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/31_6_5.avi -L 10
+	shape: (22257, 426)
+handling video /home/share/shaofan/UTI1_segement/3_1_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/3_1_3.avi -L 10
+	shape: (2252, 426)
+handling video /home/share/shaofan/UTI1_segement/56_10_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/56_10_5.avi -L 10
+	shape: (10155, 426)
+handling video /home/share/shaofan/UTI1_segement/13_3_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/13_3_2.avi -L 10
+	shape: (18022, 426)
+handling video /home/share/shaofan/UTI1_segement/5_1_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/5_1_5.avi -L 10
+	shape: (25257, 426)
+handling video /home/share/shaofan/UTI1_segement/16_3_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/16_3_5.avi -L 10
+	shape: (33720, 426)
+handling video /home/share/shaofan/UTI1_segement/58_10_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/58_10_1.avi -L 10
+	shape: (14128, 426)
+handling video /home/share/shaofan/UTI1_segement/4_1_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/4_1_0.avi -L 10
+	shape: (29876, 426)
+handling video /home/share/shaofan/UTI1_segement/7_2_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/7_2_5.avi -L 10
+	shape: (20846, 426)
+handling video /home/share/shaofan/UTI1_segement/52_9_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/52_9_0.avi -L 10
+	shape: (7650, 426)
+handling video /home/share/shaofan/UTI1_segement/2_1_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/2_1_1.avi -L 10
+	shape: (33420, 426)
+handling video /home/share/shaofan/UTI1_segement/23_4_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/23_4_5.avi -L 10
+	shape: (18141, 426)
+handling video /home/share/shaofan/UTI1_segement/8_2_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/8_2_0.avi -L 10
+	shape: (19796, 426)
+handling video /home/share/shaofan/UTI1_segement/36_7_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/36_7_5.avi -L 10
+	shape: (15505, 426)
+handling video /home/share/shaofan/UTI1_segement/45_8_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/45_8_5.avi -L 10
+	shape: (15030, 426)
+handling video /home/share/shaofan/UTI1_segement/34_6_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/34_6_0.avi -L 10
+	shape: (12263, 426)
+handling video /home/share/shaofan/UTI1_segement/1_1_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/1_1_2.avi -L 10
+	shape: (25607, 426)
+handling video /home/share/shaofan/UTI1_segement/32_6_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/32_6_1.avi -L 10
+	shape: (21999, 426)
+handling video /home/share/shaofan/UTI1_segement/59_10_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/59_10_2.avi -L 10
+	shape: (10906, 426)
+handling video /home/share/shaofan/UTI1_segement/10_2_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/10_2_1.avi -L 10
+	shape: (30518, 426)
+handling video /home/share/shaofan/UTI1_segement/47_8_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/47_8_1.avi -L 10
+	shape: (16109, 426)
+handling video /home/share/shaofan/UTI1_segement/40_7_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/40_7_1.avi -L 10
+	shape: (15822, 426)
+handling video /home/share/shaofan/UTI1_segement/53_9_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/53_9_1.avi -L 10
+	shape: (14617, 426)
+handling video /home/share/shaofan/UTI1_segement/18_4_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/18_4_4.avi -L 10
+	shape: (11832, 426)
+handling video /home/share/shaofan/UTI1_segement/46_8_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/46_8_3.avi -L 10
+	shape: (2083, 426)
+handling video /home/share/shaofan/UTI1_segement/51_9_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/51_9_4.avi -L 10
+	shape: (11216, 426)
+handling video /home/share/shaofan/UTI1_segement/33_6_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/33_6_3.avi -L 10
+	shape: (6923, 426)
+handling video /home/share/shaofan/UTI1_segement/25_5_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/25_5_4.avi -L 10
+	shape: (10063, 426)
+handling video /home/share/shaofan/UTI1_segement/48_9_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/48_9_3.avi -L 10
+	shape: (846, 426)
+handling video /home/share/shaofan/UTI1_segement/35_7_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/35_7_0.avi -L 10
+	shape: (10499, 426)
+handling video /home/share/shaofan/UTI1_segement/11_2_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/11_2_3.avi -L 10
+	shape: (3164, 426)
+handling video /home/share/shaofan/UTI1_segement/26_5_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/26_5_2.avi -L 10
+	shape: (16137, 426)
+handling video /home/share/shaofan/UTI1_segement/15_3_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/15_3_3.avi -L 10
+	shape: (2627, 426)
+handling video /home/share/shaofan/UTI1_segement/12_3_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/12_3_4.avi -L 10
+	shape: (10821, 426)
+handling video /home/share/shaofan/UTI1_segement/17_3_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/17_3_0.avi -L 10
+	shape: (26285, 426)
+handling video /home/share/shaofan/UTI1_segement/14_3_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/14_3_1.avi -L 10
+	shape: (32300, 426)
+handling video /home/share/shaofan/UTI1_segement/30_6_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/30_6_2.avi -L 10
+	shape: (10737, 426)
+handling video /home/share/shaofan/UTI1_segement/54_10_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/54_10_0.avi -L 10
+	shape: (5933, 426)
+handling video /home/share/shaofan/UTI1_segement/20_4_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/20_4_2.avi -L 10
+	shape: (16315, 426)
+handling video /home/share/shaofan/UTI1_segement/6_2_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/6_2_4.avi -L 10
+	shape: (18903, 426)
+handling video /home/share/shaofan/UTI1_segement/43_8_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/43_8_4.avi -L 10
+	shape: (10616, 426)
+handling video /home/share/shaofan/UTI1_segement/49_9_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/49_9_5.avi -L 10
+	shape: (12567, 426)
+handling video /home/share/shaofan/UTI1_segement/37_7_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/37_7_4.avi -L 10
+	shape: (12382, 426)
+handling video /home/share/shaofan/UTI1_segement/39_7_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/39_7_3.avi -L 10
+	shape: (2101, 426)
+handling video /home/share/shaofan/UTI1_segement/44_8_4 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/44_8_4.avi -L 10
+	shape: (3753, 426)
+handling video /home/share/shaofan/UTI1_segement/29_5_5 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/29_5_5.avi -L 10
+	shape: (24298, 426)
+handling video /home/share/shaofan/UTI1_segement/22_4_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/22_4_3.avi -L 10
+	shape: (2526, 426)
+handling video /home/share/shaofan/UTI1_segement/27_5_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/27_5_1.avi -L 10
+	shape: (23331, 426)
+handling video /home/share/shaofan/UTI1_segement/50_9_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/50_9_2.avi -L 10
+	shape: (7868, 426)
+handling video /home/share/shaofan/UTI1_segement/38_7_2 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/38_7_2.avi -L 10
+	shape: (12386, 426)
+handling video /home/share/shaofan/UTI1_segement/57_10_3 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/57_10_3.avi -L 10
+	shape: (1417, 426)
+handling video /home/share/shaofan/UTI1_segement/24_5_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/24_5_0.avi -L 10
+	shape: (21119, 426)
+handling video /home/share/shaofan/UTI1_segement/19_4_1 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/19_4_1.avi -L 10
+	shape: (24847, 426)
+handling video /home/share/shaofan/UTI1_segement/41_8_0 ...
+	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/41_8_0.avi -L 10
+	shape: (15157, 426)
+tag[/home/share/shaofan/UTI1_segement/46_8_3] has (2083, 224) features
+tag[/home/share/shaofan/UTI1_segement/6_2_4] has (18903, 224) features
+tag[/home/share/shaofan/UTI1_segement/26_5_2] has (16137, 224) features
+tag[/home/share/shaofan/UTI1_segement/41_8_0] has (15157, 224) features
+tag[/home/share/shaofan/UTI1_segement/34_6_0] has (12263, 224) features
+tag[/home/share/shaofan/UTI1_segement/58_10_1] has (14128, 224) features
+tag[/home/share/shaofan/UTI1_segement/53_9_1] has (14617, 224) features
+tag[/home/share/shaofan/UTI1_segement/38_7_2] has (12386, 224) features
+tag[/home/share/shaofan/UTI1_segement/31_6_5] has (22257, 224) features
+tag[/home/share/shaofan/UTI1_segement/42_8_2] has (11293, 224) features
+tag[/home/share/shaofan/UTI1_segement/15_3_3] has (2627, 224) features
+tag[/home/share/shaofan/UTI1_segement/32_6_1] has (21999, 224) features
+tag[/home/share/shaofan/UTI1_segement/8_2_0] has (19796, 224) features
+tag[/home/share/shaofan/UTI1_segement/55_10_4] has (10030, 224) features
+tag[/home/share/shaofan/UTI1_segement/20_4_2] has (16315, 224) features
+tag[/home/share/shaofan/UTI1_segement/56_10_5] has (10155, 224) features
+tag[/home/share/shaofan/UTI1_segement/59_10_2] has (10906, 224) features
+tag[/home/share/shaofan/UTI1_segement/36_7_5] has (15505, 224) features
+tag[/home/share/shaofan/UTI1_segement/23_4_5] has (18141, 224) features
+tag[/home/share/shaofan/UTI1_segement/33_6_3] has (6923, 224) features
+tag[/home/share/shaofan/UTI1_segement/48_9_3] has (846, 224) features
+tag[/home/share/shaofan/UTI1_segement/1_1_2] has (25607, 224) features
+tag[/home/share/shaofan/UTI1_segement/49_9_5] has (12567, 224) features
+tag[/home/share/shaofan/UTI1_segement/14_3_1] has (32300, 224) features
+tag[/home/share/shaofan/UTI1_segement/28_5_3] has (1727, 224) features
+tag[/home/share/shaofan/UTI1_segement/4_1_0] has (29876, 224) features
+tag[/home/share/shaofan/UTI1_segement/52_9_0] has (7650, 224) features
+tag[/home/share/shaofan/UTI1_segement/24_5_0] has (21119, 224) features
+tag[/home/share/shaofan/UTI1_segement/11_2_3] has (3164, 224) features
+tag[/home/share/shaofan/UTI1_segement/47_8_1] has (16109, 224) features
+tag[/home/share/shaofan/UTI1_segement/45_8_5] has (15030, 224) features
+tag[/home/share/shaofan/UTI1_segement/44_8_4] has (3753, 224) features
+tag[/home/share/shaofan/UTI1_segement/0_1_4] has (20540, 224) features
+tag[/home/share/shaofan/UTI1_segement/5_1_5] has (25257, 224) features
+tag[/home/share/shaofan/UTI1_segement/51_9_4] has (11216, 224) features
+tag[/home/share/shaofan/UTI1_segement/40_7_1] has (15822, 224) features
+tag[/home/share/shaofan/UTI1_segement/10_2_1] has (30518, 224) features
+tag[/home/share/shaofan/UTI1_segement/43_8_4] has (10616, 224) features
+tag[/home/share/shaofan/UTI1_segement/2_1_1] has (33420, 224) features
+tag[/home/share/shaofan/UTI1_segement/12_3_4] has (10821, 224) features
+tag[/home/share/shaofan/UTI1_segement/16_3_5] has (33720, 224) features
+tag[/home/share/shaofan/UTI1_segement/57_10_3] has (1417, 224) features
+tag[/home/share/shaofan/UTI1_segement/19_4_1] has (24847, 224) features
+tag[/home/share/shaofan/UTI1_segement/35_7_0] has (10499, 224) features
+tag[/home/share/shaofan/UTI1_segement/27_5_1] has (23331, 224) features
+tag[/home/share/shaofan/UTI1_segement/7_2_5] has (20846, 224) features
+tag[/home/share/shaofan/UTI1_segement/37_7_4] has (12382, 224) features
+tag[/home/share/shaofan/UTI1_segement/9_2_2] has (22559, 224) features
+tag[/home/share/shaofan/UTI1_segement/3_1_3] has (2252, 224) features
+tag[/home/share/shaofan/UTI1_segement/18_4_4] has (11832, 224) features
+tag[/home/share/shaofan/UTI1_segement/13_3_2] has (18022, 224) features
+tag[/home/share/shaofan/UTI1_segement/29_5_5] has (24298, 224) features
+tag[/home/share/shaofan/UTI1_segement/22_4_3] has (2526, 224) features
+tag[/home/share/shaofan/UTI1_segement/21_4_0] has (23397, 224) features
+tag[/home/share/shaofan/UTI1_segement/30_6_2] has (10737, 224) features
+tag[/home/share/shaofan/UTI1_segement/50_9_2] has (7868, 224) features
+tag[/home/share/shaofan/UTI1_segement/54_10_0] has (5933, 224) features
+tag[/home/share/shaofan/UTI1_segement/39_7_3] has (2101, 224) features
+tag[/home/share/shaofan/UTI1_segement/17_3_0] has (26285, 224) features
+tag[/home/share/shaofan/UTI1_segement/25_5_4] has (10063, 224) features
+Dumping global features to ./UTI1/features/globalFeaturesRaw.pkl ...

@@ -42,7 +42,7 @@ __dist1vsNchisquare = theano.function([__gx, __gxs, __gM], __gdist, allow_input_
 
 def knn(train_x, test_x, train_y, test_y, M, K=5, verbose=False, cfmatrix=False):
     n = len(train_x)
-    m = len(set(test_y))
+    m = len(set(train_y))
     if M is None:
         M = np.eye(len(train_x[0]))
     acc = 0

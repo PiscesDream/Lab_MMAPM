@@ -8,6 +8,7 @@ import numpy.linalg as linalg
 import cPickle
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import normalize
+from sklearn.cross_validation import train_test_split
 
 from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
@@ -22,7 +23,8 @@ import theano
 import theano.tensor as T
 import theano.tensor.nlinalg as linalg
 import numpy.linalg as nplinalg
-from Metric.LDL import LDL
+#from Metric.LDL import LDL
+from MLGPU.LDL.ldl2 import LDL
 import sys
 
 class MLMNN(object):
@@ -46,6 +48,7 @@ class MLMNN(object):
         self._lr = T.vector('_lr', dtype='float32')
         self._set = T.imatrix('_set')
         self._neighborpairs = T.imatrix('_neighborpairs')
+        self.didpca = False
 
     def build(self):
         self.debug = []
@@ -107,15 +110,15 @@ class MLMNN(object):
         self.gupdate = gupdate
 
 
-    def fit(self, x, y, testx, testy,
-        maxS=100, lr=1e-7, max_iter=100, reset=20, 
+    def fit(self, x, y, testx=None, testy=None,
+        maxS=100, lr=1e-7, max_iter=100, reset=20, rounds=40,
         Part=None,
         verbose=False, autosave=True): #
-
+        self.verbose = verbose
 
         if Part is not None and Part != self.M:
             x = x.reshape(x.shape[0], self.M, -1)[:, :Part, :].reshape(x.shape[0], -1)
-            testx = testx.reshape(testx.shape[0], self.M, -1)[:, :Part, :].reshape(testx.shape[0], -1)
+            if testx != None: testx = testx.reshape(testx.shape[0], self.M, -1)[:, :Part, :].reshape(testx.shape[0], -1)
             self.M = Part
 
         # normalize in each part
@@ -124,10 +127,10 @@ class MLMNN(object):
         # normalize in each sample
         if self.kernelf:
             x = self.kernelf(x)
-            testx = self.kernelf(testx)
+            if testx != None: testx = self.kernelf(testx)
         if self.normalize_axis:
             x = normalize(x, axis=self.normalize_axis)
-            testx = normalize(testx, axis=self.normalize_axis)
+            if testx != None: testx = normalize(testx, axis=self.normalize_axis)
 
         self.maxS = maxS
         orix = x
@@ -138,13 +141,13 @@ class MLMNN(object):
         else: # do the pca and store the solver
             self.didpca = True
             x = x.reshape(x.shape[0] * self.M, -1)
-            print 'Splited x.shape:', x.shape
+            if verbose: print 'before pca: x.shape:', x.shape
             pca = PCA(n_components=self.dim)
             x = pca.fit_transform(x)
             self.pca = pca
-        print x.shape
+        if verbose: print 'after pca: x.shape'
         x = x.reshape(-1, self.M, self.dim)
-        print 'Final x.shape:', x.shape
+        if verbose: print 'Final x.shape:', x.shape
         stackx = x.copy()
         for i in xrange(1, self.M):
             stackx[i] += stackx[i-1]
@@ -165,6 +168,10 @@ class MLMNN(object):
             updates.extend(self.gupdate)
             givens.update({self._stackx: np.asarray(stackx, dtype='float32')})
 
+        Ms = []
+        if self.localM: Ms.extend(lM)
+        if self.globalM: Ms.extend(gM)
+
         self.train_local_model = theano.function(
             [self._set, self._neighborpairs, self._lr], 
             [
@@ -175,14 +182,31 @@ class MLMNN(object):
             updates = updates,
             givens = givens)
 
+        self.theano_project = theano.function([], [], 
+            updates=map(lambda x: (x, self._theano_project_sd(x)),
+                        Ms))
+
 #       get_debug = theano.function(
 #           [self._set], 
 #           self.debug,
-#           givens = {self._stackx: np.asarray(stackx, dtype='float32')})
+#           givens = {self._stackx: np.asarray(stackx, dtype='float32')},
+#           on_unused_input='warn')
 
         __x = x
         lr = np.array([lr]*(self.M*2), dtype='float32')
-        for _ in xrange(40):
+        for _ in xrange(rounds):
+            __x = self.transform(trainx)
+            if testx != None: __testx = self.transform(testx)
+            train_acc, train_cfm = knn(__x, __x, y, y, None, self.K, cfmatrix=True)
+
+            if testx != None: test_acc, test_cfm = knn(__x, __testx, y, testy, None, self.K, cfmatrix=True)
+            if self.verbose: print 'transformed shape: {}'.format(__x.shape)
+            if self.verbose: print 'train-acc: %.3f%%  %s'%(train_acc, ' '*30)
+            if self.verbose: print 'train confusion matrix:\n {}'.format(train_cfm)
+            if testx != None and self.verbose:
+                print 'test-acc: %.3f%%'%(test_acc)
+                print 'test confusion matrix:\n {}'.format(test_cfm)
+
             neighbors = self._get_neighbors(__x, y)
             t = 0
             while t < max_iter:
@@ -190,40 +214,32 @@ class MLMNN(object):
                     active_set = self._get_active_set(x, y, neighbors)
                     last_error = np.array([np.inf]*(self.M*2))
 
-                print 'Iter: {} lr: {} '.format(t, lr)
+                if verbose: print 'Iter: {} lr: {} '.format(t, lr)
 
                 res = np.array(self.train_local_model(active_set, neighbors, lr)).reshape(-1, self.M*2)
                 error = res.T.sum(1)
-                print '\tlpull:{}\tgpull:{}\n\tlpush:{}\tgpush:{}'.\
+                if verbose: 
+                    print '\tlpull:{}\tgpull:{}\n\tlpush:{}\tgpush:{}'.\
                     format(res[0, :self.M], res[0, self.M:],\
                            res[1, :self.M], res[1, self.M:])
                 
                 #print np.array(get_debug(active_set))
 
-                for i in xrange(self.M):
-                    _M = lM[i].get_value() 
-                    lM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
-                for i in xrange(self.M):
-                    _M = gM[i].get_value() 
-                    gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
+                # symetric forced [some unknown bug within it-closed]
+                self.theano_project()
+                #print ">>> singular matrix detected <<<"
+               #for i in xrange(self.M):
+               #    _M = lM[i].get_value() 
+               #    lM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
+               #for i in xrange(self.M):
+               #    _M = gM[i].get_value() 
+               #    gM[i].set_value(np.array(self._numpy_project_sd(_M), dtype='float32'))
 
                 lr = lr*1.01*(last_error>error) + lr*0.5*(last_error<=error) 
 
                 last_error = error
                 t += 1
             
-
-            __x = self.transform(orix)
-            __testx = self.transform(testx)
-            train_acc, train_cfm = knn(__x, __x, y, y, None, self.K, cfmatrix=True)
-
-            test_acc, test_cfm = knn(__x, __testx, y, testy, None, self.K, cfmatrix=True)
-            print 'shape: {}'.format(__x.shape)
-            print 'train-acc: %.3f%% test-acc: %.3f%% %s'%(\
-                train_acc, test_acc, ' '*30)
-            print 'train confusion matrix:\n {}\ntest confusion matrix:\n {}'.format(
-                train_cfm, test_cfm)
-
 #           __y = label_binarize(y, classes=range(8))
 #           __testy = label_binarize(testy, classes=range(8))
 #           svm = OneVsRestClassifier(SVC(kernel='rbf')).fit(__x, __y)
@@ -241,9 +257,29 @@ class MLMNN(object):
 #               './visualized/{}.png'.format(title))
             
         if autosave:
-            print 'Auto saving ...'
+            if verbose: print 'Auto saving ...'
             self.save('temp.MLMNN')
-        return self
+        return self, train_acc, test_acc
+
+
+    def fittest(self, trainx, testx, y, testy, M=-1):
+        __x = self.transform(trainx, M)
+        if testx != None: __testx = self.transform(testx, M)
+        train_acc, train_cfm = knn(__x, __x, y, y, None, self.K, cfmatrix=True)
+
+        if testx != None: test_acc, test_cfm = knn(__x, __testx, y, testy, None, self.K, cfmatrix=True)
+        if self.verbose: print 'shape: {}'.format(__x.shape)
+        if self.verbose: print 'train-acc: %.3f%%  %s'%(train_acc, ' '*30)
+        if self.verbose: print 'train confusion matrix:\n {}'.format(train_cfm)
+        if testx != None and self.verbose:
+            print 'test-acc: %.3f%%'%(test_acc)
+            print 'test confusion matrix:\n {}'.format(test_cfm)
+        if testx != None: 
+            return train_acc, test_acc
+        else:
+            return test_acc
+
+
 
     def save(self, filename):
         cPickle.dump((self.__class__, self.__dict__), open(filename, 'w'))
@@ -255,39 +291,50 @@ class MLMNN(object):
         obj.__dict__.update(attributes)
         return obj
 
-    def transform(self, x):
+    def transform(self, x, M=-1):
         #x = normalize(x.reshape(x.shape[0]*self.M, -1)).reshape(x.shape[0], -1)
+        if M == -1: M = self.M
         if self.kernelf:
             x = self.kernelf(x)
         if self.normalize_axis:
             x = normalize(x, axis=self.normalize_axis)
 
         n = x.shape[0]
-        x = x.reshape(n*self.M, -1)
+        x = x.reshape(n*M, -1)
         if self.didpca: x = self.pca.transform(x)
-        x = x.reshape(n, self.M, self.dim)
+        x = x.reshape(n, M, self.dim)
         stackx = np.zeros((n,self.dim))
         newx = []
         localdim = globaldim = 0
-        for i in xrange(self.M):
+        for i in xrange(M):
             if self.localM:
                 L = LDL(self.lM[i].get_value(), combined=True)
-                newx.append(x[:, i, :].dot(L)*self.lmbd )
+                newx.append(x[:, i, :].dot(L)*self.lmbd)
             #print 'MS[{}] Size: {} rank: {} segment: {}'.format(i, self.lM[i].get_value().shape, nplinalg.matrix_rank(self.lM[i].get_value()), newx[-1].shape)
 
             if self.globalM:
                 stackx += x[:, i, :]
-        newx.append(stackx.dot(LDL(self.gM[-1].get_value(), combined=True))*(1-self.lmbd))
+        if self.globalM: newx.append(stackx.dot(LDL(self.gM[-1].get_value(), combined=True))*(1-self.lmbd))
         newx = np.hstack(newx)
         newx[np.isnan(newx)] = 0
         newx[np.isinf(newx)] = 0
         return newx
 
+    def _theano_project_sd(self, mat):
+        # force symmetric
+        mat = (mat+mat.T)/2.0
+        eig, eigv = linalg.eig(mat)
+        eig = T.maximum(eig, 0)
+        eig = T.diag(eig)
+        return eigv.dot(eig).dot(eigv.T) 
+
     def _numpy_project_sd(self, mat):
+        # force symmetric
+        mat = (mat+mat.T)/2.0
         eig, eigv = nplinalg.eig(mat)
         eig[eig < 0] = 0
         eig = np.diag(eig)
-        return eigv.dot(eig).dot(nplinalg.inv(eigv))
+        return eigv.dot(eig).dot(eigv.T)
 
     def _global_error(self, targetM, i, lastM):
         mask = T.neq(self._y[self._set[:, 1]], self._y[self._set[:, 2]])
@@ -414,7 +461,7 @@ class MLMNN(object):
                 cost = (v**2).sum(1)#np.diag(v.dot(self._M).dot(v.T))
                 neighbors[i] = ind[cost.argsort()[1:self.K+1]]
                 COST += sum(sorted(cost)[1:self.K+1])
-        print 'neighbor cost: {}'.format(COST)
+        if self.verbose: print 'neighbor cost: {}'.format(COST)
         #self.neighbors = neighbors
 
         # repeat an arange array, stack, and transpose
@@ -428,20 +475,31 @@ def square_kernel(x):
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
 
-    K = 200 
-    Time = 0.1
-
-    trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
+    K = 200
+    Time = 0.3
+    from names import featureDir, globalcodedfilename
+#    x, y= cPickle.load(open(globalcodedfilename(K, Time), 'r'))
+    x, y= cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
+    x = x.reshape(x.shape[0], 10, -1)[:, :int(Time*10), :].reshape(x.shape[0], -1)
+    trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33) 
+#    trainx, testx, trainy, testy = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, Time),'r'))
     print trainx.shape
     print trainy.shape
-   
-    mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=100, lmbd=0.5, 
-                    normalize_axis=0,
-                    kernelf=None,
-                    localM=True, globalM=True) 
-    mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=5000, lr=2, max_iter=50, reset=10,
-        Part=None,
-        verbose=True)
 
+#   mlmnn = MLMNN(M=int(Time*10), K=8, mu=0.5, dim=100, lmbd=0.5, 
+#                   normalize_axis=1,
+#                   kernelf=None, localM=True, globalM=False) 
+#   mlmnn.fit(trainx, trainy, testx, testy, \
+#       maxS=10000, lr=1.0, max_iter=20, reset=5, rounds=10, 
+#       Part=None, verbose=True,
+#       autosave=True)
+
+    mlmnn = MLMNN.load('./temp.MLMNN')
+#    mlmnn = MLMNN.load('./models/2016-01-19-00-02.MLMNN')
+    acc = []
+    for i in range(10):
+        trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33) 
+        acc.append( mlmnn.fittest(trainx, testx, trainy, testy, int(Time*10)) )
+    acc = np.array(acc)
+    print acc.mean(0)
 

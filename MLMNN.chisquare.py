@@ -9,6 +9,7 @@ import cPickle
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import normalize
 
+from sklearn.cross_validation import train_test_split
 from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
@@ -430,7 +431,7 @@ class MLMNN(object):
 
 def square_kernel(x):
     #x = np.hstack([x, x**2])
-    return x
+    return x ** 2
 
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
@@ -438,18 +439,21 @@ if __name__ == '__main__':
     K = 100
     Time = 0.1
 
+#   x, y= cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
+#   trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33) 
+
     trainx, testx, trainy, testy = cPickle.load(open('./features/[K={}][T={}]BoWInGroup.pkl'.format(K, Time),'r'))
     print trainx.shape
     print trainy.shape
    
     mlmnn = MLMNN(M=1, K=5, mu=0.5, lmbd=0.5, 
                     normalize_axis=None, dim=-1,
-                    kernelf=None,
+                    kernelf=square_kernel,
                     localM=True, 
                     globalM=True) 
 
     mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=5000, lr=2e-1, max_iter=100, reset=15,
+        maxS=5000, lr=5e-2, max_iter=50, reset=15,
         Part=None,
         verbose=True)
 
