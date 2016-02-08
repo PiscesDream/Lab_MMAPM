@@ -23,8 +23,8 @@ import theano
 import theano.tensor as T
 import theano.tensor.nlinalg as linalg
 import numpy.linalg as nplinalg
-from MLGPU.LDL.ldl2 import LDL
-import sys
+import sys; sys.path.append('/home/shaofan/Projects') 
+from FastML import LDL
 
 class MLMNN(object):
     def __init__(self, M, K, mu, dim, lmbd, localM=False, globalM=True): 
@@ -345,22 +345,24 @@ if __name__ == '__main__':
     theano.config.on_unused_input='warn'
 
     K = 200
-    Time = 0.4
-
+    Time = 1.0
+    groups = 10
     from names import featureDir, globalcodedfilename
-    x, y= cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
+    if groups == 10:
+        x, y = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
+    else:
+        x, y = cPickle.load(open(globalcodedfilename(K, 1.0, groups), 'r'))
     x = x.reshape(x.shape[0], 10, -1)[:, :int(Time*10), :].reshape(x.shape[0], -1)
-
-    #x, y = cPickle.load(open(globalcodedfilename(K, Time), 'r'))
-    trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.33) 
+    trainx, testx, trainy, testy = train_test_split(x, y, test_size=0.10) 
 #    trainx, testx, trainy, testy = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, Time),'r'))
-
     print trainx.shape
     print trainy.shape
-   
+  
     mlmnn = MLMNN(M=int(Time*10), K=8, mu=0.9, dim=50, lmbd=0.5, globalM=True) 
     mlmnn.fit(trainx, trainy, testx, testy, \
-        maxS=10000, lr=2, max_iter=500, reset=50, testiter=100, Part=None,
+        maxS=10000, lr=1, max_iter=500, reset=50, testiter=100, Part=None,
         verbose=True)
+
+
 
 

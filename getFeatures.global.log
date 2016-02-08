@@ -1,241 +1,2653 @@
-handling video /home/share/shaofan/UTI1_segement/42_8_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/42_8_2.avi -L 10
-	shape: (11293, 426)
-handling video /home/share/shaofan/UTI1_segement/0_1_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/0_1_4.avi -L 10
-	shape: (20540, 426)
-handling video /home/share/shaofan/UTI1_segement/21_4_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/21_4_0.avi -L 10
-	shape: (23397, 426)
-handling video /home/share/shaofan/UTI1_segement/28_5_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/28_5_3.avi -L 10
-	shape: (1727, 426)
-handling video /home/share/shaofan/UTI1_segement/9_2_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/9_2_2.avi -L 10
-	shape: (22559, 426)
-handling video /home/share/shaofan/UTI1_segement/55_10_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/55_10_4.avi -L 10
-	shape: (10030, 426)
-handling video /home/share/shaofan/UTI1_segement/31_6_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/31_6_5.avi -L 10
-	shape: (22257, 426)
-handling video /home/share/shaofan/UTI1_segement/3_1_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/3_1_3.avi -L 10
-	shape: (2252, 426)
-handling video /home/share/shaofan/UTI1_segement/56_10_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/56_10_5.avi -L 10
-	shape: (10155, 426)
-handling video /home/share/shaofan/UTI1_segement/13_3_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/13_3_2.avi -L 10
-	shape: (18022, 426)
-handling video /home/share/shaofan/UTI1_segement/5_1_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/5_1_5.avi -L 10
-	shape: (25257, 426)
-handling video /home/share/shaofan/UTI1_segement/16_3_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/16_3_5.avi -L 10
-	shape: (33720, 426)
-handling video /home/share/shaofan/UTI1_segement/58_10_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/58_10_1.avi -L 10
-	shape: (14128, 426)
-handling video /home/share/shaofan/UTI1_segement/4_1_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/4_1_0.avi -L 10
-	shape: (29876, 426)
-handling video /home/share/shaofan/UTI1_segement/7_2_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/7_2_5.avi -L 10
-	shape: (20846, 426)
-handling video /home/share/shaofan/UTI1_segement/52_9_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/52_9_0.avi -L 10
-	shape: (7650, 426)
-handling video /home/share/shaofan/UTI1_segement/2_1_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/2_1_1.avi -L 10
-	shape: (33420, 426)
-handling video /home/share/shaofan/UTI1_segement/23_4_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/23_4_5.avi -L 10
-	shape: (18141, 426)
-handling video /home/share/shaofan/UTI1_segement/8_2_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/8_2_0.avi -L 10
-	shape: (19796, 426)
-handling video /home/share/shaofan/UTI1_segement/36_7_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/36_7_5.avi -L 10
-	shape: (15505, 426)
-handling video /home/share/shaofan/UTI1_segement/45_8_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/45_8_5.avi -L 10
-	shape: (15030, 426)
-handling video /home/share/shaofan/UTI1_segement/34_6_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/34_6_0.avi -L 10
-	shape: (12263, 426)
-handling video /home/share/shaofan/UTI1_segement/1_1_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/1_1_2.avi -L 10
-	shape: (25607, 426)
-handling video /home/share/shaofan/UTI1_segement/32_6_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/32_6_1.avi -L 10
-	shape: (21999, 426)
-handling video /home/share/shaofan/UTI1_segement/59_10_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/59_10_2.avi -L 10
-	shape: (10906, 426)
-handling video /home/share/shaofan/UTI1_segement/10_2_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/10_2_1.avi -L 10
-	shape: (30518, 426)
-handling video /home/share/shaofan/UTI1_segement/47_8_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/47_8_1.avi -L 10
-	shape: (16109, 426)
-handling video /home/share/shaofan/UTI1_segement/40_7_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/40_7_1.avi -L 10
-	shape: (15822, 426)
-handling video /home/share/shaofan/UTI1_segement/53_9_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/53_9_1.avi -L 10
-	shape: (14617, 426)
-handling video /home/share/shaofan/UTI1_segement/18_4_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/18_4_4.avi -L 10
-	shape: (11832, 426)
-handling video /home/share/shaofan/UTI1_segement/46_8_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/46_8_3.avi -L 10
-	shape: (2083, 426)
-handling video /home/share/shaofan/UTI1_segement/51_9_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/51_9_4.avi -L 10
-	shape: (11216, 426)
-handling video /home/share/shaofan/UTI1_segement/33_6_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/33_6_3.avi -L 10
-	shape: (6923, 426)
-handling video /home/share/shaofan/UTI1_segement/25_5_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/25_5_4.avi -L 10
-	shape: (10063, 426)
-handling video /home/share/shaofan/UTI1_segement/48_9_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/48_9_3.avi -L 10
-	shape: (846, 426)
-handling video /home/share/shaofan/UTI1_segement/35_7_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/35_7_0.avi -L 10
-	shape: (10499, 426)
-handling video /home/share/shaofan/UTI1_segement/11_2_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/11_2_3.avi -L 10
-	shape: (3164, 426)
-handling video /home/share/shaofan/UTI1_segement/26_5_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/26_5_2.avi -L 10
-	shape: (16137, 426)
-handling video /home/share/shaofan/UTI1_segement/15_3_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/15_3_3.avi -L 10
-	shape: (2627, 426)
-handling video /home/share/shaofan/UTI1_segement/12_3_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/12_3_4.avi -L 10
-	shape: (10821, 426)
-handling video /home/share/shaofan/UTI1_segement/17_3_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/17_3_0.avi -L 10
-	shape: (26285, 426)
-handling video /home/share/shaofan/UTI1_segement/14_3_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/14_3_1.avi -L 10
-	shape: (32300, 426)
-handling video /home/share/shaofan/UTI1_segement/30_6_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/30_6_2.avi -L 10
-	shape: (10737, 426)
-handling video /home/share/shaofan/UTI1_segement/54_10_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/54_10_0.avi -L 10
-	shape: (5933, 426)
-handling video /home/share/shaofan/UTI1_segement/20_4_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/20_4_2.avi -L 10
-	shape: (16315, 426)
-handling video /home/share/shaofan/UTI1_segement/6_2_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/6_2_4.avi -L 10
-	shape: (18903, 426)
-handling video /home/share/shaofan/UTI1_segement/43_8_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/43_8_4.avi -L 10
-	shape: (10616, 426)
-handling video /home/share/shaofan/UTI1_segement/49_9_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/49_9_5.avi -L 10
-	shape: (12567, 426)
-handling video /home/share/shaofan/UTI1_segement/37_7_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/37_7_4.avi -L 10
-	shape: (12382, 426)
-handling video /home/share/shaofan/UTI1_segement/39_7_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/39_7_3.avi -L 10
-	shape: (2101, 426)
-handling video /home/share/shaofan/UTI1_segement/44_8_4 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/44_8_4.avi -L 10
-	shape: (3753, 426)
-handling video /home/share/shaofan/UTI1_segement/29_5_5 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/29_5_5.avi -L 10
-	shape: (24298, 426)
-handling video /home/share/shaofan/UTI1_segement/22_4_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/22_4_3.avi -L 10
-	shape: (2526, 426)
-handling video /home/share/shaofan/UTI1_segement/27_5_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/27_5_1.avi -L 10
-	shape: (23331, 426)
-handling video /home/share/shaofan/UTI1_segement/50_9_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/50_9_2.avi -L 10
-	shape: (7868, 426)
-handling video /home/share/shaofan/UTI1_segement/38_7_2 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/38_7_2.avi -L 10
-	shape: (12386, 426)
-handling video /home/share/shaofan/UTI1_segement/57_10_3 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/57_10_3.avi -L 10
-	shape: (1417, 426)
-handling video /home/share/shaofan/UTI1_segement/24_5_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/24_5_0.avi -L 10
-	shape: (21119, 426)
-handling video /home/share/shaofan/UTI1_segement/19_4_1 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/19_4_1.avi -L 10
-	shape: (24847, 426)
-handling video /home/share/shaofan/UTI1_segement/41_8_0 ...
-	exec: ./tools/dense_trajectory_release_v1.2/release/DenseTrack /home/share/shaofan/UTI1_segement/41_8_0.avi -L 10
-	shape: (15157, 426)
-tag[/home/share/shaofan/UTI1_segement/46_8_3] has (2083, 224) features
-tag[/home/share/shaofan/UTI1_segement/6_2_4] has (18903, 224) features
-tag[/home/share/shaofan/UTI1_segement/26_5_2] has (16137, 224) features
-tag[/home/share/shaofan/UTI1_segement/41_8_0] has (15157, 224) features
-tag[/home/share/shaofan/UTI1_segement/34_6_0] has (12263, 224) features
-tag[/home/share/shaofan/UTI1_segement/58_10_1] has (14128, 224) features
-tag[/home/share/shaofan/UTI1_segement/53_9_1] has (14617, 224) features
-tag[/home/share/shaofan/UTI1_segement/38_7_2] has (12386, 224) features
-tag[/home/share/shaofan/UTI1_segement/31_6_5] has (22257, 224) features
-tag[/home/share/shaofan/UTI1_segement/42_8_2] has (11293, 224) features
-tag[/home/share/shaofan/UTI1_segement/15_3_3] has (2627, 224) features
-tag[/home/share/shaofan/UTI1_segement/32_6_1] has (21999, 224) features
-tag[/home/share/shaofan/UTI1_segement/8_2_0] has (19796, 224) features
-tag[/home/share/shaofan/UTI1_segement/55_10_4] has (10030, 224) features
-tag[/home/share/shaofan/UTI1_segement/20_4_2] has (16315, 224) features
-tag[/home/share/shaofan/UTI1_segement/56_10_5] has (10155, 224) features
-tag[/home/share/shaofan/UTI1_segement/59_10_2] has (10906, 224) features
-tag[/home/share/shaofan/UTI1_segement/36_7_5] has (15505, 224) features
-tag[/home/share/shaofan/UTI1_segement/23_4_5] has (18141, 224) features
-tag[/home/share/shaofan/UTI1_segement/33_6_3] has (6923, 224) features
-tag[/home/share/shaofan/UTI1_segement/48_9_3] has (846, 224) features
-tag[/home/share/shaofan/UTI1_segement/1_1_2] has (25607, 224) features
-tag[/home/share/shaofan/UTI1_segement/49_9_5] has (12567, 224) features
-tag[/home/share/shaofan/UTI1_segement/14_3_1] has (32300, 224) features
-tag[/home/share/shaofan/UTI1_segement/28_5_3] has (1727, 224) features
-tag[/home/share/shaofan/UTI1_segement/4_1_0] has (29876, 224) features
-tag[/home/share/shaofan/UTI1_segement/52_9_0] has (7650, 224) features
-tag[/home/share/shaofan/UTI1_segement/24_5_0] has (21119, 224) features
-tag[/home/share/shaofan/UTI1_segement/11_2_3] has (3164, 224) features
-tag[/home/share/shaofan/UTI1_segement/47_8_1] has (16109, 224) features
-tag[/home/share/shaofan/UTI1_segement/45_8_5] has (15030, 224) features
-tag[/home/share/shaofan/UTI1_segement/44_8_4] has (3753, 224) features
-tag[/home/share/shaofan/UTI1_segement/0_1_4] has (20540, 224) features
-tag[/home/share/shaofan/UTI1_segement/5_1_5] has (25257, 224) features
-tag[/home/share/shaofan/UTI1_segement/51_9_4] has (11216, 224) features
-tag[/home/share/shaofan/UTI1_segement/40_7_1] has (15822, 224) features
-tag[/home/share/shaofan/UTI1_segement/10_2_1] has (30518, 224) features
-tag[/home/share/shaofan/UTI1_segement/43_8_4] has (10616, 224) features
-tag[/home/share/shaofan/UTI1_segement/2_1_1] has (33420, 224) features
-tag[/home/share/shaofan/UTI1_segement/12_3_4] has (10821, 224) features
-tag[/home/share/shaofan/UTI1_segement/16_3_5] has (33720, 224) features
-tag[/home/share/shaofan/UTI1_segement/57_10_3] has (1417, 224) features
-tag[/home/share/shaofan/UTI1_segement/19_4_1] has (24847, 224) features
-tag[/home/share/shaofan/UTI1_segement/35_7_0] has (10499, 224) features
-tag[/home/share/shaofan/UTI1_segement/27_5_1] has (23331, 224) features
-tag[/home/share/shaofan/UTI1_segement/7_2_5] has (20846, 224) features
-tag[/home/share/shaofan/UTI1_segement/37_7_4] has (12382, 224) features
-tag[/home/share/shaofan/UTI1_segement/9_2_2] has (22559, 224) features
-tag[/home/share/shaofan/UTI1_segement/3_1_3] has (2252, 224) features
-tag[/home/share/shaofan/UTI1_segement/18_4_4] has (11832, 224) features
-tag[/home/share/shaofan/UTI1_segement/13_3_2] has (18022, 224) features
-tag[/home/share/shaofan/UTI1_segement/29_5_5] has (24298, 224) features
-tag[/home/share/shaofan/UTI1_segement/22_4_3] has (2526, 224) features
-tag[/home/share/shaofan/UTI1_segement/21_4_0] has (23397, 224) features
-tag[/home/share/shaofan/UTI1_segement/30_6_2] has (10737, 224) features
-tag[/home/share/shaofan/UTI1_segement/50_9_2] has (7868, 224) features
-tag[/home/share/shaofan/UTI1_segement/54_10_0] has (5933, 224) features
-tag[/home/share/shaofan/UTI1_segement/39_7_3] has (2101, 224) features
-tag[/home/share/shaofan/UTI1_segement/17_3_0] has (26285, 224) features
-tag[/home/share/shaofan/UTI1_segement/25_5_4] has (10063, 224) features
-Dumping global features to ./UTI1/features/globalFeaturesRaw.pkl ...
+handling video /home/share/shaofan/Databases/UTI/0_11_4 ...
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe2b5a0] too many thread_release_buffer calls!
+video size, length: 97, width: 276, height: 236
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc9f9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/0_11_4.avi -L 15
+	shape: (9983, 436)
+handling video /home/share/shaofan/Databases/UTI/0_1_4 ...
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a340] too many thread_release_buffer calls!
+video size, length: 108, width: 400, height: 296
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+[mpeg4 @ 0x11ce300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/0_1_4.avi -L 15
+	shape: (17681, 436)
+handling video /home/share/shaofan/Databases/UTI/10_12_4 ...
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+[mpeg4 @ 0x270fb00] too many thread_release_buffer calls!
+video size, length: 52, width: 340, height: 260
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25799c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/10_12_4.avi -L 15
+	shape: (4275, 436)
+handling video /home/share/shaofan/Databases/UTI/10_2_1 ...
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+[mpeg4 @ 0x1910200] too many thread_release_buffer calls!
+video size, length: 133, width: 436, height: 288
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x175e5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/10_2_1.avi -L 15
+	shape: (27183, 436)
+handling video /home/share/shaofan/Databases/UTI/11_12_2 ...
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+[mpeg4 @ 0x196b320] too many thread_release_buffer calls!
+video size, length: 74, width: 304, height: 292
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17d49c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/11_12_2.avi -L 15
+	shape: (8620, 436)
+handling video /home/share/shaofan/Databases/UTI/11_2_3 ...
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+[mpeg4 @ 0x9e2780] too many thread_release_buffer calls!
+video size, length: 133, width: 184, height: 272
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x86a5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/11_2_3.avi -L 15
+	shape: (3152, 436)
+handling video /home/share/shaofan/Databases/UTI/12_13_4 ...
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a2a180] too many thread_release_buffer calls!
+video size, length: 80, width: 488, height: 300
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x185f9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/12_13_4.avi -L 15
+	shape: (15211, 436)
+handling video /home/share/shaofan/Databases/UTI/12_3_4 ...
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xe508a0] too many thread_release_buffer calls!
+video size, length: 95, width: 388, height: 280
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xca59c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/12_3_4.avi -L 15
+	shape: (10428, 436)
+handling video /home/share/shaofan/Databases/UTI/13_13_2 ...
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfb5cc0] too many thread_release_buffer calls!
+video size, length: 83, width: 516, height: 264
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdf19c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/13_13_2.avi -L 15
+	shape: (15142, 436)
+handling video /home/share/shaofan/Databases/UTI/13_3_2 ...
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+[mpeg4 @ 0x141a340] too many thread_release_buffer calls!
+video size, length: 98, width: 424, height: 292
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12639c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/13_3_2.avi -L 15
+	shape: (15974, 436)
+handling video /home/share/shaofan/Databases/UTI/14_13_1 ...
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1971980] too many thread_release_buffer calls!
+video size, length: 122, width: 388, height: 272
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+[mpeg4 @ 0x17ce460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/14_13_1.avi -L 15
+	shape: (18520, 436)
+handling video /home/share/shaofan/Databases/UTI/14_3_1 ...
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xceacc0] too many thread_release_buffer calls!
+video size, length: 168, width: 400, height: 276
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+[mpeg4 @ 0xb44880] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/14_3_1.avi -L 15
+	shape: (28686, 436)
+handling video /home/share/shaofan/Databases/UTI/15_13_3 ...
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d5460] too many thread_release_buffer calls!
+video size, length: 150, width: 204, height: 248
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+[mpeg4 @ 0x265c760] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/15_13_3.avi -L 15
+	shape: (3816, 436)
+handling video /home/share/shaofan/Databases/UTI/15_3_3 ...
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x20569c0] too many thread_release_buffer calls!
+video size, length: 139, width: 192, height: 268
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1edd6a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/15_3_3.avi -L 15
+	shape: (2879, 436)
+handling video /home/share/shaofan/Databases/UTI/16_13_5 ...
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14b5ce0] too many thread_release_buffer calls!
+video size, length: 86, width: 500, height: 260
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12e69c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/16_13_5.avi -L 15
+	shape: (16092, 436)
+handling video /home/share/shaofan/Databases/UTI/16_3_5 ...
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+[mpeg4 @ 0x2454580] too many thread_release_buffer calls!
+video size, length: 143, width: 612, height: 288
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22fd6a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/16_3_5.avi -L 15
+	shape: (29653, 436)
+handling video /home/share/shaofan/Databases/UTI/17_13_0 ...
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d191e0] too many thread_release_buffer calls!
+video size, length: 119, width: 400, height: 256
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b78380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/17_13_0.avi -L 15
+	shape: (14784, 436)
+handling video /home/share/shaofan/Databases/UTI/17_3_0 ...
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b09d00] too many thread_release_buffer calls!
+video size, length: 121, width: 448, height: 300
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1940460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/17_3_0.avi -L 15
+	shape: (23132, 436)
+handling video /home/share/shaofan/Databases/UTI/18_14_0 ...
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18cb6c0] too many thread_release_buffer calls!
+video size, length: 129, width: 292, height: 256
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x173f5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/18_14_0.avi -L 15
+	shape: (8231, 436)
+handling video /home/share/shaofan/Databases/UTI/18_4_4 ...
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d3360] too many thread_release_buffer calls!
+video size, length: 106, width: 288, height: 280
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1844300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/18_4_4.avi -L 15
+	shape: (10793, 436)
+handling video /home/share/shaofan/Databases/UTI/19_14_1 ...
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x172f5e0] too many thread_release_buffer calls!
+video size, length: 150, width: 304, height: 268
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x159d6a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/19_14_1.avi -L 15
+	shape: (16950, 436)
+handling video /home/share/shaofan/Databases/UTI/19_4_1 ...
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+[mpeg4 @ 0x14a0560] too many thread_release_buffer calls!
+video size, length: 157, width: 372, height: 276
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1300760] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/19_4_1.avi -L 15
+	shape: (24344, 436)
+handling video /home/share/shaofan/Databases/UTI/1_11_2 ...
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ec6160] too many thread_release_buffer calls!
+video size, length: 94, width: 284, height: 244
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d379c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/1_11_2.avi -L 15
+	shape: (10801, 436)
+handling video /home/share/shaofan/Databases/UTI/1_1_2 ...
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17537c0] too many thread_release_buffer calls!
+video size, length: 118, width: 488, height: 332
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1540380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/1_1_2.avi -L 15
+	shape: (23097, 436)
+handling video /home/share/shaofan/Databases/UTI/20_14_5 ...
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+[mpeg4 @ 0x233ec40] too many thread_release_buffer calls!
+video size, length: 105, width: 476, height: 256
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+[mpeg4 @ 0x218e300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/20_14_5.avi -L 15
+	shape: (19658, 436)
+handling video /home/share/shaofan/Databases/UTI/20_4_2 ...
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+[mpeg4 @ 0xf69280] too many thread_release_buffer calls!
+video size, length: 120, width: 400, height: 284
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+[mpeg4 @ 0xdc1460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/20_4_2.avi -L 15
+	shape: (14181, 436)
+handling video /home/share/shaofan/Databases/UTI/21_14_3 ...
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ad74e0] too many thread_release_buffer calls!
+video size, length: 115, width: 136, height: 240
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+[mpeg4 @ 0x196c380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/21_14_3.avi -L 15
+	shape: (1219, 436)
+handling video /home/share/shaofan/Databases/UTI/21_4_0 ...
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+[mpeg4 @ 0xd0f640] too many thread_release_buffer calls!
+video size, length: 147, width: 384, height: 288
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb696a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/21_4_0.avi -L 15
+	shape: (20936, 436)
+handling video /home/share/shaofan/Databases/UTI/22_14_4 ...
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f8cb80] too many thread_release_buffer calls!
+video size, length: 98, width: 420, height: 236
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1de69c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/22_14_4.avi -L 15
+	shape: (17350, 436)
+handling video /home/share/shaofan/Databases/UTI/22_4_3 ...
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+[mpeg4 @ 0xed04e0] too many thread_release_buffer calls!
+video size, length: 81, width: 168, height: 272
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd5b9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/22_4_3.avi -L 15
+	shape: (2554, 436)
+handling video /home/share/shaofan/Databases/UTI/23_14_2 ...
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1482ec0] too many thread_release_buffer calls!
+video size, length: 75, width: 316, height: 256
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12f29c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/23_14_2.avi -L 15
+	shape: (8581, 436)
+handling video /home/share/shaofan/Databases/UTI/23_4_5 ...
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+[mpeg4 @ 0x124cde0] too many thread_release_buffer calls!
+video size, length: 109, width: 480, height: 280
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1095300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/23_4_5.avi -L 15
+	shape: (16009, 436)
+handling video /home/share/shaofan/Databases/UTI/24_15_1 ...
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18763c0] too many thread_release_buffer calls!
+video size, length: 133, width: 312, height: 260
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x16e55a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/24_15_1.avi -L 15
+	shape: (17442, 436)
+handling video /home/share/shaofan/Databases/UTI/24_5_0 ...
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+[mpeg4 @ 0x15bad80] too many thread_release_buffer calls!
+video size, length: 139, width: 356, height: 260
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14226a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/24_5_0.avi -L 15
+	shape: (19089, 436)
+handling video /home/share/shaofan/Databases/UTI/25_15_0 ...
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d2d980] too many thread_release_buffer calls!
+video size, length: 98, width: 340, height: 268
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b8e9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/25_15_0.avi -L 15
+	shape: (10187, 436)
+handling video /home/share/shaofan/Databases/UTI/25_5_4 ...
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24e23c0] too many thread_release_buffer calls!
+video size, length: 60, width: 436, height: 272
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23379c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/25_5_4.avi -L 15
+	shape: (7412, 436)
+handling video /home/share/shaofan/Databases/UTI/26_15_4 ...
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+[mpeg4 @ 0xa23d40] too many thread_release_buffer calls!
+video size, length: 90, width: 408, height: 244
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x87e9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/26_15_4.avi -L 15
+	shape: (13905, 436)
+handling video /home/share/shaofan/Databases/UTI/26_5_2 ...
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f9de0] too many thread_release_buffer calls!
+video size, length: 77, width: 516, height: 268
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23299c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/26_5_2.avi -L 15
+	shape: (14948, 436)
+handling video /home/share/shaofan/Databases/UTI/27_15_2 ...
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8f2c0] too many thread_release_buffer calls!
+video size, length: 80, width: 412, height: 264
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae99c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/27_15_2.avi -L 15
+	shape: (12928, 436)
+handling video /home/share/shaofan/Databases/UTI/27_5_1 ...
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbadba0] too many thread_release_buffer calls!
+video size, length: 145, width: 412, height: 268
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa086a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/27_5_1.avi -L 15
+	shape: (18704, 436)
+handling video /home/share/shaofan/Databases/UTI/28_15_3 ...
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x246b7c0] too many thread_release_buffer calls!
+video size, length: 88, width: 184, height: 240
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22f09c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/28_15_3.avi -L 15
+	shape: (5590, 436)
+handling video /home/share/shaofan/Databases/UTI/28_5_3 ...
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+[mpeg4 @ 0x189bf20] too many thread_release_buffer calls!
+video size, length: 146, width: 184, height: 276
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17236a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/28_5_3.avi -L 15
+	shape: (1995, 436)
+handling video /home/share/shaofan/Databases/UTI/29_15_5 ...
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+[mpeg4 @ 0xa31c20] too many thread_release_buffer calls!
+video size, length: 100, width: 428, height: 264
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x8819c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/29_15_5.avi -L 15
+	shape: (14833, 436)
+handling video /home/share/shaofan/Databases/UTI/29_5_5 ...
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x249c5a0] too many thread_release_buffer calls!
+video size, length: 105, width: 544, height: 276
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+[mpeg4 @ 0x22d8300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/29_5_5.avi -L 15
+	shape: (21446, 436)
+handling video /home/share/shaofan/Databases/UTI/2_11_5 ...
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f29f00] too many thread_release_buffer calls!
+video size, length: 85, width: 492, height: 252
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d709c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/2_11_5.avi -L 15
+	shape: (14571, 436)
+handling video /home/share/shaofan/Databases/UTI/2_1_1 ...
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1009de0] too many thread_release_buffer calls!
+video size, length: 172, width: 428, height: 312
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+[mpeg4 @ 0xe52880] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/2_1_1.avi -L 15
+	shape: (29676, 436)
+handling video /home/share/shaofan/Databases/UTI/30_16_3 ...
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+[mpeg4 @ 0x2514020] too many thread_release_buffer calls!
+video size, length: 124, width: 152, height: 244
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23a5460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/30_16_3.avi -L 15
+	shape: (1764, 436)
+handling video /home/share/shaofan/Databases/UTI/30_6_2 ...
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23f9ee0] too many thread_release_buffer calls!
+video size, length: 89, width: 392, height: 228
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x225d9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/30_6_2.avi -L 15
+	shape: (9656, 436)
+handling video /home/share/shaofan/Databases/UTI/31_16_0 ...
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24f2be0] too many thread_release_buffer calls!
+video size, length: 130, width: 348, height: 268
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23585a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/31_16_0.avi -L 15
+	shape: (20475, 436)
+handling video /home/share/shaofan/Databases/UTI/31_6_5 ...
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25666c0] too many thread_release_buffer calls!
+video size, length: 122, width: 468, height: 240
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+[mpeg4 @ 0x23be460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/31_6_5.avi -L 15
+	shape: (19291, 436)
+handling video /home/share/shaofan/Databases/UTI/32_16_1 ...
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b5240] too many thread_release_buffer calls!
+video size, length: 120, width: 312, height: 268
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2222380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/32_16_1.avi -L 15
+	shape: (13385, 436)
+handling video /home/share/shaofan/Databases/UTI/32_6_1 ...
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a8ce00] too many thread_release_buffer calls!
+video size, length: 169, width: 356, height: 240
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+[mpeg4 @ 0x18f9880] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/32_6_1.avi -L 15
+	shape: (19472, 436)
+handling video /home/share/shaofan/Databases/UTI/33_16_4 ...
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+[mpeg4 @ 0x2507880] too many thread_release_buffer calls!
+video size, length: 74, width: 476, height: 236
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x235f9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/33_16_4.avi -L 15
+	shape: (10931, 436)
+handling video /home/share/shaofan/Databases/UTI/33_6_3 ...
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d519a0] too many thread_release_buffer calls!
+video size, length: 127, width: 180, height: 216
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1be19c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/33_6_3.avi -L 15
+	shape: (6609, 436)
+handling video /home/share/shaofan/Databases/UTI/34_16_2 ...
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+[mpeg4 @ 0x20faa00] too many thread_release_buffer calls!
+video size, length: 105, width: 384, height: 272
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1f58300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/34_16_2.avi -L 15
+	shape: (16467, 436)
+handling video /home/share/shaofan/Databases/UTI/34_6_0 ...
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x281cea0] too many thread_release_buffer calls!
+video size, length: 144, width: 316, height: 220
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26956a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/34_6_0.avi -L 15
+	shape: (12087, 436)
+handling video /home/share/shaofan/Databases/UTI/35_16_5 ...
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0xb02fc0] too many thread_release_buffer calls!
+video size, length: 115, width: 588, height: 252
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+[mpeg4 @ 0x93e380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/35_16_5.avi -L 15
+	shape: (27014, 436)
+handling video /home/share/shaofan/Databases/UTI/35_7_0 ...
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+[mpeg4 @ 0x2417280] too many thread_release_buffer calls!
+video size, length: 139, width: 272, height: 240
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22936a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/35_7_0.avi -L 15
+	shape: (10150, 436)
+handling video /home/share/shaofan/Databases/UTI/36_17_1 ...
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+[mpeg4 @ 0x27f0440] too many thread_release_buffer calls!
+video size, length: 145, width: 296, height: 232
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26686a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/36_17_1.avi -L 15
+	shape: (17210, 436)
+handling video /home/share/shaofan/Databases/UTI/36_7_5 ...
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc8b9a0] too many thread_release_buffer calls!
+video size, length: 107, width: 404, height: 240
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+[mpeg4 @ 0xaf0300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/36_7_5.avi -L 15
+	shape: (13195, 436)
+handling video /home/share/shaofan/Databases/UTI/37_17_0 ...
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c31e40] too many thread_release_buffer calls!
+video size, length: 138, width: 280, height: 232
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aad5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/37_17_0.avi -L 15
+	shape: (12223, 436)
+handling video /home/share/shaofan/Databases/UTI/37_7_4 ...
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+[mpeg4 @ 0xf06300] too many thread_release_buffer calls!
+video size, length: 110, width: 340, height: 248
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+[mpeg4 @ 0xd74300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/37_7_4.avi -L 15
+	shape: (11787, 436)
+handling video /home/share/shaofan/Databases/UTI/38_17_3 ...
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c1cd20] too many thread_release_buffer calls!
+video size, length: 79, width: 148, height: 220
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ab19c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/38_17_3.avi -L 15
+	shape: (2220, 436)
+handling video /home/share/shaofan/Databases/UTI/38_7_2 ...
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+[mpeg4 @ 0x270a920] too many thread_release_buffer calls!
+video size, length: 92, width: 312, height: 244
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25789c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/38_7_2.avi -L 15
+	shape: (11319, 436)
+handling video /home/share/shaofan/Databases/UTI/39_17_5 ...
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xdfc5c0] too many thread_release_buffer calls!
+video size, length: 95, width: 384, height: 260
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xc569c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/39_17_5.avi -L 15
+	shape: (15042, 436)
+handling video /home/share/shaofan/Databases/UTI/39_7_3 ...
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x17cbfa0] too many thread_release_buffer calls!
+video size, length: 116, width: 168, height: 228
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x165c9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/39_7_3.avi -L 15
+	shape: (2166, 436)
+handling video /home/share/shaofan/Databases/UTI/3_11_0 ...
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+[mpeg4 @ 0xd71020] too many thread_release_buffer calls!
+video size, length: 126, width: 232, height: 236
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf4460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/3_11_0.avi -L 15
+	shape: (8886, 436)
+handling video /home/share/shaofan/Databases/UTI/3_1_3 ...
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+[mpeg4 @ 0x10d9600] too many thread_release_buffer calls!
+video size, length: 126, width: 220, height: 300
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+[mpeg4 @ 0xf55460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/3_1_3.avi -L 15
+	shape: (2332, 436)
+handling video /home/share/shaofan/Databases/UTI/40_17_4 ...
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d61a0] too many thread_release_buffer calls!
+video size, length: 87, width: 388, height: 240
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13359c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/40_17_4.avi -L 15
+	shape: (13273, 436)
+handling video /home/share/shaofan/Databases/UTI/40_7_1 ...
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1523de0] too many thread_release_buffer calls!
+video size, length: 147, width: 292, height: 228
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x139f6a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/40_7_1.avi -L 15
+	shape: (14840, 436)
+handling video /home/share/shaofan/Databases/UTI/41_17_2 ...
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b14e40] too many thread_release_buffer calls!
+video size, length: 80, width: 344, height: 252
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19809c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/41_17_2.avi -L 15
+	shape: (10993, 436)
+handling video /home/share/shaofan/Databases/UTI/41_8_0 ...
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+[mpeg4 @ 0x2051860] too many thread_release_buffer calls!
+video size, length: 169, width: 348, height: 244
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ebf880] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/41_8_0.avi -L 15
+	shape: (14513, 436)
+handling video /home/share/shaofan/Databases/UTI/42_18_2 ...
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+[mpeg4 @ 0x175ad00] too many thread_release_buffer calls!
+video size, length: 95, width: 336, height: 232
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c69c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/42_18_2.avi -L 15
+	shape: (13188, 436)
+handling video /home/share/shaofan/Databases/UTI/42_8_2 ...
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+[mpeg4 @ 0x1657560] too many thread_release_buffer calls!
+video size, length: 96, width: 304, height: 232
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x14d09c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/42_8_2.avi -L 15
+	shape: (10316, 436)
+handling video /home/share/shaofan/Databases/UTI/43_18_4 ...
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a5eb80] too many thread_release_buffer calls!
+video size, length: 98, width: 412, height: 264
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18b29c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/43_18_4.avi -L 15
+	shape: (14426, 436)
+handling video /home/share/shaofan/Databases/UTI/43_8_4 ...
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+[mpeg4 @ 0x23cb120] too many thread_release_buffer calls!
+video size, length: 84, width: 388, height: 232
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22359c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/43_8_4.avi -L 15
+	shape: (9315, 436)
+handling video /home/share/shaofan/Databases/UTI/44_18_1 ...
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+[mpeg4 @ 0x2664660] too many thread_release_buffer calls!
+video size, length: 155, width: 292, height: 248
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+[mpeg4 @ 0x24da760] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/44_18_1.avi -L 15
+	shape: (18873, 436)
+handling video /home/share/shaofan/Databases/UTI/44_8_4 ...
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+[mpeg4 @ 0x173b720] too many thread_release_buffer calls!
+video size, length: 59, width: 308, height: 232
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15b39c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/44_8_4.avi -L 15
+	shape: (3583, 436)
+handling video /home/share/shaofan/Databases/UTI/45_18_3 ...
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+[mpeg4 @ 0xeb6a00] too many thread_release_buffer calls!
+video size, length: 132, width: 148, height: 240
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd495a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/45_18_3.avi -L 15
+	shape: (1783, 436)
+handling video /home/share/shaofan/Databases/UTI/45_8_5 ...
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+[mpeg4 @ 0x2568920] too many thread_release_buffer calls!
+video size, length: 102, width: 432, height: 232
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23c49c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/45_8_5.avi -L 15
+	shape: (13315, 436)
+handling video /home/share/shaofan/Databases/UTI/46_18_5 ...
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1d7c7e0] too many thread_release_buffer calls!
+video size, length: 135, width: 428, height: 240
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1bdb5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/46_18_5.avi -L 15
+	shape: (21625, 436)
+handling video /home/share/shaofan/Databases/UTI/46_8_3 ...
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+[mpeg4 @ 0xbb0600] too many thread_release_buffer calls!
+video size, length: 133, width: 152, height: 220
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xa449c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/46_8_3.avi -L 15
+	shape: (2053, 436)
+handling video /home/share/shaofan/Databases/UTI/47_18_0 ...
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c10320] too many thread_release_buffer calls!
+video size, length: 125, width: 348, height: 260
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a78460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/47_18_0.avi -L 15
+	shape: (19636, 436)
+handling video /home/share/shaofan/Databases/UTI/47_8_1 ...
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1215fc0] too many thread_release_buffer calls!
+video size, length: 159, width: 304, height: 224
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+[mpeg4 @ 0x1090760] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/47_8_1.avi -L 15
+	shape: (14785, 436)
+handling video /home/share/shaofan/Databases/UTI/48_19_0 ...
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c2c2a0] too many thread_release_buffer calls!
+video size, length: 135, width: 292, height: 244
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1aa35a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/48_19_0.avi -L 15
+	shape: (9795, 436)
+handling video /home/share/shaofan/Databases/UTI/48_9_3 ...
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x26ff4e0] too many thread_release_buffer calls!
+video size, length: 129, width: 152, height: 244
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+[mpeg4 @ 0x2591360] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/48_9_3.avi -L 15
+	shape: (884, 436)
+handling video /home/share/shaofan/Databases/UTI/49_19_1 ...
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+[mpeg4 @ 0x219efe0] too many thread_release_buffer calls!
+video size, length: 134, width: 264, height: 240
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x201c5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/49_19_1.avi -L 15
+	shape: (15669, 436)
+handling video /home/share/shaofan/Databases/UTI/49_9_5 ...
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1b04ac0] too many thread_release_buffer calls!
+video size, length: 117, width: 324, height: 232
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+[mpeg4 @ 0x1981380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/49_9_5.avi -L 15
+	shape: (11566, 436)
+handling video /home/share/shaofan/Databases/UTI/4_11_3 ...
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1e22dc0] too many thread_release_buffer calls!
+video size, length: 106, width: 144, height: 240
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+[mpeg4 @ 0x1cb6300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/4_11_3.avi -L 15
+	shape: (1290, 436)
+handling video /home/share/shaofan/Databases/UTI/4_1_0 ...
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+[mpeg4 @ 0xb83220] too many thread_release_buffer calls!
+video size, length: 183, width: 428, height: 312
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+[mpeg4 @ 0x9cba00] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/4_1_0.avi -L 15
+	shape: (27665, 436)
+handling video /home/share/shaofan/Databases/UTI/50_19_4 ...
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19d63e0] too many thread_release_buffer calls!
+video size, length: 86, width: 368, height: 240
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x183a9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/50_19_4.avi -L 15
+	shape: (10981, 436)
+handling video /home/share/shaofan/Databases/UTI/50_9_2 ...
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1157ec0] too many thread_release_buffer calls!
+video size, length: 89, width: 284, height: 240
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xfd29c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/50_9_2.avi -L 15
+	shape: (7957, 436)
+handling video /home/share/shaofan/Databases/UTI/51_19_3 ...
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23b3ea0] too many thread_release_buffer calls!
+video size, length: 109, width: 140, height: 224
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22499c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/51_19_3.avi -L 15
+	shape: (1784, 436)
+handling video /home/share/shaofan/Databases/UTI/51_9_4 ...
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+[mpeg4 @ 0x27d9c00] too many thread_release_buffer calls!
+video size, length: 114, width: 320, height: 248
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2653380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/51_9_4.avi -L 15
+	shape: (10689, 436)
+handling video /home/share/shaofan/Databases/UTI/52_19_5 ...
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+[mpeg4 @ 0x2462000] too many thread_release_buffer calls!
+video size, length: 95, width: 440, height: 236
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22b99c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/52_19_5.avi -L 15
+	shape: (16491, 436)
+handling video /home/share/shaofan/Databases/UTI/52_9_0 ...
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+[mpeg4 @ 0x174ad40] too many thread_release_buffer calls!
+video size, length: 139, width: 288, height: 224
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15c86a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/52_9_0.avi -L 15
+	shape: (7303, 436)
+handling video /home/share/shaofan/Databases/UTI/53_19_2 ...
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x13a05e0] too many thread_release_buffer calls!
+video size, length: 87, width: 408, height: 248
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x11fa9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/53_19_2.avi -L 15
+	shape: (17248, 436)
+handling video /home/share/shaofan/Databases/UTI/53_9_1 ...
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+[mpeg4 @ 0xc58b80] too many thread_release_buffer calls!
+video size, length: 146, width: 300, height: 240
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xad06a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/53_9_1.avi -L 15
+	shape: (13106, 436)
+handling video /home/share/shaofan/Databases/UTI/54_10_0 ...
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+[mpeg4 @ 0x1267160] too many thread_release_buffer calls!
+video size, length: 119, width: 244, height: 216
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+[mpeg4 @ 0x10ed380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/54_10_0.avi -L 15
+	shape: (5802, 436)
+handling video /home/share/shaofan/Databases/UTI/54_20_1 ...
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1c04ac0] too many thread_release_buffer calls!
+video size, length: 131, width: 252, height: 224
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1a875a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/54_20_1.avi -L 15
+	shape: (14095, 436)
+handling video /home/share/shaofan/Databases/UTI/55_10_4 ...
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+[mpeg4 @ 0x2400ae0] too many thread_release_buffer calls!
+video size, length: 87, width: 328, height: 220
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x22789c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/55_10_4.avi -L 15
+	shape: (8829, 436)
+handling video /home/share/shaofan/Databases/UTI/55_20_0 ...
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x224adc0] too many thread_release_buffer calls!
+video size, length: 104, width: 292, height: 232
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+[mpeg4 @ 0x20c5300] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/55_20_0.avi -L 15
+	shape: (10341, 436)
+handling video /home/share/shaofan/Databases/UTI/56_10_5 ...
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+[mpeg4 @ 0xb28d00] too many thread_release_buffer calls!
+video size, length: 87, width: 380, height: 216
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9929c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/56_10_5.avi -L 15
+	shape: (9807, 436)
+handling video /home/share/shaofan/Databases/UTI/56_20_5 ...
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+[mpeg4 @ 0x1418820] too many thread_release_buffer calls!
+video size, length: 98, width: 396, height: 232
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x12799c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/56_20_5.avi -L 15
+	shape: (17126, 436)
+handling video /home/share/shaofan/Databases/UTI/57_10_3 ...
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x1440b60] too many thread_release_buffer calls!
+video size, length: 89, width: 136, height: 228
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+[mpeg4 @ 0x12d7220] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/57_10_3.avi -L 15
+	shape: (1548, 436)
+handling video /home/share/shaofan/Databases/UTI/57_20_3 ...
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x18d29a0] too many thread_release_buffer calls!
+video size, length: 90, width: 128, height: 220
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x176a9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/57_20_3.avi -L 15
+	shape: (2106, 436)
+handling video /home/share/shaofan/Databases/UTI/58_10_1 ...
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+[mpeg4 @ 0xa83e00] too many thread_release_buffer calls!
+video size, length: 132, width: 244, height: 240
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9055a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/58_10_1.avi -L 15
+	shape: (12064, 436)
+handling video /home/share/shaofan/Databases/UTI/58_20_4 ...
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1509fa0] too many thread_release_buffer calls!
+video size, length: 74, width: 348, height: 232
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x137a9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/58_20_4.avi -L 15
+	shape: (11112, 436)
+handling video /home/share/shaofan/Databases/UTI/59_10_2 ...
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1738ce0] too many thread_release_buffer calls!
+video size, length: 94, width: 296, height: 232
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x15ac9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/59_10_2.avi -L 15
+	shape: (9798, 436)
+handling video /home/share/shaofan/Databases/UTI/59_20_2 ...
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0xd87ec0] too many thread_release_buffer calls!
+video size, length: 89, width: 324, height: 248
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+[mpeg4 @ 0xbf19c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/59_20_2.avi -L 15
+	shape: (12217, 436)
+handling video /home/share/shaofan/Databases/UTI/5_11_1 ...
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+[mpeg4 @ 0x23af260] too many thread_release_buffer calls!
+video size, length: 132, width: 248, height: 240
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x222e5a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/5_11_1.avi -L 15
+	shape: (12409, 436)
+handling video /home/share/shaofan/Databases/UTI/5_1_5 ...
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+[mpeg4 @ 0x25cc220] too many thread_release_buffer calls!
+video size, length: 111, width: 440, height: 300
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+[mpeg4 @ 0x2415380] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/5_1_5.avi -L 15
+	shape: (22229, 436)
+handling video /home/share/shaofan/Databases/UTI/6_12_0 ...
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+[mpeg4 @ 0x25dba40] too many thread_release_buffer calls!
+video size, length: 148, width: 308, height: 264
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24496a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/6_12_0.avi -L 15
+	shape: (12538, 436)
+handling video /home/share/shaofan/Databases/UTI/6_2_4 ...
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+[mpeg4 @ 0xb3ae60] too many thread_release_buffer calls!
+video size, length: 101, width: 460, height: 300
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9789c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/6_2_4.avi -L 15
+	shape: (15794, 436)
+handling video /home/share/shaofan/Databases/UTI/7_12_3 ...
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x23dd5e0] too many thread_release_buffer calls!
+video size, length: 125, width: 140, height: 212
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+[mpeg4 @ 0x2274460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/7_12_3.avi -L 15
+	shape: (1430, 436)
+handling video /home/share/shaofan/Databases/UTI/7_2_5 ...
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x25629a0] too many thread_release_buffer calls!
+video size, length: 99, width: 476, height: 292
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x239f9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/7_2_5.avi -L 15
+	shape: (19032, 436)
+handling video /home/share/shaofan/Databases/UTI/8_12_5 ...
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+[mpeg4 @ 0x1ba4940] too many thread_release_buffer calls!
+video size, length: 103, width: 420, height: 244
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x19fc9c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/8_12_5.avi -L 15
+	shape: (12865, 436)
+handling video /home/share/shaofan/Databases/UTI/8_2_0 ...
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x9a21c0] too many thread_release_buffer calls!
+video size, length: 123, width: 376, height: 292
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+[mpeg4 @ 0x7fc460] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/8_2_0.avi -L 15
+	shape: (17964, 436)
+handling video /home/share/shaofan/Databases/UTI/9_12_1 ...
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+[mpeg4 @ 0xc6f260] too many thread_release_buffer calls!
+video size, length: 136, width: 248, height: 268
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+[mpeg4 @ 0xae95a0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/9_12_1.avi -L 15
+	shape: (11337, 436)
+handling video /home/share/shaofan/Databases/UTI/9_2_2 ...
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+[mpeg4 @ 0x25f4b00] too many thread_release_buffer calls!
+video size, length: 91, width: 440, height: 296
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+[mpeg4 @ 0x24399c0] too many thread_release_buffer calls!
+	exec: ./tools/dense_trajectory_release_v1.2/debug/DenseTrack /home/share/shaofan/Databases/UTI/9_2_2.avi -L 15
+	shape: (20106, 436)
+tag[/home/share/shaofan/Databases/UTI/59_10_2] has (9798, 426) features
+tag[/home/share/shaofan/Databases/UTI/10_12_4] has (4275, 426) features
+tag[/home/share/shaofan/Databases/UTI/36_17_1] has (17210, 426) features
+tag[/home/share/shaofan/Databases/UTI/41_8_0] has (14513, 426) features
+tag[/home/share/shaofan/Databases/UTI/41_17_2] has (10993, 426) features
+tag[/home/share/shaofan/Databases/UTI/16_3_5] has (29653, 426) features
+tag[/home/share/shaofan/Databases/UTI/8_12_5] has (12865, 426) features
+tag[/home/share/shaofan/Databases/UTI/42_8_2] has (10316, 426) features
+tag[/home/share/shaofan/Databases/UTI/13_3_2] has (15974, 426) features
+tag[/home/share/shaofan/Databases/UTI/4_11_3] has (1290, 426) features
+tag[/home/share/shaofan/Databases/UTI/0_11_4] has (9983, 426) features
+tag[/home/share/shaofan/Databases/UTI/16_13_5] has (16092, 426) features
+tag[/home/share/shaofan/Databases/UTI/24_15_1] has (17442, 426) features
+tag[/home/share/shaofan/Databases/UTI/19_14_1] has (16950, 426) features
+tag[/home/share/shaofan/Databases/UTI/28_5_3] has (1995, 426) features
+tag[/home/share/shaofan/Databases/UTI/21_4_0] has (20936, 426) features
+tag[/home/share/shaofan/Databases/UTI/43_18_4] has (14426, 426) features
+tag[/home/share/shaofan/Databases/UTI/29_15_5] has (14833, 426) features
+tag[/home/share/shaofan/Databases/UTI/53_19_2] has (17248, 426) features
+tag[/home/share/shaofan/Databases/UTI/25_15_0] has (10187, 426) features
+tag[/home/share/shaofan/Databases/UTI/9_2_2] has (20106, 426) features
+tag[/home/share/shaofan/Databases/UTI/45_18_3] has (1783, 426) features
+tag[/home/share/shaofan/Databases/UTI/7_12_3] has (1430, 426) features
+tag[/home/share/shaofan/Databases/UTI/30_16_3] has (1764, 426) features
+tag[/home/share/shaofan/Databases/UTI/33_6_3] has (6609, 426) features
+tag[/home/share/shaofan/Databases/UTI/37_7_4] has (11787, 426) features
+tag[/home/share/shaofan/Databases/UTI/14_13_1] has (18520, 426) features
+tag[/home/share/shaofan/Databases/UTI/29_5_5] has (21446, 426) features
+tag[/home/share/shaofan/Databases/UTI/20_14_5] has (19658, 426) features
+tag[/home/share/shaofan/Databases/UTI/45_8_5] has (13315, 426) features
+tag[/home/share/shaofan/Databases/UTI/54_10_0] has (5802, 426) features
+tag[/home/share/shaofan/Databases/UTI/37_17_0] has (12223, 426) features
+tag[/home/share/shaofan/Databases/UTI/23_4_5] has (16009, 426) features
+tag[/home/share/shaofan/Databases/UTI/48_9_3] has (884, 426) features
+tag[/home/share/shaofan/Databases/UTI/36_7_5] has (13195, 426) features
+tag[/home/share/shaofan/Databases/UTI/27_5_1] has (18704, 426) features
+tag[/home/share/shaofan/Databases/UTI/44_18_1] has (18873, 426) features
+tag[/home/share/shaofan/Databases/UTI/40_17_4] has (13273, 426) features
+tag[/home/share/shaofan/Databases/UTI/13_13_2] has (15142, 426) features
+tag[/home/share/shaofan/Databases/UTI/24_5_0] has (19089, 426) features
+tag[/home/share/shaofan/Databases/UTI/39_7_3] has (2166, 426) features
+tag[/home/share/shaofan/Databases/UTI/8_2_0] has (17964, 426) features
+tag[/home/share/shaofan/Databases/UTI/31_6_5] has (19291, 426) features
+tag[/home/share/shaofan/Databases/UTI/49_19_1] has (15669, 426) features
+tag[/home/share/shaofan/Databases/UTI/21_14_3] has (1219, 426) features
+tag[/home/share/shaofan/Databases/UTI/30_6_2] has (9656, 426) features
+tag[/home/share/shaofan/Databases/UTI/19_4_1] has (24344, 426) features
+tag[/home/share/shaofan/Databases/UTI/22_14_4] has (17350, 426) features
+tag[/home/share/shaofan/Databases/UTI/46_18_5] has (21625, 426) features
+tag[/home/share/shaofan/Databases/UTI/44_8_4] has (3583, 426) features
+tag[/home/share/shaofan/Databases/UTI/17_3_0] has (23132, 426) features
+tag[/home/share/shaofan/Databases/UTI/20_4_2] has (14181, 426) features
+tag[/home/share/shaofan/Databases/UTI/57_20_3] has (2106, 426) features
+tag[/home/share/shaofan/Databases/UTI/50_9_2] has (7957, 426) features
+tag[/home/share/shaofan/Databases/UTI/4_1_0] has (27665, 426) features
+tag[/home/share/shaofan/Databases/UTI/25_5_4] has (7412, 426) features
+tag[/home/share/shaofan/Databases/UTI/23_14_2] has (8581, 426) features
+tag[/home/share/shaofan/Databases/UTI/26_15_4] has (13905, 426) features
+tag[/home/share/shaofan/Databases/UTI/11_12_2] has (8620, 426) features
+tag[/home/share/shaofan/Databases/UTI/55_20_0] has (10341, 426) features
+tag[/home/share/shaofan/Databases/UTI/28_15_3] has (5590, 426) features
+tag[/home/share/shaofan/Databases/UTI/11_2_3] has (3152, 426) features
+tag[/home/share/shaofan/Databases/UTI/59_20_2] has (12217, 426) features
+tag[/home/share/shaofan/Databases/UTI/46_8_3] has (2053, 426) features
+tag[/home/share/shaofan/Databases/UTI/0_1_4] has (17681, 426) features
+tag[/home/share/shaofan/Databases/UTI/32_16_1] has (13385, 426) features
+tag[/home/share/shaofan/Databases/UTI/55_10_4] has (8829, 426) features
+tag[/home/share/shaofan/Databases/UTI/51_9_4] has (10689, 426) features
+tag[/home/share/shaofan/Databases/UTI/12_3_4] has (10428, 426) features
+tag[/home/share/shaofan/Databases/UTI/43_8_4] has (9315, 426) features
+tag[/home/share/shaofan/Databases/UTI/15_3_3] has (2879, 426) features
+tag[/home/share/shaofan/Databases/UTI/22_4_3] has (2554, 426) features
+tag[/home/share/shaofan/Databases/UTI/40_7_1] has (14840, 426) features
+tag[/home/share/shaofan/Databases/UTI/18_4_4] has (10793, 426) features
+tag[/home/share/shaofan/Databases/UTI/52_19_5] has (16491, 426) features
+tag[/home/share/shaofan/Databases/UTI/5_11_1] has (12409, 426) features
+tag[/home/share/shaofan/Databases/UTI/2_1_1] has (29676, 426) features
+tag[/home/share/shaofan/Databases/UTI/35_16_5] has (27014, 426) features
+tag[/home/share/shaofan/Databases/UTI/1_11_2] has (10801, 426) features
+tag[/home/share/shaofan/Databases/UTI/49_9_5] has (11566, 426) features
+tag[/home/share/shaofan/Databases/UTI/2_11_5] has (14571, 426) features
+tag[/home/share/shaofan/Databases/UTI/26_5_2] has (14948, 426) features
+tag[/home/share/shaofan/Databases/UTI/7_2_5] has (19032, 426) features
+tag[/home/share/shaofan/Databases/UTI/18_14_0] has (8231, 426) features
+tag[/home/share/shaofan/Databases/UTI/57_10_3] has (1548, 426) features
+tag[/home/share/shaofan/Databases/UTI/42_18_2] has (13188, 426) features
+tag[/home/share/shaofan/Databases/UTI/56_10_5] has (9807, 426) features
+tag[/home/share/shaofan/Databases/UTI/17_13_0] has (14784, 426) features
+tag[/home/share/shaofan/Databases/UTI/6_12_0] has (12538, 426) features
+tag[/home/share/shaofan/Databases/UTI/39_17_5] has (15042, 426) features
+tag[/home/share/shaofan/Databases/UTI/54_20_1] has (14095, 426) features
+tag[/home/share/shaofan/Databases/UTI/14_3_1] has (28686, 426) features
+tag[/home/share/shaofan/Databases/UTI/6_2_4] has (15794, 426) features
+tag[/home/share/shaofan/Databases/UTI/1_1_2] has (23097, 426) features
+tag[/home/share/shaofan/Databases/UTI/3_1_3] has (2332, 426) features
+tag[/home/share/shaofan/Databases/UTI/34_6_0] has (12087, 426) features
+tag[/home/share/shaofan/Databases/UTI/38_17_3] has (2220, 426) features
+tag[/home/share/shaofan/Databases/UTI/33_16_4] has (10931, 426) features
+tag[/home/share/shaofan/Databases/UTI/34_16_2] has (16467, 426) features
+tag[/home/share/shaofan/Databases/UTI/47_18_0] has (19636, 426) features
+tag[/home/share/shaofan/Databases/UTI/27_15_2] has (12928, 426) features
+tag[/home/share/shaofan/Databases/UTI/10_2_1] has (27183, 426) features
+tag[/home/share/shaofan/Databases/UTI/3_11_0] has (8886, 426) features
+tag[/home/share/shaofan/Databases/UTI/15_13_3] has (3816, 426) features
+tag[/home/share/shaofan/Databases/UTI/51_19_3] has (1784, 426) features
+tag[/home/share/shaofan/Databases/UTI/53_9_1] has (13106, 426) features
+tag[/home/share/shaofan/Databases/UTI/58_20_4] has (11112, 426) features
+tag[/home/share/shaofan/Databases/UTI/47_8_1] has (14785, 426) features
+tag[/home/share/shaofan/Databases/UTI/5_1_5] has (22229, 426) features
+tag[/home/share/shaofan/Databases/UTI/9_12_1] has (11337, 426) features
+tag[/home/share/shaofan/Databases/UTI/52_9_0] has (7303, 426) features
+tag[/home/share/shaofan/Databases/UTI/56_20_5] has (17126, 426) features
+tag[/home/share/shaofan/Databases/UTI/58_10_1] has (12064, 426) features
+tag[/home/share/shaofan/Databases/UTI/32_6_1] has (19472, 426) features
+tag[/home/share/shaofan/Databases/UTI/31_16_0] has (20475, 426) features
+tag[/home/share/shaofan/Databases/UTI/50_19_4] has (10981, 426) features
+tag[/home/share/shaofan/Databases/UTI/48_19_0] has (9795, 426) features
+tag[/home/share/shaofan/Databases/UTI/38_7_2] has (11319, 426) features
+tag[/home/share/shaofan/Databases/UTI/12_13_4] has (15211, 426) features
+tag[/home/share/shaofan/Databases/UTI/35_7_0] has (10150, 426) features
+Dumping global features to ./UTI/features/globalFeaturesRaw.pkl ...
+./UTI/features/localFeaturesRaw.pkl existed, overwrite?[y/N]Traceback (most recent call last):
+  File "getFeatures.py", line 80, in <module>
+    raw_input('%s existed, overwrite?[y/N]'%localFeaturesFilename)=='y':
+EOFError: EOF when reading a line

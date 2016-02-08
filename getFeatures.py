@@ -24,16 +24,24 @@ if __name__ == '__main__':
 
         data = {}
         taglist = map(lambda x: x.strip(), open(videolistFile, 'r').readlines() )
+
+        tag2y = lambda x: x.split('/')[-1].split('_')[-1]
+        yset = list(set(map(tag2y, taglist)))
+
         for tag in taglist: 
             print 'handling video {} ...'.format(tag)
             sys.stdout.flush()
 
             data[tag] = {}
-            data[tag]['y'] = int(tag.split('_')[-1])
+            data[tag]['y'] = int(tag.split('/')[-1].split('_')[-1])
+            print 'tag={} y={}'.format(tag, data[tag]['y'])
+
 #           command = ' '.join([
-#               './tools/dense_trajectory_release_v1.2/release/DenseTrack',
+#               './tools/dense_trajectory_release_v1.2/debug/DenseTrack',
 #               os.path.join('/', tag)+'.avi',
-#               '-L', '10',  #trajectory length
+#               '-L', '15',  #trajectory length
+#               '-a', '200', # resize
+#               '-b', '100'
 #               ])
 #           print '\texec: {}'.format(command)
 #           res = os.popen(command).readlines()
@@ -41,7 +49,7 @@ if __name__ == '__main__':
 #               f.writelines(res)
             with open(os.path.join(denseDir, tag.split('/')[-1])+'.txt', 'r') as f:
                 res = f.readlines()
-            res = np.array(map(lambda x: x.strip().split('\t'), res), dtype=float)
+            res = np.array(map(lambda x: x.strip().split('\t'), res), dtype='float')
             print '\tshape: {}'.format(res.shape)
 
             # Trajectory: 2*trajectory length(30)
@@ -80,14 +88,18 @@ if __name__ == '__main__':
         #call(command.split(' '))
         # print 'Executing {} ...'.format(r"export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opencv_alias")
         # call("export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opencv_alias")
-        #command = '{}/bin/stipdet.out -i {} -vpath {} -o {} -det harris3d -vis no'.format(harris3d_dir, videolistFile, '/', POI)
-        #print 'Executing {} ...'.format(command)
-        #raise Exception
+#       command = '{}/bin/stipdet.out -i {} -vpath {} -o {} -det harris3d -vis no -ext {} -thresh {}'.\
+#              format(harris3d_dir, videolistFile, '/', POI, '.avi', '1.0e-05')
+#       print 'Executing {} ...'.format(command)
+#       raise Exception
 
         print 'Finding STIP...'
         sys.stdout.flush()
         if not os.path.exists(POI):
             raise Exception("Cannot find Point Of Interest file!")
+                
+        tag2y = lambda x: x.split('/')[-1].split('_')[-1]
+        yset = list(set(map(tag2y, taglist)))
 
         data = {}
         tag = None
@@ -98,7 +110,8 @@ if __name__ == '__main__':
                 elif line.startswith('# '):
                     tag = line.strip().split(' ')[-1]
                     data[tag] = {}
-                    data[tag]['y'] = int(tag.split('_')[-1])
+                    data[tag]['y'] = int(tag.split('/')[-1].split('_')[-1])
+                    print 'tag={} y={}'.format(tag, data[tag]['y'])
                     data[tag]['x'] = []
                     data[tag]['t'] = []
                 else:

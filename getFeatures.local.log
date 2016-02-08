@@ -1,1108 +1,2294 @@
+[mpeg4 @ 0x133efa0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/42_8_2.avi
-  Total frames:              96
+  video input:               //home/share/shaofan/Databases/UTI/0_11_4.avi
+  Total frames:              97
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.0363
-  Frame:    40 - IPs[this:10, total: 112] - Perf: Avg FPS= 6.40173
-  Frame:    60 - IPs[this:10, total: 480] - Perf: Avg FPS= 6.40935
-  Frame:    80 - IPs[this:24, total: 840] - Perf: Avg FPS= 5.83453
--> Detected 1038 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.61827
+  Frame:    40 - IPs[this: 9, total: 106] - Perf: Avg FPS= 3.53386
+  Frame:    60 - IPs[this:26, total: 479] - Perf: Avg FPS= 3.36157
+  Frame:    80 - IPs[this:13, total: 813] - Perf: Avg FPS= 3.32433
+-> Detected 1048 points
+[mpeg4 @ 0x13c7ee0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/0_1_4.avi
+  video input:               //home/share/shaofan/Databases/UTI/0_1_4.avi
   Total frames:              108
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.67979
-  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 3.80301
-  Frame:    60 - IPs[this:18, total: 328] - Perf: Avg FPS= 3.8696
-  Frame:    80 - IPs[this:20, total: 904] - Perf: Avg FPS= 3.86601
-  Frame:   100 - IPs[this:40, total:1631] - Perf: Avg FPS= 3.84772
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.42823
+  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 3.59575
+  Frame:    60 - IPs[this:18, total: 328] - Perf: Avg FPS= 3.49575
+  Frame:    80 - IPs[this:20, total: 904] - Perf: Avg FPS= 3.47184
+  Frame:   100 - IPs[this:40, total:1631] - Perf: Avg FPS= 3.41872
 -> Detected 1881 points
+[mpeg4 @ 0x13ffae0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/21_4_0.avi
-  Total frames:              147
+  video input:               //home/share/shaofan/Databases/UTI/10_12_4.avi
+  Total frames:              52
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.62769
-  Frame:    40 - IPs[this:27, total: 227] - Perf: Avg FPS= 3.75749
-  Frame:    60 - IPs[this:24, total: 654] - Perf: Avg FPS= 3.71204
-  Frame:    80 - IPs[this: 4, total:1091] - Perf: Avg FPS= 3.73412
-  Frame:   100 - IPs[this:24, total:1316] - Perf: Avg FPS= 3.7644
-  Frame:   120 - IPs[this:29, total:1700] - Perf: Avg FPS= 3.76302
-  Frame:   140 - IPs[this:21, total:2226] - Perf: Avg FPS= 3.73562
--> Detected 2369 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.88441
+  Frame:    40 - IPs[this:23, total: 267] - Perf: Avg FPS= 3.98498
+-> Detected 536 points
+[mpeg4 @ 0x1427860] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/28_5_3.avi
-  Total frames:              146
+  video input:               //home/share/shaofan/Databases/UTI/10_2_1.avi
+  Total frames:              133
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.80679
-  Frame:    40 - IPs[this: 0, total:   0] - Perf: Avg FPS= 9.1591
-  Frame:    60 - IPs[this: 2, total:  73] - Perf: Avg FPS= 9.1852
-  Frame:    80 - IPs[this: 0, total:  82] - Perf: Avg FPS= 9.26207
-  Frame:   100 - IPs[this: 0, total:  82] - Perf: Avg FPS= 9.32744
-  Frame:   120 - IPs[this: 1, total: 119] - Perf: Avg FPS= 9.34121
-  Frame:   140 - IPs[this: 0, total: 151] - Perf: Avg FPS= 9.36213
--> Detected 151 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 1.94255
+  Frame:    40 - IPs[this:25, total: 243] - Perf: Avg FPS= 2.38976
+  Frame:    60 - IPs[this:48, total:1117] - Perf: Avg FPS= 2.48519
+  Frame:    80 - IPs[this: 7, total:1729] - Perf: Avg FPS= 2.44214
+  Frame:   100 - IPs[this:36, total:2134] - Perf: Avg FPS= 2.46115
+  Frame:   120 - IPs[this:46, total:2905] - Perf: Avg FPS= 2.52942
+-> Detected 3366 points
+[mpeg4 @ 0x1427de0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/9_2_2.avi
-  Total frames:              91
+  video input:               //home/share/shaofan/Databases/UTI/11_12_2.avi
+  Total frames:              74
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.43405
-  Frame:    40 - IPs[this:29, total: 251] - Perf: Avg FPS= 3.48111
-  Frame:    60 - IPs[this:46, total: 954] - Perf: Avg FPS= 3.42862
-  Frame:    80 - IPs[this:39, total:1757] - Perf: Avg FPS= 3.40121
--> Detected 2261 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.12286
+  Frame:    40 - IPs[this:12, total: 221] - Perf: Avg FPS= 4.13523
+  Frame:    60 - IPs[this:11, total: 580] - Perf: Avg FPS= 4.04872
+-> Detected 925 points
+[mpeg4 @ 0x1436200] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/55_10_4.avi
-  Total frames:              87
+  video input:               //home/share/shaofan/Databases/UTI/11_2_3.avi
+  Total frames:              133
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.75581
-  Frame:    40 - IPs[this:10, total:  78] - Perf: Avg FPS= 6.17765
-  Frame:    60 - IPs[this:18, total: 338] - Perf: Avg FPS= 6.09107
-  Frame:    80 - IPs[this: 7, total: 659] - Perf: Avg FPS= 5.49216
--> Detected 741 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.13208
+  Frame:    40 - IPs[this: 5, total:  83] - Perf: Avg FPS= 5.57335
+  Frame:    60 - IPs[this: 0, total: 128] - Perf: Avg FPS= 5.69939
+  Frame:    80 - IPs[this: 0, total: 128] - Perf: Avg FPS= 5.69338
+  Frame:   100 - IPs[this: 0, total: 128] - Perf: Avg FPS= 5.64183
+  Frame:   120 - IPs[this: 4, total: 198] - Perf: Avg FPS= 5.49177
+-> Detected 241 points
+[mpeg4 @ 0x3f15680] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/31_6_5.avi
-  Total frames:              122
+  video input:               //home/share/shaofan/Databases/UTI/12_13_4.avi
+  Total frames:              80
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.93353
-  Frame:    40 - IPs[this: 7, total: 132] - Perf: Avg FPS= 4.12167
-  Frame:    60 - IPs[this:15, total: 381] - Perf: Avg FPS= 4.14863
-  Frame:    80 - IPs[this:26, total: 866] - Perf: Avg FPS= 4.13585
-  Frame:   100 - IPs[this:35, total:1393] - Perf: Avg FPS= 4.12323
-  Frame:   120 - IPs[this:22, total:1885] - Perf: Avg FPS= 4.12229
--> Detected 1978 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.81036
+  Frame:    40 - IPs[this:14, total: 111] - Perf: Avg FPS= 2.94664
+  Frame:    60 - IPs[this:17, total: 581] - Perf: Avg FPS= 2.96019
+  Frame:    80 - IPs[this:10, total: 952] - Perf: Avg FPS= 2.95556
+-> Detected 952 points
+[mpeg4 @ 0x1341020] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f08880] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/3_1_3.avi
-  Total frames:              126
+  video input:               //home/share/shaofan/Databases/UTI/12_3_4.avi
+  Total frames:              95
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.2704
-  Frame:    40 - IPs[this: 3, total:   6] - Perf: Avg FPS= 6.69581
-  Frame:    60 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.81075
-  Frame:    80 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.89893
-  Frame:   100 - IPs[this: 0, total:  75] - Perf: Avg FPS= 6.95499
-  Frame:   120 - IPs[this: 6, total: 151] - Perf: Avg FPS= 6.9738
--> Detected 164 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.86625
+  Frame:    40 - IPs[this: 3, total:  16] - Perf: Avg FPS= 2.98182
+  Frame:    60 - IPs[this:11, total: 257] - Perf: Avg FPS= 3.15154
+  Frame:    80 - IPs[this:44, total: 884] - Perf: Avg FPS= 2.80521
+-> Detected 1419 points
+[mpeg4 @ 0x3ee4880] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/56_10_5.avi
-  Total frames:              87
+  video input:               //home/share/shaofan/Databases/UTI/13_13_2.avi
+  Total frames:              83
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.09499
-  Frame:    40 - IPs[this:12, total: 123] - Perf: Avg FPS= 5.33497
-  Frame:    60 - IPs[this:16, total: 332] - Perf: Avg FPS= 5.38169
-  Frame:    80 - IPs[this:25, total: 736] - Perf: Avg FPS= 5.27367
--> Detected 916 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.2768
+  Frame:    40 - IPs[this: 4, total: 127] - Perf: Avg FPS= 2.45417
+  Frame:    60 - IPs[this:21, total: 479] - Perf: Avg FPS= 2.59557
+  Frame:    80 - IPs[this: 9, total: 883] - Perf: Avg FPS= 2.71491
+-> Detected 935 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/13_3_2.avi
+  video input:               //home/share/shaofan/Databases/UTI/13_3_2.avi
   Total frames:              98
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.80383
-  Frame:    40 - IPs[this:20, total: 275] - Perf: Avg FPS= 3.83982
-  Frame:    60 - IPs[this:28, total: 947] - Perf: Avg FPS= 3.73119
-  Frame:    80 - IPs[this:23, total:1574] - Perf: Avg FPS= 3.72662
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.12328
+  Frame:    40 - IPs[this:20, total: 275] - Perf: Avg FPS= 3.24026
+  Frame:    60 - IPs[this:28, total: 947] - Perf: Avg FPS= 3.18499
+  Frame:    80 - IPs[this:23, total:1574] - Perf: Avg FPS= 3.07496
 -> Detected 2254 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/5_1_5.avi
-  Total frames:              111
+  video input:               //home/share/shaofan/Databases/UTI/14_13_1.avi
+  Total frames:              122
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.51223
-  Frame:    40 - IPs[this:30, total: 325] - Perf: Avg FPS= 3.54774
-  Frame:    60 - IPs[this:23, total: 830] - Perf: Avg FPS= 3.52757
-  Frame:    80 - IPs[this:33, total:1507] - Perf: Avg FPS= 3.501
-  Frame:   100 - IPs[this:30, total:2303] - Perf: Avg FPS= 3.47309
--> Detected 2571 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.3686
+  Frame:    40 - IPs[this: 9, total: 270] - Perf: Avg FPS= 2.62203
+  Frame:    60 - IPs[this:15, total: 602] - Perf: Avg FPS= 2.57723
+  Frame:    80 - IPs[this: 0, total: 656] - Perf: Avg FPS= 2.67838
+  Frame:   100 - IPs[this:16, total: 789] - Perf: Avg FPS= 2.71387
+  Frame:   120 - IPs[this:19, total:1070] - Perf: Avg FPS= 2.75986
+-> Detected 1115 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/16_3_5.avi
-  Total frames:              143
+  video input:               //home/share/shaofan/Databases/UTI/14_3_1.avi
+  Total frames:              168
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.63395
-  Frame:    40 - IPs[this:16, total:  61] - Perf: Avg FPS= 2.70822
-  Frame:    60 - IPs[this:44, total: 610] - Perf: Avg FPS= 2.69581
-  Frame:    80 - IPs[this:42, total:1269] - Perf: Avg FPS= 2.67593
-  Frame:   100 - IPs[this:46, total:2088] - Perf: Avg FPS= 2.61744
-  Frame:   120 - IPs[this:36, total:2702] - Perf: Avg FPS= 2.61663
-  Frame:   140 - IPs[this:37, total:3381] - Perf: Avg FPS= 2.61746
--> Detected 3544 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.767
+  Frame:    40 - IPs[this:29, total: 309] - Perf: Avg FPS= 3.82112
+  Frame:    60 - IPs[this:37, total: 811] - Perf: Avg FPS= 3.7909
+  Frame:    80 - IPs[this:36, total:1528] - Perf: Avg FPS= 3.78599
+  Frame:   100 - IPs[this: 2, total:1775] - Perf: Avg FPS= 3.84001
+  Frame:   120 - IPs[this:15, total:1888] - Perf: Avg FPS= 3.87713
+  Frame:   140 - IPs[this:27, total:2407] - Perf: Avg FPS= 3.85077
+  Frame:   160 - IPs[this:22, total:3208] - Perf: Avg FPS= 3.83428
+-> Detected 3548 points
+[mpeg4 @ 0x3f0ae00] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/58_10_1.avi
-  Total frames:              132
+  video input:               //home/share/shaofan/Databases/UTI/15_13_3.avi
+  Total frames:              150
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.97339
-  Frame:    40 - IPs[this: 2, total: 108] - Perf: Avg FPS= 7.46382
-  Frame:    60 - IPs[this:23, total: 438] - Perf: Avg FPS= 7.48495
-  Frame:    80 - IPs[this: 0, total: 601] - Perf: Avg FPS= 7.56332
-  Frame:   100 - IPs[this: 8, total: 683] - Perf: Avg FPS= 7.52218
-  Frame:   120 - IPs[this:15, total:1002] - Perf: Avg FPS= 7.52868
--> Detected 1120 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.88944
+  Frame:    40 - IPs[this: 5, total:  52] - Perf: Avg FPS= 6.31403
+  Frame:    60 - IPs[this: 0, total: 119] - Perf: Avg FPS= 6.7457
+  Frame:    80 - IPs[this: 0, total: 119] - Perf: Avg FPS= 7.01137
+  Frame:   100 - IPs[this: 0, total: 119] - Perf: Avg FPS= 6.6791
+  Frame:   120 - IPs[this: 0, total: 119] - Perf: Avg FPS= 6.52446
+  Frame:   140 - IPs[this: 3, total: 198] - Perf: Avg FPS= 6.49399
+-> Detected 240 points
+[mpeg4 @ 0x3f32d20] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f28380] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/4_1_0.avi
-  Total frames:              183
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.49974
-  Frame:    40 - IPs[this: 3, total:  41] - Perf: Avg FPS= 3.6128
-  Frame:    60 - IPs[this:35, total: 401] - Perf: Avg FPS= 3.54151
-  Frame:    80 - IPs[this:26, total:1126] - Perf: Avg FPS= 3.50261
-  Frame:   100 - IPs[this:11, total:1457] - Perf: Avg FPS= 3.51606
-  Frame:   120 - IPs[this: 9, total:1628] - Perf: Avg FPS= 3.53373
-  Frame:   140 - IPs[this: 4, total:1865] - Perf: Avg FPS= 3.54619
-  Frame:   160 - IPs[this:26, total:2438] - Perf: Avg FPS= 3.53593
-  Frame:   180 - IPs[this:22, total:3115] - Perf: Avg FPS= 3.52301
--> Detected 3189 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/7_2_5.avi
-  Total frames:              99
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.12005
-  Frame:    40 - IPs[this:24, total: 100] - Perf: Avg FPS= 3.29082
-  Frame:    60 - IPs[this:30, total: 792] - Perf: Avg FPS= 3.23472
-  Frame:    80 - IPs[this:52, total:1772] - Perf: Avg FPS= 3.20469
--> Detected 2455 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/52_9_0.avi
+  video input:               //home/share/shaofan/Databases/UTI/15_3_3.avi
   Total frames:              139
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.0844
-  Frame:    40 - IPs[this:13, total:  43] - Perf: Avg FPS= 6.5083
-  Frame:    60 - IPs[this:12, total: 201] - Perf: Avg FPS= 6.56635
-  Frame:    80 - IPs[this: 4, total: 319] - Perf: Avg FPS= 6.64916
-  Frame:   100 - IPs[this: 0, total: 338] - Perf: Avg FPS= 6.72506
-  Frame:   120 - IPs[this:17, total: 529] - Perf: Avg FPS= 6.7363
--> Detected 665 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.17996
+  Frame:    40 - IPs[this: 4, total:  52] - Perf: Avg FPS= 7.79679
+  Frame:    60 - IPs[this: 0, total: 131] - Perf: Avg FPS= 7.18661
+  Frame:    80 - IPs[this: 0, total: 133] - Perf: Avg FPS= 6.57076
+  Frame:   100 - IPs[this: 0, total: 133] - Perf: Avg FPS= 6.31327
+  Frame:   120 - IPs[this:11, total: 183] - Perf: Avg FPS= 6.12521
+-> Detected 325 points
+[mpeg4 @ 0x3ed7f40] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f36a80] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/2_1_1.avi
-  Total frames:              172
+  video input:               //home/share/shaofan/Databases/UTI/16_13_5.avi
+  Total frames:              86
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.3752
-  Frame:    40 - IPs[this: 3, total:  35] - Perf: Avg FPS= 3.54923
-  Frame:    60 - IPs[this:17, total: 176] - Perf: Avg FPS= 3.53032
-  Frame:    80 - IPs[this:40, total: 912] - Perf: Avg FPS= 3.49338
-  Frame:   100 - IPs[this:22, total:1609] - Perf: Avg FPS= 3.47299
-  Frame:   120 - IPs[this: 6, total:1722] - Perf: Avg FPS= 3.49973
-  Frame:   140 - IPs[this:55, total:2243] - Perf: Avg FPS= 3.49497
-  Frame:   160 - IPs[this:31, total:3075] - Perf: Avg FPS= 3.47459
--> Detected 3459 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.87503
+  Frame:    40 - IPs[this: 9, total: 118] - Perf: Avg FPS= 2.70323
+  Frame:    60 - IPs[this:20, total: 406] - Perf: Avg FPS= 2.5951
+  Frame:    80 - IPs[this:19, total: 891] - Perf: Avg FPS= 2.58666
+-> Detected 1039 points
+[mpeg4 @ 0x5f6c480] too many thread_release_buffer calls!
+[mpeg4 @ 0x13411c0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/23_4_5.avi
-  Total frames:              109
+  video input:               //home/share/shaofan/Databases/UTI/16_3_5.avi
+  Total frames:              143
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.20983
-  Frame:    40 - IPs[this:28, total: 315] - Perf: Avg FPS= 3.36171
-  Frame:    60 - IPs[this:21, total: 749] - Perf: Avg FPS= 3.39492
-  Frame:    80 - IPs[this:34, total:1386] - Perf: Avg FPS= 3.38946
-  Frame:   100 - IPs[this: 7, total:1847] - Perf: Avg FPS= 3.40835
--> Detected 1955 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 1.2108
+  Frame:    40 - IPs[this:16, total:  61] - Perf: Avg FPS= 1.22966
+  Frame:    60 - IPs[this:44, total: 610] - Perf: Avg FPS= 1.19432
+  Frame:    80 - IPs[this:42, total:1269] - Perf: Avg FPS= 1.21466
+  Frame:   100 - IPs[this:46, total:2088] - Perf: Avg FPS= 1.2786
+  Frame:   120 - IPs[this:36, total:2702] - Perf: Avg FPS= 1.3601
+  Frame:   140 - IPs[this:37, total:3381] - Perf: Avg FPS= 1.43552
+-> Detected 3544 points
+[mpeg4 @ 0x1340c80] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/8_2_0.avi
-  Total frames:              123
+  video input:               //home/share/shaofan/Databases/UTI/17_13_0.avi
+  Total frames:              119
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.94873
-  Frame:    40 - IPs[this:35, total: 286] - Perf: Avg FPS= 4.004
-  Frame:    60 - IPs[this:18, total: 722] - Perf: Avg FPS= 4.07538
-  Frame:    80 - IPs[this: 1, total: 867] - Perf: Avg FPS= 4.15842
-  Frame:   100 - IPs[this:19, total:1163] - Perf: Avg FPS= 4.18575
-  Frame:   120 - IPs[this:20, total:1681] - Perf: Avg FPS= 4.1874
--> Detected 1752 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.58869
+  Frame:    40 - IPs[this:12, total: 243] - Perf: Avg FPS= 3.6119
+  Frame:    60 - IPs[this: 7, total: 499] - Perf: Avg FPS= 3.55344
+  Frame:    80 - IPs[this: 1, total: 541] - Perf: Avg FPS= 3.41097
+  Frame:   100 - IPs[this: 8, total: 692] - Perf: Avg FPS= 3.30685
+-> Detected 932 points
+[mpeg4 @ 0x3f2cd00] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/36_7_5.avi
-  Total frames:              107
+  video input:               //home/share/shaofan/Databases/UTI/17_3_0.avi
+  Total frames:              121
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.49556
-  Frame:    40 - IPs[this: 5, total:  32] - Perf: Avg FPS= 4.74359
-  Frame:    60 - IPs[this:16, total: 261] - Perf: Avg FPS= 4.77243
-  Frame:    80 - IPs[this:30, total: 670] - Perf: Avg FPS= 4.7473
-  Frame:   100 - IPs[this:18, total:1087] - Perf: Avg FPS= 4.73347
--> Detected 1221 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 1.39375
+  Frame:    40 - IPs[this:40, total: 325] - Perf: Avg FPS= 1.41165
+  Frame:    60 - IPs[this:29, total:1043] - Perf: Avg FPS= 1.38328
+  Frame:    80 - IPs[this:12, total:1689] - Perf: Avg FPS= 1.48588
+  Frame:   100 - IPs[this:43, total:2197] - Perf: Avg FPS= 1.56841
+  Frame:   120 - IPs[this:61, total:3006] - Perf: Avg FPS= 1.67607
+-> Detected 3074 points
+[mpeg4 @ 0x3f1c880] too many thread_release_buffer calls!
+[mpeg4 @ 0x13cf280] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/45_8_5.avi
-  Total frames:              102
+  video input:               //home/share/shaofan/Databases/UTI/18_14_0.avi
+  Total frames:              129
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.27542
-  Frame:    40 - IPs[this: 8, total: 169] - Perf: Avg FPS= 4.50333
-  Frame:    60 - IPs[this:17, total: 538] - Perf: Avg FPS= 4.45785
-  Frame:    80 - IPs[this:48, total:1141] - Perf: Avg FPS= 4.46143
-  Frame:   100 - IPs[this:31, total:1868] - Perf: Avg FPS= 4.45131
--> Detected 1951 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.09593
+  Frame:    40 - IPs[this: 8, total: 176] - Perf: Avg FPS= 5.14249
+  Frame:    60 - IPs[this:19, total: 416] - Perf: Avg FPS= 5.10469
+  Frame:    80 - IPs[this: 3, total: 558] - Perf: Avg FPS= 5.08366
+  Frame:   100 - IPs[this: 2, total: 638] - Perf: Avg FPS= 5.12635
+  Frame:   120 - IPs[this:15, total: 860] - Perf: Avg FPS= 5.07445
+-> Detected 970 points
+[mpeg4 @ 0x3f3c780] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/34_6_0.avi
-  Total frames:              144
+  video input:               //home/share/shaofan/Databases/UTI/18_4_4.avi
+  Total frames:              106
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.63433
-  Frame:    40 - IPs[this: 4, total: 107] - Perf: Avg FPS= 6.73469
-  Frame:    60 - IPs[this:10, total: 300] - Perf: Avg FPS= 6.71612
-  Frame:    80 - IPs[this:11, total: 580] - Perf: Avg FPS= 6.6816
-  Frame:   100 - IPs[this: 6, total: 714] - Perf: Avg FPS= 6.71186
-  Frame:   120 - IPs[this: 4, total: 778] - Perf: Avg FPS= 6.7466
-  Frame:   140 - IPs[this:14, total:1036] - Perf: Avg FPS= 6.7297
--> Detected 1117 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.07606
+  Frame:    40 - IPs[this: 8, total: 176] - Perf: Avg FPS= 4.07113
+  Frame:    60 - IPs[this:12, total: 462] - Perf: Avg FPS= 4.10432
+  Frame:    80 - IPs[this: 7, total: 540] - Perf: Avg FPS= 4.10045
+  Frame:   100 - IPs[this:23, total: 905] - Perf: Avg FPS= 4.15257
+-> Detected 1008 points
+[mpeg4 @ 0x3ed7fc0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/1_1_2.avi
+  video input:               //home/share/shaofan/Databases/UTI/19_14_1.avi
+  Total frames:              150
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.45023
+  Frame:    40 - IPs[this:21, total: 280] - Perf: Avg FPS= 4.20199
+  Frame:    60 - IPs[this:15, total: 628] - Perf: Avg FPS= 3.98083
+  Frame:    80 - IPs[this: 1, total: 695] - Perf: Avg FPS= 4.08528
+  Frame:   100 - IPs[this: 6, total: 715] - Perf: Avg FPS= 4.29688
+  Frame:   120 - IPs[this:24, total: 975] - Perf: Avg FPS= 4.41464
+  Frame:   140 - IPs[this:37, total:1462] - Perf: Avg FPS= 4.46802
+-> Detected 1646 points
+[mpeg4 @ 0x3f39660] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f315a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/19_4_1.avi
+  Total frames:              157
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.45233
+  Frame:    40 - IPs[this:32, total: 117] - Perf: Avg FPS= 3.51071
+  Frame:    60 - IPs[this:25, total: 541] - Perf: Avg FPS= 3.47338
+  Frame:    80 - IPs[this:19, total:1180] - Perf: Avg FPS= 3.46024
+  Frame:   100 - IPs[this: 1, total:1280] - Perf: Avg FPS= 3.54138
+  Frame:   120 - IPs[this:33, total:1556] - Perf: Avg FPS= 3.42655
+  Frame:   140 - IPs[this:26, total:2189] - Perf: Avg FPS= 3.36141
+-> Detected 2707 points
+[mpeg4 @ 0x3f1fa60] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f0de60] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/1_11_2.avi
+  Total frames:              94
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.8114
+  Frame:    40 - IPs[this:12, total: 126] - Perf: Avg FPS= 4.15773
+  Frame:    60 - IPs[this:26, total: 501] - Perf: Avg FPS= 4.52078
+  Frame:    80 - IPs[this:12, total: 865] - Perf: Avg FPS= 4.73449
+-> Detected 1071 points
+[mpeg4 @ 0x3f08860] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/1_1_2.avi
   Total frames:              118
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.74293
-  Frame:    40 - IPs[this: 3, total:  84] - Perf: Avg FPS= 2.83927
-  Frame:    60 - IPs[this:19, total: 449] - Perf: Avg FPS= 2.87731
-  Frame:    80 - IPs[this:49, total:1240] - Perf: Avg FPS= 2.8602
-  Frame:   100 - IPs[this:34, total:1974] - Perf: Avg FPS= 2.81601
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.01073
+  Frame:    40 - IPs[this: 3, total:  84] - Perf: Avg FPS= 2.19194
+  Frame:    60 - IPs[this:19, total: 449] - Perf: Avg FPS= 2.26184
+  Frame:    80 - IPs[this:49, total:1240] - Perf: Avg FPS= 2.20948
+  Frame:   100 - IPs[this:34, total:1974] - Perf: Avg FPS= 2.14489
 -> Detected 2740 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/32_6_1.avi
-  Total frames:              169
+  video input:               //home/share/shaofan/Databases/UTI/20_14_5.avi
+  Total frames:              105
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.85975
-  Frame:    40 - IPs[this: 5, total: 114] - Perf: Avg FPS= 5.2024
-  Frame:    60 - IPs[this:16, total: 267] - Perf: Avg FPS= 5.3259
-  Frame:    80 - IPs[this:22, total: 580] - Perf: Avg FPS= 5.25652
-  Frame:   100 - IPs[this: 6, total: 813] - Perf: Avg FPS= 5.28601
-  Frame:   120 - IPs[this: 6, total: 888] - Perf: Avg FPS= 5.35278
-  Frame:   140 - IPs[this:24, total:1156] - Perf: Avg FPS= 5.3694
-  Frame:   160 - IPs[this:19, total:1522] - Perf: Avg FPS= 5.37136
--> Detected 1689 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.76062
+  Frame:    40 - IPs[this:19, total: 340] - Perf: Avg FPS= 3.03611
+  Frame:    60 - IPs[this:34, total: 831] - Perf: Avg FPS= 2.95844
+  Frame:    80 - IPs[this:34, total:1330] - Perf: Avg FPS= 2.82483
+  Frame:   100 - IPs[this:35, total:2035] - Perf: Avg FPS= 2.81585
+-> Detected 2191 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/59_10_2.avi
-  Total frames:              94
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.21711
-  Frame:    40 - IPs[this: 3, total:  56] - Perf: Avg FPS= 6.62187
-  Frame:    60 - IPs[this:23, total: 290] - Perf: Avg FPS= 6.68177
-  Frame:    80 - IPs[this:14, total: 552] - Perf: Avg FPS= 6.69463
--> Detected 742 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/10_2_1.avi
-  Total frames:              133
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.36896
-  Frame:    40 - IPs[this:25, total: 243] - Perf: Avg FPS= 3.53663
-  Frame:    60 - IPs[this:48, total:1117] - Perf: Avg FPS= 3.50285
-  Frame:    80 - IPs[this: 7, total:1729] - Perf: Avg FPS= 3.51253
-  Frame:   100 - IPs[this:36, total:2134] - Perf: Avg FPS= 3.53729
-  Frame:   120 - IPs[this:46, total:2905] - Perf: Avg FPS= 3.50929
--> Detected 3367 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/47_8_1.avi
-  Total frames:              159
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.10289
-  Frame:    40 - IPs[this:12, total:  96] - Perf: Avg FPS= 6.49378
-  Frame:    60 - IPs[this:14, total: 534] - Perf: Avg FPS= 6.45957
-  Frame:    80 - IPs[this: 4, total: 803] - Perf: Avg FPS= 6.5082
-  Frame:   100 - IPs[this: 5, total: 893] - Perf: Avg FPS= 6.57756
-  Frame:   120 - IPs[this: 8, total:1008] - Perf: Avg FPS= 6.61274
-  Frame:   140 - IPs[this:27, total:1323] - Perf: Avg FPS= 6.60999
--> Detected 1766 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/40_7_1.avi
-  Total frames:              147
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.51161
-  Frame:    40 - IPs[this:15, total: 104] - Perf: Avg FPS= 6.79598
-  Frame:    60 - IPs[this:22, total: 530] - Perf: Avg FPS= 6.71322
-  Frame:    80 - IPs[this: 1, total: 819] - Perf: Avg FPS= 6.73394
-  Frame:   100 - IPs[this: 2, total: 823] - Perf: Avg FPS= 6.84444
-  Frame:   120 - IPs[this:16, total:1084] - Perf: Avg FPS= 6.84144
-  Frame:   140 - IPs[this:13, total:1486] - Perf: Avg FPS= 6.80804
--> Detected 1596 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/53_9_1.avi
-  Total frames:              146
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.76583
-  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 6.2043
-  Frame:    60 - IPs[this: 6, total: 256] - Perf: Avg FPS= 6.28019
-  Frame:    80 - IPs[this: 8, total: 466] - Perf: Avg FPS= 6.19701
-  Frame:   100 - IPs[this: 0, total: 483] - Perf: Avg FPS= 6.30519
-  Frame:   120 - IPs[this: 9, total: 619] - Perf: Avg FPS= 6.33086
-  Frame:   140 - IPs[this:11, total: 826] - Perf: Avg FPS= 6.3538
--> Detected 921 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/18_4_4.avi
-  Total frames:              106
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.14907
-  Frame:    40 - IPs[this: 8, total: 176] - Perf: Avg FPS= 5.49312
-  Frame:    60 - IPs[this:12, total: 462] - Perf: Avg FPS= 5.58818
-  Frame:    80 - IPs[this: 7, total: 540] - Perf: Avg FPS= 5.58719
-  Frame:   100 - IPs[this:23, total: 905] - Perf: Avg FPS= 5.61019
--> Detected 1008 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/46_8_3.avi
-  Total frames:              133
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 11.1833
-  Frame:    40 - IPs[this: 3, total:  32] - Perf: Avg FPS= 12.4023
-  Frame:    60 - IPs[this: 8, total: 163] - Perf: Avg FPS= 12.7032
-  Frame:    80 - IPs[this: 2, total: 240] - Perf: Avg FPS= 12.9477
-  Frame:   100 - IPs[this: 1, total: 262] - Perf: Avg FPS= 13.1598
-  Frame:   120 - IPs[this: 3, total: 351] - Perf: Avg FPS= 13.2308
--> Detected 372 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/51_9_4.avi
-  Total frames:              114
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.63025
-  Frame:    40 - IPs[this: 6, total:  13] - Perf: Avg FPS= 5.65228
-  Frame:    60 - IPs[this:11, total: 191] - Perf: Avg FPS= 5.72293
-  Frame:    80 - IPs[this: 3, total: 424] - Perf: Avg FPS= 5.74967
-  Frame:   100 - IPs[this:12, total: 619] - Perf: Avg FPS= 5.77222
--> Detected 773 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/33_6_3.avi
-  Total frames:              127
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.9242
-  Frame:    40 - IPs[this: 9, total: 145] - Perf: Avg FPS= 11.2607
-  Frame:    60 - IPs[this:13, total: 409] - Perf: Avg FPS= 11.2135
-  Frame:    80 - IPs[this:10, total: 605] - Perf: Avg FPS= 11.2583
-  Frame:   100 - IPs[this: 2, total: 702] - Perf: Avg FPS= 11.372
-  Frame:   120 - IPs[this: 7, total: 771] - Perf: Avg FPS= 11.479
--> Detected 788 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/25_5_4.avi
-  Total frames:              60
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.9217
-  Frame:    40 - IPs[this:28, total: 362] - Perf: Avg FPS= 3.76127
-  Frame:    60 - IPs[this:22, total: 928] - Perf: Avg FPS= 3.72187
--> Detected 928 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/48_9_3.avi
-  Total frames:              129
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.472
-  Frame:    40 - IPs[this: 2, total:  10] - Perf: Avg FPS= 11.4882
-  Frame:    60 - IPs[this: 1, total:  66] - Perf: Avg FPS= 11.831
-  Frame:    80 - IPs[this: 0, total:  67] - Perf: Avg FPS= 12.1024
-  Frame:   100 - IPs[this: 3, total:  76] - Perf: Avg FPS= 12.1426
-  Frame:   120 - IPs[this: 1, total: 104] - Perf: Avg FPS= 11.1188
--> Detected 106 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/35_7_0.avi
-  Total frames:              139
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.82826
-  Frame:    40 - IPs[this: 4, total:  53] - Perf: Avg FPS= 6.99703
-  Frame:    60 - IPs[this: 8, total: 238] - Perf: Avg FPS= 6.77152
-  Frame:    80 - IPs[this: 4, total: 472] - Perf: Avg FPS= 6.80599
-  Frame:   100 - IPs[this: 5, total: 573] - Perf: Avg FPS= 6.87196
-  Frame:   120 - IPs[this:15, total: 701] - Perf: Avg FPS= 6.90483
--> Detected 890 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/11_2_3.avi
-  Total frames:              133
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.96421
-  Frame:    40 - IPs[this: 5, total:  83] - Perf: Avg FPS= 9.17807
-  Frame:    60 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.28368
-  Frame:    80 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.37353
-  Frame:   100 - IPs[this: 0, total: 128] - Perf: Avg FPS= 9.42068
-  Frame:   120 - IPs[this: 4, total: 198] - Perf: Avg FPS= 9.41994
--> Detected 241 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/26_5_2.avi
-  Total frames:              77
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.41298
-  Frame:    40 - IPs[this:31, total: 441] - Perf: Avg FPS= 3.41821
-  Frame:    60 - IPs[this:29, total:1017] - Perf: Avg FPS= 3.39365
--> Detected 1446 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/15_3_3.avi
-  Total frames:              139
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.73437
-  Frame:    40 - IPs[this: 4, total:  52] - Perf: Avg FPS= 8.42966
-  Frame:    60 - IPs[this: 0, total: 131] - Perf: Avg FPS= 8.37186
-  Frame:    80 - IPs[this: 0, total: 133] - Perf: Avg FPS= 8.62732
-  Frame:   100 - IPs[this: 0, total: 133] - Perf: Avg FPS= 8.77818
-  Frame:   120 - IPs[this:11, total: 183] - Perf: Avg FPS= 8.85128
--> Detected 325 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/12_3_4.avi
-  Total frames:              95
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.03125
-  Frame:    40 - IPs[this: 3, total:  16] - Perf: Avg FPS= 4.29114
-  Frame:    60 - IPs[this:11, total: 257] - Perf: Avg FPS= 4.31711
-  Frame:    80 - IPs[this:44, total: 883] - Perf: Avg FPS= 4.27393
--> Detected 1418 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/17_3_0.avi
-  Total frames:              121
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.47696
-  Frame:    40 - IPs[this:40, total: 325] - Perf: Avg FPS= 3.51296
-  Frame:    60 - IPs[this:29, total:1043] - Perf: Avg FPS= 3.47205
-  Frame:    80 - IPs[this:12, total:1689] - Perf: Avg FPS= 3.46223
-  Frame:   100 - IPs[this:43, total:2197] - Perf: Avg FPS= 3.47046
-  Frame:   120 - IPs[this:61, total:3006] - Perf: Avg FPS= 3.41261
--> Detected 3074 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/14_3_1.avi
-  Total frames:              168
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.23287
-  Frame:    40 - IPs[this:29, total: 309] - Perf: Avg FPS= 4.27943
-  Frame:    60 - IPs[this:37, total: 811] - Perf: Avg FPS= 4.24916
-  Frame:    80 - IPs[this:36, total:1528] - Perf: Avg FPS= 4.20259
-  Frame:   100 - IPs[this: 2, total:1775] - Perf: Avg FPS= 4.22773
-  Frame:   120 - IPs[this:15, total:1888] - Perf: Avg FPS= 4.26208
-  Frame:   140 - IPs[this:27, total:2407] - Perf: Avg FPS= 4.25229
-  Frame:   160 - IPs[this:22, total:3208] - Perf: Avg FPS= 4.06316
--> Detected 3548 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/30_6_2.avi
-  Total frames:              89
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.44463
-  Frame:    40 - IPs[this: 6, total: 130] - Perf: Avg FPS= 4.61126
-  Frame:    60 - IPs[this: 8, total: 330] - Perf: Avg FPS= 4.73517
-  Frame:    80 - IPs[this:15, total: 657] - Perf: Avg FPS= 4.7801
--> Detected 871 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/54_10_0.avi
-  Total frames:              119
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.701
-  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 8.39602
-  Frame:    60 - IPs[this: 4, total:  79] - Perf: Avg FPS= 8.57975
-  Frame:    80 - IPs[this: 4, total: 201] - Perf: Avg FPS= 8.63368
-  Frame:   100 - IPs[this: 8, total: 255] - Perf: Avg FPS= 8.7078
--> Detected 396 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/20_4_2.avi
+  video input:               //home/share/shaofan/Databases/UTI/20_4_2.avi
   Total frames:              120
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.91383
-  Frame:    40 - IPs[this:26, total: 277] - Perf: Avg FPS= 4.07366
-  Frame:    60 - IPs[this:21, total: 682] - Perf: Avg FPS= 4.10132
-  Frame:    80 - IPs[this:10, total:1025] - Perf: Avg FPS= 4.1223
-  Frame:   100 - IPs[this:26, total:1363] - Perf: Avg FPS= 4.12919
-  Frame:   120 - IPs[this:15, total:1740] - Perf: Avg FPS= 4.14028
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.91712
+  Frame:    40 - IPs[this:26, total: 277] - Perf: Avg FPS= 2.95916
+  Frame:    60 - IPs[this:21, total: 682] - Perf: Avg FPS= 2.92715
+  Frame:    80 - IPs[this:10, total:1025] - Perf: Avg FPS= 2.93792
+  Frame:   100 - IPs[this:26, total:1363] - Perf: Avg FPS= 2.88275
+  Frame:   120 - IPs[this:15, total:1740] - Perf: Avg FPS= 2.81717
 -> Detected 1740 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/6_2_4.avi
-  Total frames:              101
+  video input:               //home/share/shaofan/Databases/UTI/21_14_3.avi
+  Total frames:              115
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.13692
-  Frame:    40 - IPs[this:25, total: 211] - Perf: Avg FPS= 3.29649
-  Frame:    60 - IPs[this:17, total: 612] - Perf: Avg FPS= 3.32554
-  Frame:    80 - IPs[this:34, total:1188] - Perf: Avg FPS= 3.31374
-  Frame:   100 - IPs[this:72, total:1967] - Perf: Avg FPS= 3.29439
--> Detected 2030 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.7708
+  Frame:    40 - IPs[this: 6, total:  57] - Perf: Avg FPS= 11.5859
+  Frame:    60 - IPs[this: 0, total:  82] - Perf: Avg FPS= 11.979
+  Frame:    80 - IPs[this: 0, total:  82] - Perf: Avg FPS= 12.1657
+  Frame:   100 - IPs[this: 5, total: 110] - Perf: Avg FPS= 12.2061
+-> Detected 150 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/43_8_4.avi
-  Total frames:              84
+  video input:               //home/share/shaofan/Databases/UTI/21_4_0.avi
+  Total frames:              147
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.70544
-  Frame:    40 - IPs[this: 9, total: 221] - Perf: Avg FPS= 4.89345
-  Frame:    60 - IPs[this:20, total: 581] - Perf: Avg FPS= 4.9311
-  Frame:    80 - IPs[this:29, total:1119] - Perf: Avg FPS= 4.91417
--> Detected 1275 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.45801
+  Frame:    40 - IPs[this:27, total: 227] - Perf: Avg FPS= 3.46812
+  Frame:    60 - IPs[this:24, total: 654] - Perf: Avg FPS= 3.44738
+  Frame:    80 - IPs[this: 4, total:1091] - Perf: Avg FPS= 3.40287
+  Frame:   100 - IPs[this:24, total:1316] - Perf: Avg FPS= 3.26724
+  Frame:   120 - IPs[this:29, total:1700] - Perf: Avg FPS= 3.15576
+  Frame:   140 - IPs[this:21, total:2226] - Perf: Avg FPS= 3.11465
+-> Detected 2369 points
+[mpeg4 @ 0x3f17a60] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/49_9_5.avi
-  Total frames:              117
+  video input:               //home/share/shaofan/Databases/UTI/22_14_4.avi
+  Total frames:              98
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.32013
-  Frame:    40 - IPs[this: 3, total:  43] - Perf: Avg FPS= 5.78947
-  Frame:    60 - IPs[this: 2, total: 152] - Perf: Avg FPS= 5.92065
-  Frame:    80 - IPs[this: 7, total: 382] - Perf: Avg FPS= 5.84902
-  Frame:   100 - IPs[this:11, total: 552] - Perf: Avg FPS= 5.90359
--> Detected 794 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.021
+  Frame:    40 - IPs[this:18, total: 218] - Perf: Avg FPS= 2.06259
+  Frame:    60 - IPs[this:33, total: 748] - Perf: Avg FPS= 2.04091
+  Frame:    80 - IPs[this:18, total:1272] - Perf: Avg FPS= 1.97307
+-> Detected 1735 points
+[mpeg4 @ 0x3f3e2e0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/37_7_4.avi
-  Total frames:              110
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.939
-  Frame:    40 - IPs[this:13, total:  82] - Perf: Avg FPS= 5.31761
-  Frame:    60 - IPs[this:19, total: 298] - Perf: Avg FPS= 5.38854
-  Frame:    80 - IPs[this: 5, total: 488] - Perf: Avg FPS= 5.34798
-  Frame:   100 - IPs[this:20, total: 785] - Perf: Avg FPS= 5.37544
--> Detected 987 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/39_7_3.avi
-  Total frames:              116
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.2165
-  Frame:    40 - IPs[this: 0, total:   2] - Perf: Avg FPS= 11.1561
-  Frame:    60 - IPs[this: 0, total:  69] - Perf: Avg FPS= 11.4378
-  Frame:    80 - IPs[this: 0, total:  69] - Perf: Avg FPS= 11.6404
-  Frame:   100 - IPs[this: 2, total:  94] - Perf: Avg FPS= 11.7382
--> Detected 129 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/44_8_4.avi
-  Total frames:              59
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.50081
-  Frame:    40 - IPs[this:16, total: 268] - Perf: Avg FPS= 6.49557
--> Detected 504 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/29_5_5.avi
-  Total frames:              105
-  frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
-  #pyr.levels:               3
-  init.pyr.level:            0
-  detector:                  harris3d
-  spatial patch size fact.:  9
-  temporal patch size fact.: 4
-  descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.00704
-  Frame:    40 - IPs[this:14, total: 292] - Perf: Avg FPS= 3.0373
-  Frame:    60 - IPs[this:24, total: 824] - Perf: Avg FPS= 3.06382
-  Frame:    80 - IPs[this:23, total:1512] - Perf: Avg FPS= 3.06782
-  Frame:   100 - IPs[this:28, total:2012] - Perf: Avg FPS= 3.0509
--> Detected 2125 points
-
-  Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/22_4_3.avi
+  video input:               //home/share/shaofan/Databases/UTI/22_4_3.avi
   Total frames:              81
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 9.96018
-  Frame:    40 - IPs[this: 2, total:  18] - Perf: Avg FPS= 10.2164
-  Frame:    60 - IPs[this: 1, total:  76] - Perf: Avg FPS= 10.2379
-  Frame:    80 - IPs[this: 9, total: 158] - Perf: Avg FPS= 10.2411
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.84994
+  Frame:    40 - IPs[this: 2, total:  18] - Perf: Avg FPS= 9.12031
+  Frame:    60 - IPs[this: 1, total:  76] - Perf: Avg FPS= 9.26804
+  Frame:    80 - IPs[this: 9, total: 158] - Perf: Avg FPS= 9.33784
 -> Detected 165 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/27_5_1.avi
+  video input:               //home/share/shaofan/Databases/UTI/23_14_2.avi
+  Total frames:              75
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.01419
+  Frame:    40 - IPs[this:22, total: 269] - Perf: Avg FPS= 3.9722
+  Frame:    60 - IPs[this: 9, total: 693] - Perf: Avg FPS= 3.95846
+-> Detected 1073 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/23_4_5.avi
+  Total frames:              109
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.24547
+  Frame:    40 - IPs[this:28, total: 315] - Perf: Avg FPS= 2.02899
+  Frame:    60 - IPs[this:21, total: 749] - Perf: Avg FPS= 1.86366
+  Frame:    80 - IPs[this:34, total:1386] - Perf: Avg FPS= 1.76348
+  Frame:   100 - IPs[this: 7, total:1847] - Perf: Avg FPS= 1.77254
+-> Detected 1955 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/24_15_1.avi
+  Total frames:              133
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.86259
+  Frame:    40 - IPs[this:30, total: 336] - Perf: Avg FPS= 4.92126
+  Frame:    60 - IPs[this:26, total: 710] - Perf: Avg FPS= 4.91599
+  Frame:    80 - IPs[this: 6, total:1083] - Perf: Avg FPS= 4.92244
+  Frame:   100 - IPs[this:18, total:1297] - Perf: Avg FPS= 4.95192
+  Frame:   120 - IPs[this:15, total:1720] - Perf: Avg FPS= 4.93262
+-> Detected 1910 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/24_5_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.1744
+  Frame:    40 - IPs[this: 5, total:  12] - Perf: Avg FPS= 3.5512
+  Frame:    60 - IPs[this:24, total: 143] - Perf: Avg FPS= 3.78314
+  Frame:    80 - IPs[this:19, total: 542] - Perf: Avg FPS= 3.39262
+  Frame:   100 - IPs[this: 2, total: 829] - Perf: Avg FPS= 3.29404
+  Frame:   120 - IPs[this:28, total:1188] - Perf: Avg FPS= 3.1898
+-> Detected 1529 points
+[mpeg4 @ 0x3ee3ba0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/25_15_0.avi
+  Total frames:              98
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.56834
+  Frame:    40 - IPs[this:19, total: 214] - Perf: Avg FPS= 4.67075
+  Frame:    60 - IPs[this:15, total: 499] - Perf: Avg FPS= 4.66339
+  Frame:    80 - IPs[this:12, total: 670] - Perf: Avg FPS= 4.63648
+-> Detected 929 points
+[mpeg4 @ 0x133e740] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/25_5_4.avi
+  Total frames:              60
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.5281
+  Frame:    40 - IPs[this:28, total: 362] - Perf: Avg FPS= 2.59397
+  Frame:    60 - IPs[this:24, total: 922] - Perf: Avg FPS= 2.58977
+-> Detected 922 points
+[mpeg4 @ 0x3ee34c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/26_15_4.avi
+  Total frames:              90
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.23064
+  Frame:    40 - IPs[this:21, total: 228] - Perf: Avg FPS= 4.14965
+  Frame:    60 - IPs[this:19, total: 616] - Perf: Avg FPS= 3.71537
+  Frame:    80 - IPs[this:29, total:1088] - Perf: Avg FPS= 3.44793
+-> Detected 1258 points
+[mpeg4 @ 0x3f350e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f246e0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/26_5_2.avi
+  Total frames:              77
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.05472
+  Frame:    40 - IPs[this:31, total: 441] - Perf: Avg FPS= 2.78096
+  Frame:    60 - IPs[this:29, total:1017] - Perf: Avg FPS= 2.61393
+-> Detected 1436 points
+[mpeg4 @ 0x3f1a8a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f08a20] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/27_15_2.avi
+  Total frames:              80
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.28684
+  Frame:    40 - IPs[this:12, total: 201] - Perf: Avg FPS= 2.37822
+  Frame:    60 - IPs[this:16, total: 569] - Perf: Avg FPS= 2.32845
+  Frame:    80 - IPs[this: 3, total: 933] - Perf: Avg FPS= 2.36155
+-> Detected 933 points
+[mpeg4 @ 0x3f39380] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f2d020] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/27_5_1.avi
   Total frames:              145
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.13705
-  Frame:    40 - IPs[this: 8, total:  72] - Perf: Avg FPS= 4.10511
-  Frame:    60 - IPs[this:28, total: 592] - Perf: Avg FPS= 4.07673
-  Frame:    80 - IPs[this:17, total:1111] - Perf: Avg FPS= 4.0668
-  Frame:   100 - IPs[this: 2, total:1222] - Perf: Avg FPS= 4.10914
-  Frame:   120 - IPs[this:19, total:1572] - Perf: Avg FPS= 4.10982
-  Frame:   140 - IPs[this:31, total:2022] - Perf: Avg FPS= 4.09457
--> Detected 2174 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.64246
+  Frame:    40 - IPs[this: 8, total:  72] - Perf: Avg FPS= 3.75366
+  Frame:    60 - IPs[this:28, total: 592] - Perf: Avg FPS= 3.70887
+  Frame:    80 - IPs[this:17, total:1111] - Perf: Avg FPS= 3.70212
+  Frame:   100 - IPs[this: 2, total:1222] - Perf: Avg FPS= 3.73637
+  Frame:   120 - IPs[this:19, total:1572] - Perf: Avg FPS= 3.73306
+  Frame:   140 - IPs[this:30, total:2021] - Perf: Avg FPS= 3.72338
+-> Detected 2172 points
+[mpeg4 @ 0x3f1afa0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f09100] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/50_9_2.avi
+  video input:               //home/share/shaofan/Databases/UTI/28_15_3.avi
+  Total frames:              88
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.09409
+  Frame:    40 - IPs[this: 8, total: 142] - Perf: Avg FPS= 8.37421
+  Frame:    60 - IPs[this: 4, total: 302] - Perf: Avg FPS= 7.28589
+  Frame:    80 - IPs[this:13, total: 565] - Perf: Avg FPS= 6.88374
+-> Detected 617 points
+[mpeg4 @ 0x3f3b720] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/28_5_3.avi
+  Total frames:              146
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.53329
+  Frame:    40 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.19634
+  Frame:    60 - IPs[this: 2, total:  73] - Perf: Avg FPS= 7.53103
+  Frame:    80 - IPs[this: 0, total:  82] - Perf: Avg FPS= 7.69702
+  Frame:   100 - IPs[this: 0, total:  82] - Perf: Avg FPS= 7.81079
+  Frame:   120 - IPs[this: 1, total: 119] - Perf: Avg FPS= 7.88032
+  Frame:   140 - IPs[this: 0, total: 151] - Perf: Avg FPS= 7.90983
+-> Detected 151 points
+[mpeg4 @ 0x1340d60] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/29_15_5.avi
+  Total frames:              100
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.7065
+  Frame:    40 - IPs[this:17, total: 125] - Perf: Avg FPS= 2.82995
+  Frame:    60 - IPs[this:17, total: 496] - Perf: Avg FPS= 2.68212
+  Frame:    80 - IPs[this:26, total: 948] - Perf: Avg FPS= 2.72656
+  Frame:   100 - IPs[this: 4, total:1252] - Perf: Avg FPS= 2.72952
+-> Detected 1252 points
+[mpeg4 @ 0x3f3a060] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/29_5_5.avi
+  Total frames:              105
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.38785
+  Frame:    40 - IPs[this:14, total: 292] - Perf: Avg FPS= 2.32029
+  Frame:    60 - IPs[this:24, total: 824] - Perf: Avg FPS= 2.44755
+  Frame:    80 - IPs[this:23, total:1512] - Perf: Avg FPS= 2.43705
+  Frame:   100 - IPs[this:28, total:2012] - Perf: Avg FPS= 2.48442
+-> Detected 2125 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/2_11_5.avi
+  Total frames:              85
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.85053
+  Frame:    40 - IPs[this:10, total: 151] - Perf: Avg FPS= 2.86541
+  Frame:    60 - IPs[this:29, total: 494] - Perf: Avg FPS= 2.89643
+  Frame:    80 - IPs[this:27, total:1134] - Perf: Avg FPS= 2.86694
+-> Detected 1263 points
+[mpeg4 @ 0x3f29340] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/2_1_1.avi
+  Total frames:              172
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.99355
+  Frame:    40 - IPs[this: 3, total:  35] - Perf: Avg FPS= 2.89248
+  Frame:    60 - IPs[this:17, total: 176] - Perf: Avg FPS= 2.75267
+  Frame:    80 - IPs[this:40, total: 912] - Perf: Avg FPS= 2.78713
+  Frame:   100 - IPs[this:22, total:1609] - Perf: Avg FPS= 2.80496
+  Frame:   120 - IPs[this: 6, total:1722] - Perf: Avg FPS= 2.83003
+  Frame:   140 - IPs[this:55, total:2243] - Perf: Avg FPS= 2.8486
+  Frame:   160 - IPs[this:31, total:3073] - Perf: Avg FPS= 2.85011
+-> Detected 3455 points
+[mpeg4 @ 0x3f20640] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/30_16_3.avi
+  Total frames:              124
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.12986
+  Frame:    40 - IPs[this: 5, total:  25] - Perf: Avg FPS= 8.71653
+  Frame:    60 - IPs[this: 0, total:  48] - Perf: Avg FPS= 9.14359
+  Frame:    80 - IPs[this: 0, total:  49] - Perf: Avg FPS= 9.27706
+  Frame:   100 - IPs[this: 3, total:  80] - Perf: Avg FPS= 9.23644
+  Frame:   120 - IPs[this: 8, total: 142] - Perf: Avg FPS= 9.26087
+-> Detected 150 points
+[mpeg4 @ 0x1341620] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/30_6_2.avi
   Total frames:              89
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.14351
-  Frame:    40 - IPs[this:14, total:  78] - Perf: Avg FPS= 6.56201
-  Frame:    60 - IPs[this:10, total: 269] - Perf: Avg FPS= 6.65493
-  Frame:    80 - IPs[this:29, total: 515] - Perf: Avg FPS= 6.68551
--> Detected 669 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.88829
+  Frame:    40 - IPs[this: 6, total: 130] - Perf: Avg FPS= 3.0753
+  Frame:    60 - IPs[this: 8, total: 330] - Perf: Avg FPS= 3.29655
+  Frame:    80 - IPs[this:15, total: 657] - Perf: Avg FPS= 3.40918
+-> Detected 871 points
+[mpeg4 @ 0x3edc580] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f33a20] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/38_7_2.avi
-  Total frames:              92
+  video input:               //home/share/shaofan/Databases/UTI/31_16_0.avi
+  Total frames:              130
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.04903
-  Frame:    40 - IPs[this: 8, total: 260] - Perf: Avg FPS= 5.83585
-  Frame:    60 - IPs[this:18, total: 639] - Perf: Avg FPS= 5.85921
-  Frame:    80 - IPs[this:17, total: 872] - Perf: Avg FPS= 5.91802
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.4311
+  Frame:    40 - IPs[this:25, total: 220] - Perf: Avg FPS= 4.53405
+  Frame:    60 - IPs[this:22, total: 619] - Perf: Avg FPS= 4.54039
+  Frame:    80 - IPs[this:15, total: 952] - Perf: Avg FPS= 4.52729
+  Frame:   100 - IPs[this:13, total:1306] - Perf: Avg FPS= 4.5288
+  Frame:   120 - IPs[this:20, total:1753] - Perf: Avg FPS= 4.51256
+-> Detected 1999 points
+[mpeg4 @ 0x3f23660] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/31_6_5.avi
+  Total frames:              122
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.92161
+  Frame:    40 - IPs[this: 7, total: 132] - Perf: Avg FPS= 3.06934
+  Frame:    60 - IPs[this:15, total: 381] - Perf: Avg FPS= 3.0109
+  Frame:    80 - IPs[this:27, total: 867] - Perf: Avg FPS= 2.94239
+  Frame:   100 - IPs[this:35, total:1391] - Perf: Avg FPS= 2.84612
+  Frame:   120 - IPs[this:22, total:1883] - Perf: Avg FPS= 2.90791
+-> Detected 1976 points
+[mpeg4 @ 0x3f3d0e0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/32_16_1.avi
+  Total frames:              120
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.59071
+  Frame:    40 - IPs[this: 9, total: 144] - Perf: Avg FPS= 4.15513
+  Frame:    60 - IPs[this: 5, total: 378] - Perf: Avg FPS= 4.3688
+  Frame:    80 - IPs[this: 0, total: 398] - Perf: Avg FPS= 4.54023
+  Frame:   100 - IPs[this:14, total: 472] - Perf: Avg FPS= 4.65006
+  Frame:   120 - IPs[this: 4, total: 666] - Perf: Avg FPS= 4.7182
+-> Detected 666 points
+[mpeg4 @ 0x3f24760] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/32_6_1.avi
+  Total frames:              169
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.28737
+  Frame:    40 - IPs[this: 5, total: 114] - Perf: Avg FPS= 3.41619
+  Frame:    60 - IPs[this:16, total: 267] - Perf: Avg FPS= 3.5225
+  Frame:    80 - IPs[this:22, total: 580] - Perf: Avg FPS= 3.58897
+  Frame:   100 - IPs[this: 6, total: 813] - Perf: Avg FPS= 3.63178
+  Frame:   120 - IPs[this: 6, total: 888] - Perf: Avg FPS= 3.74104
+  Frame:   140 - IPs[this:24, total:1156] - Perf: Avg FPS= 3.78526
+  Frame:   160 - IPs[this:19, total:1522] - Perf: Avg FPS= 3.69377
+-> Detected 1689 points
+[mpeg4 @ 0x3f40240] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/33_16_4.avi
+  Total frames:              74
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.43509
+  Frame:    40 - IPs[this:13, total: 229] - Perf: Avg FPS= 3.52818
+  Frame:    60 - IPs[this: 9, total: 585] - Perf: Avg FPS= 3.49871
+-> Detected 726 points
+[mpeg4 @ 0x3f3fea0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/33_6_3.avi
+  Total frames:              127
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.99891
+  Frame:    40 - IPs[this: 9, total: 145] - Perf: Avg FPS= 8.40854
+  Frame:    60 - IPs[this:13, total: 408] - Perf: Avg FPS= 7.92311
+  Frame:    80 - IPs[this:13, total: 611] - Perf: Avg FPS= 7.8234
+  Frame:   100 - IPs[this: 2, total: 708] - Perf: Avg FPS= 8.0334
+  Frame:   120 - IPs[this: 7, total: 777] - Perf: Avg FPS= 8.13363
+-> Detected 794 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/34_16_2.avi
+  Total frames:              105
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.15007
+  Frame:    40 - IPs[this: 9, total: 117] - Perf: Avg FPS= 2.37757
+  Frame:    60 - IPs[this: 8, total: 401] - Perf: Avg FPS= 2.38624
+  Frame:    80 - IPs[this:14, total: 609] - Perf: Avg FPS= 2.37642
+  Frame:   100 - IPs[this: 8, total: 934] - Perf: Avg FPS= 2.40107
+-> Detected 1046 points
+[mpeg4 @ 0x3f15680] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/34_6_0.avi
+  Total frames:              144
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.70227
+  Frame:    40 - IPs[this: 4, total: 107] - Perf: Avg FPS= 5.82137
+  Frame:    60 - IPs[this:10, total: 300] - Perf: Avg FPS= 5.88373
+  Frame:    80 - IPs[this:11, total: 580] - Perf: Avg FPS= 5.86797
+  Frame:   100 - IPs[this: 6, total: 714] - Perf: Avg FPS= 5.90856
+  Frame:   120 - IPs[this: 4, total: 778] - Perf: Avg FPS= 5.93317
+  Frame:   140 - IPs[this:14, total:1036] - Perf: Avg FPS= 5.92171
+-> Detected 1117 points
+[mpeg4 @ 0x3f07aa0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/35_16_5.avi
+  Total frames:              115
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.24685
+  Frame:    40 - IPs[this:18, total: 238] - Perf: Avg FPS= 2.41438
+  Frame:    60 - IPs[this:22, total: 717] - Perf: Avg FPS= 2.08855
+  Frame:    80 - IPs[this:21, total:1142] - Perf: Avg FPS= 1.92931
+  Frame:   100 - IPs[this:39, total:1642] - Perf: Avg FPS= 1.87113
+-> Detected 2067 points
+[mpeg4 @ 0x3f0d9c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/35_7_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.76184
+  Frame:    40 - IPs[this: 4, total:  53] - Perf: Avg FPS= 6.03181
+  Frame:    60 - IPs[this: 8, total: 238] - Perf: Avg FPS= 6.07699
+  Frame:    80 - IPs[this: 4, total: 472] - Perf: Avg FPS= 6.05513
+  Frame:   100 - IPs[this: 5, total: 573] - Perf: Avg FPS= 6.11189
+  Frame:   120 - IPs[this:15, total: 701] - Perf: Avg FPS= 6.14113
+-> Detected 890 points
+[mpeg4 @ 0x3f32d20] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/36_17_1.avi
+  Total frames:              145
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.22642
+  Frame:    40 - IPs[this:13, total: 198] - Perf: Avg FPS= 5.28143
+  Frame:    60 - IPs[this:11, total: 496] - Perf: Avg FPS= 5.02457
+  Frame:    80 - IPs[this: 4, total: 755] - Perf: Avg FPS= 5.05831
+  Frame:   100 - IPs[this: 4, total: 812] - Perf: Avg FPS= 5.11768
+  Frame:   120 - IPs[this: 9, total:1065] - Perf: Avg FPS= 5.03105
+  Frame:   140 - IPs[this: 6, total:1244] - Perf: Avg FPS= 4.94538
+-> Detected 1315 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/36_7_5.avi
+  Total frames:              107
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.96507
+  Frame:    40 - IPs[this: 5, total:  32] - Perf: Avg FPS= 3.00076
+  Frame:    60 - IPs[this:16, total: 261] - Perf: Avg FPS= 3.20928
+  Frame:    80 - IPs[this:30, total: 670] - Perf: Avg FPS= 3.4173
+  Frame:   100 - IPs[this:18, total:1089] - Perf: Avg FPS= 3.54857
+-> Detected 1223 points
+[mpeg4 @ 0x3f10e00] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/37_17_0.avi
+  Total frames:              138
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.05933
+  Frame:    40 - IPs[this: 6, total:  45] - Perf: Avg FPS= 5.08995
+  Frame:    60 - IPs[this:14, total: 209] - Perf: Avg FPS= 5.11215
+  Frame:    80 - IPs[this: 9, total: 421] - Perf: Avg FPS= 5.00037
+  Frame:   100 - IPs[this: 4, total: 477] - Perf: Avg FPS= 4.99444
+  Frame:   120 - IPs[this: 9, total: 618] - Perf: Avg FPS= 5.03346
+-> Detected 785 points
+[mpeg4 @ 0x3f37fc0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f22840] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/37_7_4.avi
+  Total frames:              110
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.77114
+  Frame:    40 - IPs[this:13, total:  82] - Perf: Avg FPS= 4.23394
+  Frame:    60 - IPs[this:19, total: 298] - Perf: Avg FPS= 4.04014
+  Frame:    80 - IPs[this: 5, total: 488] - Perf: Avg FPS= 4.12204
+  Frame:   100 - IPs[this:20, total: 785] - Perf: Avg FPS= 4.07267
+-> Detected 987 points
+[mpeg4 @ 0x3f10700] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f33800] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/38_17_3.avi
+  Total frames:              79
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.7313
+  Frame:    40 - IPs[this: 3, total:   4] - Perf: Avg FPS= 9.18298
+  Frame:    60 - IPs[this: 2, total:  62] - Perf: Avg FPS= 9.45039
+-> Detected 214 points
+[mpeg4 @ 0x3f28080] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/38_7_2.avi
+  Total frames:              92
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.59831
+  Frame:    40 - IPs[this: 8, total: 260] - Perf: Avg FPS= 5.51181
+  Frame:    60 - IPs[this:18, total: 639] - Perf: Avg FPS= 5.12106
+  Frame:    80 - IPs[this:17, total: 872] - Perf: Avg FPS= 4.95137
 -> Detected 1084 points
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/57_10_3.avi
-  Total frames:              89
+  video input:               //home/share/shaofan/Databases/UTI/39_17_5.avi
+  Total frames:              95
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 14.6176
-  Frame:    40 - IPs[this: 5, total:  15] - Perf: Avg FPS= 14.9222
-  Frame:    60 - IPs[this: 0, total:  36] - Perf: Avg FPS= 15.0079
-  Frame:    80 - IPs[this: 2, total:  63] - Perf: Avg FPS= 15.07
--> Detected 72 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.1151
+  Frame:    40 - IPs[this:15, total: 231] - Perf: Avg FPS= 2.25634
+  Frame:    60 - IPs[this:14, total: 545] - Perf: Avg FPS= 2.34685
+  Frame:    80 - IPs[this:25, total: 938] - Perf: Avg FPS= 2.40128
+-> Detected 1320 points
+[mpeg4 @ 0x3f26a00] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/24_5_0.avi
-  Total frames:              139
+  video input:               //home/share/shaofan/Databases/UTI/39_7_3.avi
+  Total frames:              116
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.99732
-  Frame:    40 - IPs[this: 5, total:  12] - Perf: Avg FPS= 5.13818
-  Frame:    60 - IPs[this:24, total: 143] - Perf: Avg FPS= 5.1432
-  Frame:    80 - IPs[this:18, total: 543] - Perf: Avg FPS= 5.07643
-  Frame:   100 - IPs[this: 2, total: 831] - Perf: Avg FPS= 5.05366
-  Frame:   120 - IPs[this:29, total:1191] - Perf: Avg FPS= 5.03267
--> Detected 1534 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 10.1812
+  Frame:    40 - IPs[this: 0, total:   2] - Perf: Avg FPS= 10.6785
+  Frame:    60 - IPs[this: 0, total:  69] - Perf: Avg FPS= 10.8062
+  Frame:    80 - IPs[this: 0, total:  69] - Perf: Avg FPS= 10.7945
+  Frame:   100 - IPs[this: 2, total:  94] - Perf: Avg FPS= 10.9324
+-> Detected 129 points
+[mpeg4 @ 0x3f0b6a0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f323c0] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/19_4_1.avi
-  Total frames:              157
+  video input:               //home/share/shaofan/Databases/UTI/3_11_0.avi
+  Total frames:              126
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.3013
-  Frame:    40 - IPs[this:32, total: 117] - Perf: Avg FPS= 4.49373
-  Frame:    60 - IPs[this:25, total: 541] - Perf: Avg FPS= 4.40059
-  Frame:    80 - IPs[this:19, total:1180] - Perf: Avg FPS= 4.38348
-  Frame:   100 - IPs[this: 1, total:1280] - Perf: Avg FPS= 4.45194
-  Frame:   120 - IPs[this:33, total:1556] - Perf: Avg FPS= 4.47553
-  Frame:   140 - IPs[this:26, total:2189] - Perf: Avg FPS= 4.40579
--> Detected 2707 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.33111
+  Frame:    40 - IPs[this: 3, total: 131] - Perf: Avg FPS= 5.40279
+  Frame:    60 - IPs[this:17, total: 349] - Perf: Avg FPS= 5.58312
+  Frame:    80 - IPs[this: 5, total: 537] - Perf: Avg FPS= 5.62256
+  Frame:   100 - IPs[this: 5, total: 709] - Perf: Avg FPS= 5.64287
+  Frame:   120 - IPs[this:19, total: 892] - Perf: Avg FPS= 5.58193
+-> Detected 968 points
+[mpeg4 @ 0x3f24860] too many thread_release_buffer calls!
 
   Options summary:           
-  video input:               //home/share/shaofan/UTI1_segement/41_8_0.avi
+  video input:               //home/share/shaofan/Databases/UTI/3_1_3.avi
+  Total frames:              126
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.9277
+  Frame:    40 - IPs[this: 3, total:   6] - Perf: Avg FPS= 4.61104
+  Frame:    60 - IPs[this: 0, total:  75] - Perf: Avg FPS= 5.07879
+  Frame:    80 - IPs[this: 0, total:  75] - Perf: Avg FPS= 5.24637
+  Frame:   100 - IPs[this: 0, total:  75] - Perf: Avg FPS= 5.31227
+  Frame:   120 - IPs[this: 6, total: 151] - Perf: Avg FPS= 5.11518
+-> Detected 164 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/40_17_4.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.2581
+  Frame:    40 - IPs[this:13, total: 223] - Perf: Avg FPS= 4.46638
+  Frame:    60 - IPs[this:29, total: 677] - Perf: Avg FPS= 4.44735
+  Frame:    80 - IPs[this:19, total:1082] - Perf: Avg FPS= 4.34161
+-> Detected 1261 points
+[mpeg4 @ 0x3edd060] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/40_7_1.avi
+  Total frames:              147
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.50673
+  Frame:    40 - IPs[this:15, total: 104] - Perf: Avg FPS= 4.55702
+  Frame:    60 - IPs[this:22, total: 530] - Perf: Avg FPS= 4.0832
+  Frame:    80 - IPs[this: 1, total: 819] - Perf: Avg FPS= 3.98814
+  Frame:   100 - IPs[this: 2, total: 823] - Perf: Avg FPS= 3.92285
+  Frame:   120 - IPs[this:16, total:1084] - Perf: Avg FPS= 3.77047
+  Frame:   140 - IPs[this:13, total:1486] - Perf: Avg FPS= 3.6921
+-> Detected 1595 points
+[mpeg4 @ 0x3f32f40] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f282e0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/41_17_2.avi
+  Total frames:              80
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.6557
+  Frame:    40 - IPs[this: 4, total: 101] - Perf: Avg FPS= 4.86523
+  Frame:    60 - IPs[this:13, total: 383] - Perf: Avg FPS= 4.86843
+  Frame:    80 - IPs[this: 6, total: 840] - Perf: Avg FPS= 4.79786
+-> Detected 840 points
+[mpeg4 @ 0x3f16ec0] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f3c2a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/41_8_0.avi
   Total frames:              169
   frame interval:            0-100000000
-  output file:               ./UTI1/POI.txt
+  output file:               ./UTI/POI.txt
   #pyr.levels:               3
   init.pyr.level:            0
   detector:                  harris3d
   spatial patch size fact.:  9
   temporal patch size fact.: 4
   descriptor type:           hoghof
-  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.11016
-  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 5.41462
-  Frame:    60 - IPs[this:12, total: 100] - Perf: Avg FPS= 5.48505
-  Frame:    80 - IPs[this:23, total: 395] - Perf: Avg FPS= 5.46907
-  Frame:   100 - IPs[this: 6, total: 712] - Perf: Avg FPS= 5.46143
-  Frame:   120 - IPs[this: 5, total: 883] - Perf: Avg FPS= 5.48338
-  Frame:   140 - IPs[this: 7, total:1131] - Perf: Avg FPS= 5.4865
-  Frame:   160 - IPs[this: 3, total:1319] - Perf: Avg FPS= 5.50067
--> Detected 1400 points
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.98084
+  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 4.2374
+  Frame:    60 - IPs[this:12, total: 100] - Perf: Avg FPS= 4.25686
+  Frame:    80 - IPs[this:23, total: 394] - Perf: Avg FPS= 4.22402
+  Frame:   100 - IPs[this: 6, total: 711] - Perf: Avg FPS= 4.19797
+  Frame:   120 - IPs[this: 5, total: 882] - Perf: Avg FPS= 4.18585
+  Frame:   140 - IPs[this: 7, total:1130] - Perf: Avg FPS= 4.05658
+  Frame:   160 - IPs[this: 3, total:1318] - Perf: Avg FPS= 3.75376
+-> Detected 1399 points
+[mpeg4 @ 0x3f2da20] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/42_18_2.avi
+  Total frames:              95
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.34309
+  Frame:    40 - IPs[this: 6, total:  87] - Perf: Avg FPS= 3.56373
+  Frame:    60 - IPs[this:12, total: 399] - Perf: Avg FPS= 3.66026
+  Frame:    80 - IPs[this: 5, total: 632] - Perf: Avg FPS= 3.96483
+-> Detected 831 points
+[mpeg4 @ 0x3f15440] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/42_8_2.avi
+  Total frames:              96
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.64278
+  Frame:    40 - IPs[this:10, total: 112] - Perf: Avg FPS= 5.62657
+  Frame:    60 - IPs[this:10, total: 480] - Perf: Avg FPS= 5.26393
+  Frame:    80 - IPs[this:24, total: 840] - Perf: Avg FPS= 5.06102
+-> Detected 1038 points
+[mpeg4 @ 0x3f0b440] too many thread_release_buffer calls!
+[mpeg4 @ 0x5f6cae0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/43_18_4.avi
+  Total frames:              98
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 1.74941
+  Frame:    40 - IPs[this:10, total: 158] - Perf: Avg FPS= 1.87
+  Frame:    60 - IPs[this:16, total: 502] - Perf: Avg FPS= 1.9409
+  Frame:    80 - IPs[this:16, total: 815] - Perf: Avg FPS= 1.83465
+-> Detected 941 points
+[mpeg4 @ 0x13cf420] too many thread_release_buffer calls!
+[mpeg4 @ 0x3edc380] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/43_8_4.avi
+  Total frames:              84
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.4664
+  Frame:    40 - IPs[this: 9, total: 220] - Perf: Avg FPS= 4.49331
+  Frame:    60 - IPs[this:20, total: 580] - Perf: Avg FPS= 4.47052
+  Frame:    80 - IPs[this:29, total:1118] - Perf: Avg FPS= 4.45553
+-> Detected 1272 points
+[mpeg4 @ 0x3f3af00] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/44_18_1.avi
+  Total frames:              155
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.21855
+  Frame:    40 - IPs[this: 9, total: 174] - Perf: Avg FPS= 4.36459
+  Frame:    60 - IPs[this:18, total: 368] - Perf: Avg FPS= 4.36727
+  Frame:    80 - IPs[this: 6, total: 596] - Perf: Avg FPS= 4.40053
+  Frame:   100 - IPs[this: 4, total: 642] - Perf: Avg FPS= 4.49111
+  Frame:   120 - IPs[this:18, total: 817] - Perf: Avg FPS= 4.49873
+  Frame:   140 - IPs[this: 6, total:1036] - Perf: Avg FPS= 4.4032
+-> Detected 1195 points
+[mpeg4 @ 0x3f2ac00] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/44_8_4.avi
+  Total frames:              59
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.43369
+  Frame:    40 - IPs[this:16, total: 268] - Perf: Avg FPS= 3.76624
+-> Detected 504 points
+[mpeg4 @ 0x3f0f820] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/45_18_3.avi
+  Total frames:              132
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 11.2444
+  Frame:    40 - IPs[this: 1, total:  11] - Perf: Avg FPS= 11.5037
+  Frame:    60 - IPs[this: 0, total:  27] - Perf: Avg FPS= 11.5699
+  Frame:    80 - IPs[this: 0, total:  28] - Perf: Avg FPS= 11.4196
+  Frame:   100 - IPs[this: 0, total:  31] - Perf: Avg FPS= 10.6901
+  Frame:   120 - IPs[this: 3, total:  54] - Perf: Avg FPS= 10.3199
+-> Detected 76 points
+[mpeg4 @ 0x3eda7e0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/45_8_5.avi
+  Total frames:              102
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.02522
+  Frame:    40 - IPs[this: 8, total: 169] - Perf: Avg FPS= 2.11341
+  Frame:    60 - IPs[this:17, total: 538] - Perf: Avg FPS= 1.88831
+  Frame:    80 - IPs[this:48, total:1141] - Perf: Avg FPS= 1.92661
+  Frame:   100 - IPs[this:31, total:1868] - Perf: Avg FPS= 1.878
+-> Detected 1951 points
+[mpeg4 @ 0x3f334a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/46_18_5.avi
+  Total frames:              135
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.00078
+  Frame:    40 - IPs[this: 5, total:  50] - Perf: Avg FPS= 4.1257
+  Frame:    60 - IPs[this:15, total: 296] - Perf: Avg FPS= 4.11042
+  Frame:    80 - IPs[this:10, total: 569] - Perf: Avg FPS= 4.1012
+  Frame:   100 - IPs[this:19, total:1068] - Perf: Avg FPS= 4.07838
+  Frame:   120 - IPs[this: 8, total:1359] - Perf: Avg FPS= 4.067
+-> Detected 1456 points
+[mpeg4 @ 0x3f40fa0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/46_8_3.avi
+  Total frames:              133
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.28145
+  Frame:    40 - IPs[this: 3, total:  32] - Perf: Avg FPS= 8.11692
+  Frame:    60 - IPs[this: 8, total: 163] - Perf: Avg FPS= 8.54406
+  Frame:    80 - IPs[this: 2, total: 240] - Perf: Avg FPS= 9.06901
+  Frame:   100 - IPs[this: 1, total: 262] - Perf: Avg FPS= 8.76505
+  Frame:   120 - IPs[this: 3, total: 351] - Perf: Avg FPS= 8.94676
+-> Detected 372 points
+[mpeg4 @ 0x3f2d700] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/47_18_0.avi
+  Total frames:              125
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.39706
+  Frame:    40 - IPs[this:26, total: 297] - Perf: Avg FPS= 3.52679
+  Frame:    60 - IPs[this:25, total: 665] - Perf: Avg FPS= 3.57412
+  Frame:    80 - IPs[this:18, total: 978] - Perf: Avg FPS= 3.57015
+  Frame:   100 - IPs[this:17, total:1282] - Perf: Avg FPS= 3.53629
+  Frame:   120 - IPs[this:19, total:1591] - Perf: Avg FPS= 3.48886
+-> Detected 1703 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/47_8_1.avi
+  Total frames:              159
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.77721
+  Frame:    40 - IPs[this:12, total:  96] - Perf: Avg FPS= 5.9129
+  Frame:    60 - IPs[this:14, total: 534] - Perf: Avg FPS= 5.79166
+  Frame:    80 - IPs[this: 4, total: 803] - Perf: Avg FPS= 5.79428
+  Frame:   100 - IPs[this: 5, total: 893] - Perf: Avg FPS= 5.89346
+  Frame:   120 - IPs[this: 8, total:1008] - Perf: Avg FPS= 5.95774
+  Frame:   140 - IPs[this:27, total:1323] - Perf: Avg FPS= 5.95672
+-> Detected 1766 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/48_19_0.avi
+  Total frames:              135
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.9287
+  Frame:    40 - IPs[this: 1, total:  15] - Perf: Avg FPS= 4.28229
+  Frame:    60 - IPs[this:17, total: 144] - Perf: Avg FPS= 4.44661
+  Frame:    80 - IPs[this: 2, total: 394] - Perf: Avg FPS= 4.28695
+  Frame:   100 - IPs[this: 2, total: 454] - Perf: Avg FPS= 3.93114
+  Frame:   120 - IPs[this:18, total: 611] - Perf: Avg FPS= 3.61923
+-> Detected 762 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/48_9_3.avi
+  Total frames:              129
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.28755
+  Frame:    40 - IPs[this: 2, total:  10] - Perf: Avg FPS= 6.84699
+  Frame:    60 - IPs[this: 1, total:  66] - Perf: Avg FPS= 7.09484
+  Frame:    80 - IPs[this: 0, total:  67] - Perf: Avg FPS= 7.19412
+  Frame:   100 - IPs[this: 3, total:  76] - Perf: Avg FPS= 7.46072
+  Frame:   120 - IPs[this: 1, total: 104] - Perf: Avg FPS= 7.77916
+-> Detected 106 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/49_19_1.avi
+  Total frames:              134
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.17843
+  Frame:    40 - IPs[this: 6, total: 128] - Perf: Avg FPS= 6.34321
+  Frame:    60 - IPs[this:15, total: 306] - Perf: Avg FPS= 6.04798
+  Frame:    80 - IPs[this: 1, total: 501] - Perf: Avg FPS= 5.80328
+  Frame:   100 - IPs[this:12, total: 545] - Perf: Avg FPS= 5.84509
+  Frame:   120 - IPs[this: 9, total: 768] - Perf: Avg FPS= 5.65896
+-> Detected 949 points
+[mpeg4 @ 0x5f6bae0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/49_9_5.avi
+  Total frames:              117
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.19458
+  Frame:    40 - IPs[this: 3, total:  43] - Perf: Avg FPS= 3.35524
+  Frame:    60 - IPs[this: 2, total: 152] - Perf: Avg FPS= 3.35699
+  Frame:    80 - IPs[this: 7, total: 382] - Perf: Avg FPS= 3.36965
+  Frame:   100 - IPs[this:12, total: 553] - Perf: Avg FPS= 3.37147
+-> Detected 796 points
+[mpeg4 @ 0x3f38be0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/4_11_3.avi
+  Total frames:              106
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 9.97839
+  Frame:    40 - IPs[this: 2, total:  33] - Perf: Avg FPS= 9.93967
+  Frame:    60 - IPs[this: 0, total:  47] - Perf: Avg FPS= 9.29815
+  Frame:    80 - IPs[this: 0, total:  47] - Perf: Avg FPS= 8.91717
+  Frame:   100 - IPs[this: 1, total:  71] - Perf: Avg FPS= 8.9249
+-> Detected 77 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/4_1_0.avi
+  Total frames:              183
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.36746
+  Frame:    40 - IPs[this: 3, total:  41] - Perf: Avg FPS= 2.39957
+  Frame:    60 - IPs[this:34, total: 400] - Perf: Avg FPS= 2.48508
+  Frame:    80 - IPs[this:26, total:1125] - Perf: Avg FPS= 2.59048
+  Frame:   100 - IPs[this:11, total:1456] - Perf: Avg FPS= 2.6785
+  Frame:   120 - IPs[this: 9, total:1627] - Perf: Avg FPS= 2.74928
+  Frame:   140 - IPs[this: 4, total:1864] - Perf: Avg FPS= 2.79803
+  Frame:   160 - IPs[this:26, total:2437] - Perf: Avg FPS= 2.8328
+  Frame:   180 - IPs[this:22, total:3114] - Perf: Avg FPS= 2.85299
+-> Detected 3188 points
+[mpeg4 @ 0x3ee4be0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/50_19_4.avi
+  Total frames:              86
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.47023
+  Frame:    40 - IPs[this: 4, total: 182] - Perf: Avg FPS= 3.76955
+  Frame:    60 - IPs[this:10, total: 437] - Perf: Avg FPS= 3.26442
+  Frame:    80 - IPs[this: 8, total: 621] - Perf: Avg FPS= 2.97656
+-> Detected 669 points
+[mpeg4 @ 0x3f2f320] too many thread_release_buffer calls!
+[mpeg4 @ 0x3ee4800] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/50_9_2.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.91828
+  Frame:    40 - IPs[this:13, total:  77] - Perf: Avg FPS= 6.04263
+  Frame:    60 - IPs[this:10, total: 269] - Perf: Avg FPS= 5.57709
+  Frame:    80 - IPs[this:29, total: 515] - Perf: Avg FPS= 5.08102
+-> Detected 670 points
+[mpeg4 @ 0x3f322e0] too many thread_release_buffer calls!
+[mpeg4 @ 0x1341c20] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/51_19_3.avi
+  Total frames:              109
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 12.6133
+  Frame:    40 - IPs[this: 6, total:  62] - Perf: Avg FPS= 12.7493
+  Frame:    60 - IPs[this: 0, total:  94] - Perf: Avg FPS= 12.9554
+  Frame:    80 - IPs[this: 1, total: 102] - Perf: Avg FPS= 13.1046
+  Frame:   100 - IPs[this: 1, total: 128] - Perf: Avg FPS= 13.1793
+-> Detected 150 points
+[mpeg4 @ 0x3f1fcc0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/51_9_4.avi
+  Total frames:              114
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.28655
+  Frame:    40 - IPs[this: 6, total:  13] - Perf: Avg FPS= 4.47461
+  Frame:    60 - IPs[this:11, total: 191] - Perf: Avg FPS= 4.43783
+  Frame:    80 - IPs[this: 3, total: 424] - Perf: Avg FPS= 4.41764
+  Frame:   100 - IPs[this:12, total: 619] - Perf: Avg FPS= 4.35999
+-> Detected 773 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/52_19_5.avi
+  Total frames:              95
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.67947
+  Frame:    40 - IPs[this:11, total:  65] - Perf: Avg FPS= 3.83819
+  Frame:    60 - IPs[this:16, total: 307] - Perf: Avg FPS= 3.62466
+  Frame:    80 - IPs[this:25, total: 720] - Perf: Avg FPS= 3.44231
+-> Detected 1052 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/52_9_0.avi
+  Total frames:              139
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.18128
+  Frame:    40 - IPs[this:13, total:  43] - Perf: Avg FPS= 6.25099
+  Frame:    60 - IPs[this:12, total: 201] - Perf: Avg FPS= 6.20173
+  Frame:    80 - IPs[this: 4, total: 319] - Perf: Avg FPS= 6.15169
+  Frame:   100 - IPs[this: 0, total: 338] - Perf: Avg FPS= 6.17136
+  Frame:   120 - IPs[this:17, total: 529] - Perf: Avg FPS= 6.14151
+-> Detected 665 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/53_19_2.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.48222
+  Frame:    40 - IPs[this:14, total: 201] - Perf: Avg FPS= 2.2837
+  Frame:    60 - IPs[this:17, total: 562] - Perf: Avg FPS= 2.24844
+  Frame:    80 - IPs[this:16, total: 801] - Perf: Avg FPS= 2.1695
+-> Detected 892 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/53_9_1.avi
+  Total frames:              146
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.44189
+  Frame:    40 - IPs[this: 5, total:  49] - Perf: Avg FPS= 5.63808
+  Frame:    60 - IPs[this: 6, total: 256] - Perf: Avg FPS= 5.54327
+  Frame:    80 - IPs[this: 8, total: 466] - Perf: Avg FPS= 5.59136
+  Frame:   100 - IPs[this: 0, total: 483] - Perf: Avg FPS= 5.69085
+  Frame:   120 - IPs[this: 9, total: 619] - Perf: Avg FPS= 5.67586
+  Frame:   140 - IPs[this:11, total: 826] - Perf: Avg FPS= 5.70428
+-> Detected 921 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/54_10_0.avi
+  Total frames:              119
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 6.70047
+  Frame:    40 - IPs[this: 1, total:   1] - Perf: Avg FPS= 6.30399
+  Frame:    60 - IPs[this: 4, total:  79] - Perf: Avg FPS= 6.30127
+  Frame:    80 - IPs[this: 4, total: 201] - Perf: Avg FPS= 6.21437
+  Frame:   100 - IPs[this: 8, total: 255] - Perf: Avg FPS= 6.14005
+-> Detected 391 points
+[mpeg4 @ 0x13415a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/54_20_1.avi
+  Total frames:              131
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.69001
+  Frame:    40 - IPs[this:11, total: 178] - Perf: Avg FPS= 3.75741
+  Frame:    60 - IPs[this: 6, total: 388] - Perf: Avg FPS= 3.61623
+  Frame:    80 - IPs[this: 3, total: 561] - Perf: Avg FPS= 3.60347
+  Frame:   100 - IPs[this: 9, total: 593] - Perf: Avg FPS= 3.84762
+  Frame:   120 - IPs[this: 6, total: 834] - Perf: Avg FPS= 3.97453
+-> Detected 987 points
+[mpeg4 @ 0x3f366a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/55_10_4.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.77969
+  Frame:    40 - IPs[this:10, total:  78] - Perf: Avg FPS= 5.86497
+  Frame:    60 - IPs[this:18, total: 338] - Perf: Avg FPS= 5.81562
+  Frame:    80 - IPs[this: 7, total: 659] - Perf: Avg FPS= 5.77571
+-> Detected 741 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/55_20_0.avi
+  Total frames:              104
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.15602
+  Frame:    40 - IPs[this: 5, total:  53] - Perf: Avg FPS= 4.86418
+  Frame:    60 - IPs[this:10, total: 314] - Perf: Avg FPS= 4.24288
+  Frame:    80 - IPs[this: 0, total: 448] - Perf: Avg FPS= 3.86171
+  Frame:   100 - IPs[this:11, total: 580] - Perf: Avg FPS= 3.83624
+-> Detected 636 points
+[mpeg4 @ 0x3f250c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/56_10_5.avi
+  Total frames:              87
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.7875
+  Frame:    40 - IPs[this:12, total: 122] - Perf: Avg FPS= 4.72946
+  Frame:    60 - IPs[this:16, total: 331] - Perf: Avg FPS= 4.63489
+  Frame:    80 - IPs[this:25, total: 735] - Perf: Avg FPS= 4.56765
+-> Detected 915 points
+[mpeg4 @ 0x3f1a960] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f08180] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/56_20_5.avi
+  Total frames:              98
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 4.36617
+  Frame:    40 - IPs[this: 9, total:  95] - Perf: Avg FPS= 4.10143
+  Frame:    60 - IPs[this:16, total: 450] - Perf: Avg FPS= 3.91697
+  Frame:    80 - IPs[this:15, total: 855] - Perf: Avg FPS= 3.88515
+-> Detected 1159 points
+[mpeg4 @ 0x3f3c240] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f22dc0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/57_10_3.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 8.93735
+  Frame:    40 - IPs[this: 5, total:  15] - Perf: Avg FPS= 9.07408
+  Frame:    60 - IPs[this: 0, total:  36] - Perf: Avg FPS= 8.90473
+  Frame:    80 - IPs[this: 2, total:  63] - Perf: Avg FPS= 9.00155
+-> Detected 72 points
+[mpeg4 @ 0x3f407e0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/57_20_3.avi
+  Total frames:              90
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 14.3807
+  Frame:    40 - IPs[this: 6, total:  68] - Perf: Avg FPS= 14.3466
+  Frame:    60 - IPs[this: 0, total: 127] - Perf: Avg FPS= 14.3606
+  Frame:    80 - IPs[this: 2, total: 221] - Perf: Avg FPS= 14.2835
+-> Detected 252 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/58_10_1.avi
+  Total frames:              132
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 7.07245
+  Frame:    40 - IPs[this: 2, total: 110] - Perf: Avg FPS= 6.95707
+  Frame:    60 - IPs[this:24, total: 444] - Perf: Avg FPS= 6.77095
+  Frame:    80 - IPs[this: 0, total: 605] - Perf: Avg FPS= 6.76928
+  Frame:   100 - IPs[this: 8, total: 687] - Perf: Avg FPS= 6.78408
+  Frame:   120 - IPs[this:16, total:1004] - Perf: Avg FPS= 6.74324
+-> Detected 1124 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/58_20_4.avi
+  Total frames:              74
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.63171
+  Frame:    40 - IPs[this: 9, total: 176] - Perf: Avg FPS= 2.66638
+  Frame:    60 - IPs[this:15, total: 494] - Perf: Avg FPS= 2.43801
+-> Detected 764 points
+[mpeg4 @ 0x3f3b9c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/59_10_2.avi
+  Total frames:              94
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.87376
+  Frame:    40 - IPs[this: 3, total:  56] - Perf: Avg FPS= 5.99558
+  Frame:    60 - IPs[this:23, total: 290] - Perf: Avg FPS= 5.93183
+  Frame:    80 - IPs[this:14, total: 552] - Perf: Avg FPS= 5.49813
+-> Detected 742 points
+[mpeg4 @ 0x3f20920] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/59_20_2.avi
+  Total frames:              89
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.08596
+  Frame:    40 - IPs[this:15, total: 177] - Perf: Avg FPS= 5.01217
+  Frame:    60 - IPs[this:20, total: 505] - Perf: Avg FPS= 4.90706
+  Frame:    80 - IPs[this:18, total: 724] - Perf: Avg FPS= 4.69986
+-> Detected 837 points
+[mpeg4 @ 0x3f22b40] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/5_11_1.avi
+  Total frames:              132
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.47105
+  Frame:    40 - IPs[this:22, total: 264] - Perf: Avg FPS= 3.72936
+  Frame:    60 - IPs[this: 5, total: 544] - Perf: Avg FPS= 3.97122
+  Frame:    80 - IPs[this: 6, total: 557] - Perf: Avg FPS= 4.01014
+  Frame:   100 - IPs[this:18, total: 643] - Perf: Avg FPS= 4.13389
+  Frame:   120 - IPs[this:16, total: 919] - Perf: Avg FPS= 4.20986
+-> Detected 1128 points
+[mpeg4 @ 0x3f19740] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f0c3c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/5_1_5.avi
+  Total frames:              111
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.12068
+  Frame:    40 - IPs[this:30, total: 325] - Perf: Avg FPS= 3.16564
+  Frame:    60 - IPs[this:23, total: 830] - Perf: Avg FPS= 3.18324
+  Frame:    80 - IPs[this:33, total:1507] - Perf: Avg FPS= 3.17682
+  Frame:   100 - IPs[this:30, total:2303] - Perf: Avg FPS= 3.13321
+-> Detected 2571 points
+[mpeg4 @ 0x3f39660] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f2d5a0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/6_12_0.avi
+  Total frames:              148
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.29007
+  Frame:    40 - IPs[this: 2, total:  22] - Perf: Avg FPS= 3.64938
+  Frame:    60 - IPs[this: 8, total: 189] - Perf: Avg FPS= 3.78302
+  Frame:    80 - IPs[this:21, total: 578] - Perf: Avg FPS= 3.99263
+  Frame:   100 - IPs[this: 4, total: 924] - Perf: Avg FPS= 3.98827
+  Frame:   120 - IPs[this:25, total:1032] - Perf: Avg FPS= 3.88256
+  Frame:   140 - IPs[this:21, total:1367] - Perf: Avg FPS= 3.8793
+-> Detected 1463 points
+[mpeg4 @ 0x3f19b60] too many thread_release_buffer calls!
+[mpeg4 @ 0x3f0e0c0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/6_2_4.avi
+  Total frames:              101
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.54482
+  Frame:    40 - IPs[this:25, total: 211] - Perf: Avg FPS= 2.56764
+  Frame:    60 - IPs[this:17, total: 612] - Perf: Avg FPS= 2.69002
+  Frame:    80 - IPs[this:34, total:1188] - Perf: Avg FPS= 2.69515
+  Frame:   100 - IPs[this:67, total:1966] - Perf: Avg FPS= 2.65913
+-> Detected 2025 points
+[mpeg4 @ 0x13cf020] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/7_12_3.avi
+  Total frames:              125
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 12.8163
+  Frame:    40 - IPs[this: 7, total:  64] - Perf: Avg FPS= 13.1448
+  Frame:    60 - IPs[this: 0, total: 107] - Perf: Avg FPS= 13.3946
+  Frame:    80 - IPs[this: 0, total: 107] - Perf: Avg FPS= 13.5608
+  Frame:   100 - IPs[this: 3, total: 113] - Perf: Avg FPS= 13.5154
+  Frame:   120 - IPs[this: 2, total: 196] - Perf: Avg FPS= 13.3731
+-> Detected 203 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/7_2_5.avi
+  Total frames:              99
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 1.85124
+  Frame:    40 - IPs[this:24, total: 100] - Perf: Avg FPS= 1.95063
+  Frame:    60 - IPs[this:30, total: 792] - Perf: Avg FPS= 1.88608
+  Frame:    80 - IPs[this:48, total:1769] - Perf: Avg FPS= 1.8412
+-> Detected 2472 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/8_12_5.avi
+  Total frames:              103
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 3.94117
+  Frame:    40 - IPs[this:21, total: 227] - Perf: Avg FPS= 4.06081
+  Frame:    60 - IPs[this:28, total: 701] - Perf: Avg FPS= 4.0417
+  Frame:    80 - IPs[this:23, total:1189] - Perf: Avg FPS= 4.05748
+  Frame:   100 - IPs[this:16, total:1501] - Perf: Avg FPS= 4.063
+-> Detected 1532 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/8_2_0.avi
+  Total frames:              123
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.74656
+  Frame:    40 - IPs[this:35, total: 286] - Perf: Avg FPS= 2.81768
+  Frame:    60 - IPs[this:18, total: 722] - Perf: Avg FPS= 2.78219
+  Frame:    80 - IPs[this: 1, total: 867] - Perf: Avg FPS= 2.59817
+  Frame:   100 - IPs[this:19, total:1163] - Perf: Avg FPS= 2.55165
+  Frame:   120 - IPs[this:20, total:1681] - Perf: Avg FPS= 2.53534
+-> Detected 1752 points
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/9_12_1.avi
+  Total frames:              136
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 5.86222
+  Frame:    40 - IPs[this:15, total: 139] - Perf: Avg FPS= 5.62616
+  Frame:    60 - IPs[this: 9, total: 404] - Perf: Avg FPS= 5.58644
+  Frame:    80 - IPs[this:12, total: 737] - Perf: Avg FPS= 5.67217
+  Frame:   100 - IPs[this: 1, total: 859] - Perf: Avg FPS= 5.78378
+  Frame:   120 - IPs[this:12, total:1053] - Perf: Avg FPS= 5.84185
+-> Detected 1271 points
+[mpeg4 @ 0x3f19be0] too many thread_release_buffer calls!
+
+  Options summary:           
+  video input:               //home/share/shaofan/Databases/UTI/9_2_2.avi
+  Total frames:              91
+  frame interval:            0-100000000
+  output file:               ./UTI/POI.txt
+  #pyr.levels:               3
+  init.pyr.level:            0
+  detector:                  harris3d
+  spatial patch size fact.:  9
+  temporal patch size fact.: 4
+  descriptor type:           hoghof
+  Frame:    20 - IPs[this: 0, total:   0] - Perf: Avg FPS= 2.6138
+  Frame:    40 - IPs[this:29, total: 251] - Perf: Avg FPS= 2.71244
+  Frame:    60 - IPs[this:46, total: 954] - Perf: Avg FPS= 2.72905
+  Frame:    80 - IPs[this:39, total:1757] - Perf: Avg FPS= 2.70129
+-> Detected 2261 points
+[mpeg4 @ 0x3f0cac0] too many thread_release_buffer calls!

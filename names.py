@@ -6,7 +6,8 @@ harris3d_dir = './tools/stip-2.0-linux'
 # changable
 # featureDir = 'JPL'
 dataset_name = 'BIT'
-# dataset_name = 'UTI1'
+# dataset_name = 'UTI'
+#dataset_name = 'TV'
 videolistFile = './{}/video-list.txt'.format(dataset_name)
 POI = './{}/POI.txt'.format(dataset_name)
 denseDir = './{}/dense'.format(dataset_name)
@@ -22,5 +23,11 @@ localFeaturesFilename = os.path.join(featureDir, 'localFeaturesRaw.pkl')
 globalFeaturesFilename = os.path.join(featureDir,'globalFeaturesRaw.pkl')
 localBoWFilename = os.path.join(featureDir,'localBoW.pkl')
 globalBoWFilename = os.path.join(featureDir,'globalBow.pkl')
-def globalcodedfilename(K, T): return '{}/[K={}][T={}]BoWInGroup.globalcoded.pkl'.format(featureDir, K, T)
+
+def globalcodedfilename(K, T, groups=10): 
+    if groups == 10:
+        return '{}/[K={}][T={}]BoWInGroup.globalcoded.pkl'.format(featureDir, K, T)
+    else:
+        return '{}/[K={}][T={}][G={}]BoWInGroup.globalcoded.pkl'.format(featureDir, K, T, groups)
+
 

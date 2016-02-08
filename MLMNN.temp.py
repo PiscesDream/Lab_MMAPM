@@ -12,9 +12,11 @@ import sys
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
 
-    K = 400
-    Time = 0.1
-    x, y= cPickle.load(open(globalcodedfilename(K, Time), 'r'))
+    K = 200
+    Time = 1.0
+    groups = 10
+    x, y = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
+    print x.shape
 #    trainx, testx, trainy, testy = train_test_split(x, y, test_size=1./60.) 
 #    trainx, testx, trainy, testy = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, Time),'r'))
 #    print trainx.shape
@@ -26,11 +28,11 @@ if __name__ == '__main__':
         trainx, testx = x[train_index], x[test_index]
         trainy, testy = y[train_index], y[test_index]
 
-        mlmnn = MLMNN(M=1, K=5, mu=0.5, dim=150, lmbd=0.5, 
+        mlmnn = MLMNN(M=int(Time*groups), K=3, mu=0.5, dim=50, lmbd=0.5, 
                         normalize_axis=1, 
                         kernelf=None, localM=True, globalM=False) 
         _, train_res, test_res = mlmnn.fit(trainx, trainy, testx, testy, \
-            maxS=10000, lr=5, max_iter=80, reset=10, rounds=1,
+            maxS=10000, lr=3, max_iter=3, reset=10, rounds=5,
             Part=None, 
             verbose=False)
 
@@ -42,3 +44,4 @@ if __name__ == '__main__':
     print np.mean(train_acc)
     print np.mean(test_acc)
 
+# 75.25
