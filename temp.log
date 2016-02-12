@@ -1,15 +1,130 @@
 loading ./UTI/features/localFeaturesRaw.pkl
 loading ./UTI/features/globalFeaturesRaw.pkl
-loading ./UTI/features/[K=100][T=1.0]BoWInGroup.codebook.pkl
-K=100 T=1.0
-codebook loaded
-groups 10
-tagset: ['58', '56', '42', '43', '49', '34', '24', '25', '26', '27', '20', '21', '48', '23', '46', '47', '44', '45', '28', '29', '40', '41', '1', '0', '3', '2', '5', '4', '7', '6', '9', '8', '18', '51', '35', '39', '38', '15', '14', '11', '10', '13', '12', '59', '22', '17', '16', '19', '54', '31', '30', '37', '36', '53', '52', '33', '55', '32', '57', '50']
-Final x.shape=(120, 10, 100)
-Final y.shape=(120, 10)
-K=100 T=1.0
-codebook loaded
-groups 10
-tagset: ['58', '56', '42', '43', '49', '34', '24', '25', '26', '27', '20', '21', '48', '23', '46', '47', '44', '45', '28', '29', '40', '41', '1', '0', '3', '2', '5', '4', '7', '6', '9', '8', '18', '51', '35', '39', '38', '15', '14', '11', '10', '13', '12', '59', '22', '17', '16', '19', '54', '31', '30', '37', '36', '53', '52', '33', '55', '32', '57', '50']
-Final x.shape=(120, 10, 100)
-Final y.shape=(120, 10)
+Original shape: (146194, 162)
+Clustering into 400 categories ...
+Original shape: (1535816, 426)
+Clustering into 400 categories ...
+Saving to /home/shaofan/Projects/MMAPM/UTI/features/[K=400]Codebook.pkl ...
+/home/share/shaofan/Databases/UTI/59_10_2 ==> 3
+/home/share/shaofan/Databases/UTI/10_12_4 ==> 5
+/home/share/shaofan/Databases/UTI/36_17_1 ==> 0
+/home/share/shaofan/Databases/UTI/41_8_0 ==> 1
+/home/share/shaofan/Databases/UTI/41_17_2 ==> 3
+/home/share/shaofan/Databases/UTI/16_3_5 ==> 4
+/home/share/shaofan/Databases/UTI/8_12_5 ==> 4
+/home/share/shaofan/Databases/UTI/42_8_2 ==> 3
+/home/share/shaofan/Databases/UTI/13_3_2 ==> 3
+/home/share/shaofan/Databases/UTI/4_11_3 ==> 2
+/home/share/shaofan/Databases/UTI/0_11_4 ==> 5
+/home/share/shaofan/Databases/UTI/16_13_5 ==> 4
+/home/share/shaofan/Databases/UTI/24_15_1 ==> 0
+/home/share/shaofan/Databases/UTI/19_14_1 ==> 0
+/home/share/shaofan/Databases/UTI/28_5_3 ==> 2
+/home/share/shaofan/Databases/UTI/21_4_0 ==> 1
+/home/share/shaofan/Databases/UTI/43_18_4 ==> 5
+/home/share/shaofan/Databases/UTI/29_15_5 ==> 4
+/home/share/shaofan/Databases/UTI/53_19_2 ==> 3
+/home/share/shaofan/Databases/UTI/25_15_0 ==> 1
+/home/share/shaofan/Databases/UTI/9_2_2 ==> 3
+/home/share/shaofan/Databases/UTI/45_18_3 ==> 2
+/home/share/shaofan/Databases/UTI/7_12_3 ==> 2
+/home/share/shaofan/Databases/UTI/30_16_3 ==> 2
+/home/share/shaofan/Databases/UTI/33_6_3 ==> 2
+/home/share/shaofan/Databases/UTI/37_7_4 ==> 5
+/home/share/shaofan/Databases/UTI/14_13_1 ==> 0
+/home/share/shaofan/Databases/UTI/29_5_5 ==> 4
+/home/share/shaofan/Databases/UTI/20_14_5 ==> 4
+/home/share/shaofan/Databases/UTI/45_8_5 ==> 4
+/home/share/shaofan/Databases/UTI/54_10_0 ==> 1
+/home/share/shaofan/Databases/UTI/37_17_0 ==> 1
+/home/share/shaofan/Databases/UTI/23_4_5 ==> 4
+/home/share/shaofan/Databases/UTI/48_9_3 ==> 2
+/home/share/shaofan/Databases/UTI/36_7_5 ==> 4
+/home/share/shaofan/Databases/UTI/27_5_1 ==> 0
+/home/share/shaofan/Databases/UTI/44_18_1 ==> 0
+/home/share/shaofan/Databases/UTI/40_17_4 ==> 5
+/home/share/shaofan/Databases/UTI/13_13_2 ==> 3
+/home/share/shaofan/Databases/UTI/24_5_0 ==> 1
+/home/share/shaofan/Databases/UTI/39_7_3 ==> 2
+/home/share/shaofan/Databases/UTI/8_2_0 ==> 1
+/home/share/shaofan/Databases/UTI/31_6_5 ==> 4
+/home/share/shaofan/Databases/UTI/21_14_3 ==> 2
+/home/share/shaofan/Databases/UTI/30_6_2 ==> 3
+/home/share/shaofan/Databases/UTI/49_19_1 ==> 0
+/home/share/shaofan/Databases/UTI/22_14_4 ==> 5
+/home/share/shaofan/Databases/UTI/46_18_5 ==> 4
+/home/share/shaofan/Databases/UTI/44_8_4 ==> 5
+/home/share/shaofan/Databases/UTI/17_3_0 ==> 1
+/home/share/shaofan/Databases/UTI/20_4_2 ==> 3
+/home/share/shaofan/Databases/UTI/57_20_3 ==> 2
+/home/share/shaofan/Databases/UTI/50_9_2 ==> 3
+/home/share/shaofan/Databases/UTI/4_1_0 ==> 1
+/home/share/shaofan/Databases/UTI/25_5_4 ==> 5
+/home/share/shaofan/Databases/UTI/23_14_2 ==> 3
+/home/share/shaofan/Databases/UTI/26_15_4 ==> 5
+/home/share/shaofan/Databases/UTI/11_12_2 ==> 3
+/home/share/shaofan/Databases/UTI/55_20_0 ==> 1
+/home/share/shaofan/Databases/UTI/28_15_3 ==> 2
+/home/share/shaofan/Databases/UTI/11_2_3 ==> 2
+/home/share/shaofan/Databases/UTI/59_20_2 ==> 3
+/home/share/shaofan/Databases/UTI/46_8_3 ==> 2
+/home/share/shaofan/Databases/UTI/0_1_4 ==> 5
+/home/share/shaofan/Databases/UTI/32_16_1 ==> 0
+/home/share/shaofan/Databases/UTI/55_10_4 ==> 5
+/home/share/shaofan/Databases/UTI/51_9_4 ==> 5
+/home/share/shaofan/Databases/UTI/12_3_4 ==> 5
+/home/share/shaofan/Databases/UTI/43_8_4 ==> 5
+/home/share/shaofan/Databases/UTI/15_3_3 ==> 2
+/home/share/shaofan/Databases/UTI/22_4_3 ==> 2
+/home/share/shaofan/Databases/UTI/40_7_1 ==> 0
+/home/share/shaofan/Databases/UTI/18_4_4 ==> 5
+/home/share/shaofan/Databases/UTI/52_19_5 ==> 4
+/home/share/shaofan/Databases/UTI/5_11_1 ==> 0
+/home/share/shaofan/Databases/UTI/2_1_1 ==> 0
+/home/share/shaofan/Databases/UTI/35_16_5 ==> 4
+/home/share/shaofan/Databases/UTI/1_11_2 ==> 3
+/home/share/shaofan/Databases/UTI/49_9_5 ==> 4
+/home/share/shaofan/Databases/UTI/2_11_5 ==> 4
+/home/share/shaofan/Databases/UTI/26_5_2 ==> 3
+/home/share/shaofan/Databases/UTI/7_2_5 ==> 4
+/home/share/shaofan/Databases/UTI/18_14_0 ==> 1
+/home/share/shaofan/Databases/UTI/57_10_3 ==> 2
+/home/share/shaofan/Databases/UTI/42_18_2 ==> 3
+/home/share/shaofan/Databases/UTI/56_10_5 ==> 4
+/home/share/shaofan/Databases/UTI/17_13_0 ==> 1
+/home/share/shaofan/Databases/UTI/6_12_0 ==> 1
+/home/share/shaofan/Databases/UTI/39_17_5 ==> 4
+/home/share/shaofan/Databases/UTI/54_20_1 ==> 0
+/home/share/shaofan/Databases/UTI/14_3_1 ==> 0
+/home/share/shaofan/Databases/UTI/6_2_4 ==> 5
+/home/share/shaofan/Databases/UTI/1_1_2 ==> 3
+/home/share/shaofan/Databases/UTI/3_1_3 ==> 2
+/home/share/shaofan/Databases/UTI/34_6_0 ==> 1
+/home/share/shaofan/Databases/UTI/38_17_3 ==> 2
+/home/share/shaofan/Databases/UTI/33_16_4 ==> 5
+/home/share/shaofan/Databases/UTI/34_16_2 ==> 3
+/home/share/shaofan/Databases/UTI/47_18_0 ==> 1
+/home/share/shaofan/Databases/UTI/27_15_2 ==> 3
+/home/share/shaofan/Databases/UTI/10_2_1 ==> 0
+/home/share/shaofan/Databases/UTI/19_4_1 ==> 0
+/home/share/shaofan/Databases/UTI/3_11_0 ==> 1
+/home/share/shaofan/Databases/UTI/15_13_3 ==> 2
+/home/share/shaofan/Databases/UTI/51_19_3 ==> 2
+/home/share/shaofan/Databases/UTI/53_9_1 ==> 0
+/home/share/shaofan/Databases/UTI/58_20_4 ==> 5
+/home/share/shaofan/Databases/UTI/47_8_1 ==> 0
+/home/share/shaofan/Databases/UTI/5_1_5 ==> 4
+/home/share/shaofan/Databases/UTI/9_12_1 ==> 0
+/home/share/shaofan/Databases/UTI/52_9_0 ==> 1
+/home/share/shaofan/Databases/UTI/56_20_5 ==> 4
+/home/share/shaofan/Databases/UTI/58_10_1 ==> 0
+/home/share/shaofan/Databases/UTI/32_6_1 ==> 0
+/home/share/shaofan/Databases/UTI/31_16_0 ==> 1
+/home/share/shaofan/Databases/UTI/50_19_4 ==> 5
+/home/share/shaofan/Databases/UTI/48_19_0 ==> 1
+/home/share/shaofan/Databases/UTI/38_7_2 ==> 3
+/home/share/shaofan/Databases/UTI/12_13_4 ==> 5
+/home/share/shaofan/Databases/UTI/35_7_0 ==> 1
+Saving to /home/shaofan/Projects/MMAPM/UTI/features/[K=400]Coded.npz ...
+120 rows will be processed
+Saving to /home/shaofan/Projects/MMAPM/UTI/features/[K=400][G=10]Histogram.npz ...

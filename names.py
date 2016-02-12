@@ -6,7 +6,7 @@ harris3d_dir = './tools/stip-2.0-linux'
 # changable
 # featureDir = 'JPL'
 dataset_name = 'BIT'
-# dataset_name = 'UTI'
+#dataset_name = 'UTI'
 #dataset_name = 'TV'
 videolistFile = './{}/video-list.txt'.format(dataset_name)
 POI = './{}/POI.txt'.format(dataset_name)
@@ -16,9 +16,6 @@ featureDir = './{}/features'.format(dataset_name)
 #videoDir = '/home/share/shaofan/BIT-Interaction/videos'
 
 # derived
-BoWInGroup100 = os.path.join(featureDir,'[K=100]BoWInGroup.pkl')
-BoWInGroup500 = os.path.join(featureDir,'[K=500]BoWInGroup.pkl')
-BoWInGroup5 = os.path.join(featureDir,'[K=5]BoWInGroup.pkl')
 localFeaturesFilename = os.path.join(featureDir, 'localFeaturesRaw.pkl')
 globalFeaturesFilename = os.path.join(featureDir,'globalFeaturesRaw.pkl')
 localBoWFilename = os.path.join(featureDir,'localBoW.pkl')
@@ -29,5 +26,15 @@ def globalcodedfilename(K, T, groups=10):
         return '{}/[K={}][T={}]BoWInGroup.globalcoded.pkl'.format(featureDir, K, T)
     else:
         return '{}/[K={}][T={}][G={}]BoWInGroup.globalcoded.pkl'.format(featureDir, K, T, groups)
+
+def codebookFilename(K):
+    return os.path.abspath('{}/[K={}]Codebook.pkl'.format(featureDir, K))
+
+def codedFilename(K):
+    return os.path.abspath('{}/[K={}]Coded.npz'.format(featureDir, K))
+
+def histogramFilename(K, G): 
+    return os.path.abspath('{}/[K={}][G={}]Histogram.npz'.format(featureDir, K, G))
+
 
 

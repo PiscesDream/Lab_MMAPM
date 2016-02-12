@@ -60,8 +60,8 @@ if __name__ == '__main__':
             data[tag]['t'] = res[:, 9] 
 
         for tag in data:
-            data[tag]['x'] = np.array(data[tag]['x'])
-            data[tag]['t'] = np.array(data[tag]['t'])
+            data[tag]['x'] = np.array(data[tag]['x']).astype('float32')
+            data[tag]['t'] = np.array(data[tag]['t']).astype('float32')
             l = data[tag]['x'].shape[0]
             if l > MAX_FEATURES:
                 index = np.random.choice(range(l), MAX_FEATURES, False)
@@ -120,8 +120,8 @@ if __name__ == '__main__':
                     data[tag]['t'].append(float(line.strip().split(' ')[3]))
 
         for tag in data:
-            data[tag]['x'] = np.array(data[tag]['x'])
-            data[tag]['t'] = np.array(data[tag]['t'])
+            data[tag]['x'] = np.array(data[tag]['x']).astype('float32')
+            data[tag]['t'] = np.array(data[tag]['t']).astype('float32')
             l = data[tag]['x'].shape[0]
             if l > MAX_FEATURES:
                 index = np.random.choice(range(l), MAX_FEATURES, False)

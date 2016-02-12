@@ -20,46 +20,49 @@ class MLMNN(object):
         K=8,                            # the neighbor count 
         mu=0.5,                         # mu in LMNN mu*PullLoss + (1-mu)*PushLoss
         lmdb=0.1,                       # L2 normalization coefficient
-        pushgamma=0.1,                  # global push coefficient 
-        pullgamma=0.1,                  # global push coefficient 
+        gamma=0.1,                      # task coefficient
         shorttermMetric=True,           # short-term Metric
         longtermMetric=False,           # long-term Metric
         # preprocessing parameters (in order)
         kernelFunction=None,            # the explicit kernel
         normalizeFunction=None,         # how data will be normalized
         dim=100,                        # dim of each fragment after PCA
+        # multitask
+        alpha_based=1.0,                # D(x, y) = (1+alpha) * d(x, y)
     ):
         self.granularity       = granularity      
         self.K                 = K                
         self.mu                = mu               
         self.lmdb              = lmdb
-        self.pushgamma         = pushgamma
-        self.pullgamma         = pullgamma
+        self.gamma             = gamma
         self.dim               = dim              
         self.shorttermMetric   = shorttermMetric  
         self.longtermMetric    = longtermMetric   
         self.normalizeFunction = normalizeFunction
         self.kernelFunction    = kernelFunction   
+        self.alpha_based       = alpha_based
 
         self.__theano_build__()
 
-    def fit(self, x, y, testx=None, testy=None,
+    def fit(self, x, y, testx, testy,
         tripleCount=100,
         learning_rate=1e-7,
+        alpha_learning_rate=1e-7,
+
         max_iter=100,
         reset_iter=20,
         epochs=20,
 
         verbose=0,
-        autosaveName='temp.MLMNN',
+        autosaveName=None,#'temp.MLMNN',
     ):
         self.verbose = verbose
         self.tripleCount = tripleCount
+
         x = x.astype('float32')
         y = y.astype('int32')
-        if testx != None:
-            testx = testx.astype('float32')
-            testy = testy.astype('int32')
+        testx = testx.astype('float32')
+        testy = testy.astype('int32')
 
         trainx = x
         x = self.preprocess(x)
@@ -87,7 +90,7 @@ class MLMNN(object):
             givens.update([(self.Tstackx[i], stackx[:, i, :]) for i in range(self.granularity)])
 
         step = theano.function(
-            self.Ttriple+self.Tneighbor+[self.Tlr],
+            self.Ttriple+self.Tneighbor+[self.Tlr]+[self.Talphalr],
             [T.stack(self.TpullErrors), \
              T.stack(self.TpushErrors), \
              T.stack(self.TregError), \
@@ -106,12 +109,13 @@ class MLMNN(object):
 
 #       debug = theano.function(
 #           self.Ttriple+self.Tneighbor,
-#           [self.debug1, self.debug2],
+#           [self.debug1, self.debug2, self.debug3],
 #           givens = givens,
 #           on_unused_input='warn')
 
         mcount = (self.shorttermMetric+self.longtermMetric)*self.granularity;
         lr = np.array([learning_rate]*mcount, dtype='float32')
+        alphalr = np.array([alpha_learning_rate]*mcount, dtype='float32')
         train_acc, test_acc = self.fittest(trainx, testx, y, testy)
         for epoch_iter in xrange(epochs):
             x = self.transform(trainx)
@@ -120,28 +124,35 @@ class MLMNN(object):
             while t < max_iter:
                 if t % reset_iter == 0:
                     active_set = self.get_active_set(x, y, neighbors)
-                    last_error = np.array([np.inf]*(mcount))
+                    last_error = last_alpha_error = np.array([np.inf]*(mcount))
 
-                if verbose: print 'Iter: {} lr: {} '.format(t, lr)
                 pullError, pushError, regError, \
                     violated, globalPullError, globalPushError = \
-                        step(*(colize(active_set)+colize(neighbors)+[lr]))
+                        step(*(colize(active_set)+colize(neighbors)+[lr]+[alphalr]))
                 #step2(*(colize(active_set)+colize(neighbors)+[lr]))
-                print 'Violated triples: {}/{}'.format(violated, self.tripleCount)
                 if verbose:
-                    print pullError
-                    print pushError
-                    print regError
-                    print globalPullError
-                    print globalPushError
-                error = (pullError+pushError+regError+globalPullError+globalPushError).flatten()
+                    print 'Iter:', t 
+                    print '\tViolated triples: {}/{}'.format(violated, self.tripleCount)
+                    print '\tlr:', lr 
+                    print '\tShare Pull: ', pullError
+                    print '\tShare Push: ', pushError
+                    print '\tShare Regl: ', regError
+                    print '\talphalr:', alphalr
+                    print '\tTasks Pull: ', globalPullError
+                    print '\tTasks Push: ', globalPushError
+                error = (pullError+pushError+regError).flatten()
+                alpha_error = (globalPullError+globalPushError).flatten()
                 
-#               d1, d2 = debug(*(colize(active_set)+colize(neighbors)))
+#               d1, d2, d3 = debug(*(colize(active_set)+colize(neighbors)))
 #               import pdb
 #               pdb.set_trace()
 
                 lr = lr*1.05*(last_error>error) + lr*0.75*(last_error<=error) 
                 last_error = error
+
+                alphalr = alphalr*1.05*(last_alpha_error>alpha_error) + alphalr*0.75*(last_alpha_error<=alpha_error) 
+                last_alpha_error = alpha_error
+
                 t += 1
             train_acc, test_acc = self.fittest(trainx, testx, y, testy)
 
@@ -204,7 +215,7 @@ class MLMNN(object):
         print x.shape
         if M == -1: M = self.granularity
         if alpha == None: 
-            alpha = self.Talpha[M-1].get_value().flatten()# np.ones((M,))
+            alpha = (self.alpha_based+self.Talpha[M-1].get_value().flatten())# np.ones((M,))
             print alpha
         x = self.preprocess(x)
 
@@ -239,26 +250,24 @@ class MLMNN(object):
 
     def fittest(self, trainx, testx, trainy, testy, G=-1, alpha=None):
         trainx = self.transform(trainx, G, alpha=alpha)
-        if testx != None: testx = self.transform(testx, G, alpha=alpha)
+        testx = self.transform(testx, G, alpha=alpha)
         train_acc, train_cfm = knn(trainx, trainx, trainy, trainy, None, self.K, cfmatrix=True)
 
-        if testx != None: test_acc, test_cfm = knn(trainx, testx, trainy, testy, None, self.K, cfmatrix=True)
+        test_acc, test_cfm = knn(trainx, testx, trainy, testy, None, self.K, cfmatrix=True)
         if self.verbose: print 'shape: {}'.format(trainx.shape)
         if self.verbose: print 'train-acc: %.3f%%  %s'%(train_acc, ' '*30)
         if self.verbose: print 'train confusion matrix:\n {}'.format(train_cfm)
-        if testx != None and self.verbose:
+        if self.verbose:
             print 'test-acc: %.3f%%'%(test_acc)
             print 'test confusion matrix:\n {}'.format(test_cfm)
-        if testx != None: 
-            return train_acc, test_acc
-        else:
-            return test_acc
+        return train_acc, test_acc
         
     def __theano_build__(self):
         self.Tx        = [T.matrix('x{}'.format(i), dtype='float32') for i in range(self.granularity)]
         self.Tstackx   = [T.matrix('stackx{}'.format(i), dtype='float32') for i in range(self.granularity)]
         self.Ty        = T.ivector('y') 
         self.Tlr       = T.vector('lr', dtype='float32')
+        self.Talphalr  = T.vector('alphalr', dtype='float32')
         self.Ttriple   = [T.ivector('triple'+x) for x in ['i', 'j', 'l']]
         self.Tneighbor = [T.ivector('neighbor'+x) for x in ['i', 'j']]
         self.Talpha    = [theano.shared(value=np.ones((i)).astype('float32')/i, name='alpha[{}]'.format(i), borrow=True) \
@@ -326,26 +335,29 @@ class MLMNN(object):
         globalPushError = [] 
 
         for i in range(1, self.granularity+1):
-            globalPullError.append(self.pullgamma*\
-                                (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dneighbor[:i])).sum() )
-            globalPushError.append(self.pushgamma*\
-                                T.maximum((self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleij[:i])).sum(1)-\
-                                          (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleil[:i])).sum(1)+1, 0).sum() )
+            globalPullError.append( (1-self.mu) * \
+                                ((self.alpha_based+self.Talpha[i-1].dimshuffle(0, 'x')) * T.stacklists(Dneighbor[:i])).sum() )
+            globalPushError.append(self.mu *\
+                                T.maximum(((self.alpha_based+self.Talpha[i-1].dimshuffle(0, 'x')) * T.stacklists(Dtripleij[:i])).sum(0)-\
+                                          ((self.alpha_based+self.Talpha[i-1].dimshuffle(0, 'x')) * T.stacklists(Dtripleil[:i])).sum(0)+1, 0).sum() )
 
-        Error = T.sum(pushErrors) + T.sum(pullErrors) + T.sum(regError) + \
-            T.sum(globalPullError) + T.sum(globalPushError)
+        sharedError = T.sum(pushErrors) + T.sum(pullErrors) + T.sum(regError) 
+        taskError = T.sum(globalPullError) + T.sum(globalPushError)
 
 #       i = 2
-#       self.debug1 = self.Talpha[i-1]
-#       self.debug2 = T.grad(Error, self.Talpha[i-1]) 
+#       self.debug1 = (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleij[:i]))
+#       self.debug2 = (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleil[:i]))
+#       self.debug3 = (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleij[:i])).sum(0)-\
+#                                         (self.Talpha[i-1].dimshuffle(0, 'x') * T.stacklists(Dtripleil[:i])).sum(0)+1
+
 #       self.debug1 = T.maximum((self.Talpha[i-1] * T.stack(Dtripleij[:i])).sum(1)-(self.Talpha[i-1] * T.stack(Dtripleil[:i])).sum(1)+1, 0)
 #       self.debug2 = (self.Talpha[i-1] * T.stack(Dneighbor[:i]))
 
         self.Tupdates = \
-            [(ele, PSD_Project(ele - self.Tlr[index] * T.grad(Error, ele)))
+            [(ele, PSD_Project(ele - self.Tlr[index] * T.grad(sharedError+self.gamma*taskError, ele)))
                 for index, ele in enumerate(stm+ltm)] 
         for ind, ele in enumerate(self.Talpha):
-            temp = ele - self.Tlr[ind] * T.grad(Error, ele)
+            temp = T.maximum(ele - self.Talphalr[ind] * T.grad(taskError, ele), 0)
             self.Tupdates.append( (ele, temp/temp.sum()) )
 
         self.Tstm = stm
@@ -475,90 +487,24 @@ class MLMNN(object):
         return d
 
 
-def train():
-    mlmnn = MLMNN(granularity=int(Time*groups), 
-            K=5, 
-            mu=0.5, lmdb=0.05, pushgamma=2.0, pullgamma=2.0, 
-            dim=150, 
-            normalizeFunction=normalize) 
-#   try:
-    if True:
-        mlmnn.fit(trainx, trainy, testx, testy, 
-            tripleCount=10000, learning_rate=0.5, 
-            max_iter=10, reset_iter=5, epochs=20, 
-            verbose=True)
-#   except:
-#       mlmnn.save('temp.MLMNN')
-#       print 'early break'
+def loadtest(trainx, testx, trainy, testy, As=None, model=None):
+    if model:
+        mlmnn = model
+    else:
+        mlmnn = MLMNN.load('temp.MLMNN')
 
-#   [ 0.1     0.2     0.3     0.4     0.5     0.6     0.7     0.8     0.9     1.0  ]
-#   [ 50.746  73.134  86.94   94.776  98.134  99.627  100.    100.    99.627  99.627]
-#   [ 18.939  36.364  53.788  60.606  74.242  78.788  74.242  78.03   79.545  80.303]
-
-#   [ 47.388  76.493  88.433  94.776  99.254  99.254  99.627  99.627  99.627  99.627]
-#   [ 18.939  34.091  46.97   59.091  67.424  75.758  78.03   80.303  84.091  81.818]
-
-#   [ 51.119  73.134  90.299  93.657  98.881  98.881  99.254  99.627  99.627  99.627]
-#   [ 25.     39.394  50.758  65.909  74.242  76.515  77.273  84.091  81.818  81.818]
-
-#   [ 52.812  67.812  79.375  91.875  98.125  99.062  99.688  99.375  99.062  99.062]
-#   [ 22.5    27.5    42.5    56.25   73.75   81.25   83.75   85.     83.75   85.  ]
-
-#   [ 50.     66.944  79.444  87.222  95.278  98.889  98.889  99.167  98.611  98.889]
-#   [ 27.5  42.5  62.5  62.5  72.5  82.5  80.   85.   85.   85. ]
-
-# rs = 133
-#   [ 45.896  59.701  73.507  83.582  88.806  93.284  94.03   92.537  91.418  91.418]
-#   [ 23.485  35.606  53.788  61.364  67.424  73.485  75.758  76.515  77.273  77.273]
-
-# rs = 134
-#   [ 48.507  69.776  82.836  91.045  97.015  98.881  98.134  97.388  97.015  96.642]
-#   [ 21.212  28.788  45.455  57.576  65.909  75.758  73.485  74.242  71.97   71.212]
-
-#   [ 53.358  75.373  88.06   96.269  99.254  100.    100.    100     100.    99.627]
-#   [ 21.97   35.606  53.03   60.606  68.939  72.727  73.485  75.     71.97   71.97 ]
-
-#     multi-task
-#   [ 46.269  72.761  86.94   92.537  98.507  99.627  99.254  99.627  99.254  98.881]
-#   [ 22.727  29.545  49.242  62.121  67.424  76.515  75.758  73.485  73.485  75.   ]
-
-# rs = 138
-
-#   [ 43.75   56.618  73.162  80.515  86.765  91.544  92.647  92.647  90.809  90.809]
-#   [ 17.969  39.062  51.562  55.469  70.312  77.344  82.031  79.688  77.344  78.906]
-
-#       K=5, mu=0.5, lmdb=0.05, dim=100, 
-#       tripleCount=10000, learning_rate=1.0, max_iter=10, reset_iter=5, epochs=5, 
-#   [ 50.278  62.222  74.722  84.167  91.667  95.556  94.722  95.833  94.444  94.167]
-#   [ 22.5    32.5    45.     60.     72.5    85.     82.5    82.5    82.5    82.5]
-
-#       with global push and pull
-#   [ 47.388  64.552  80.97   88.433  94.03   96.269  97.761  97.388  97.015  97.015]
-#   [ 24.242  38.636  49.242  60.606  67.424  71.97   75.758  78.03   81.818  82.576]
-
-#       multi-task
-#   [ 56.716  75.746  90.672  93.657  97.388  98.881  99.627  99.627  99.627  99.254]
-#   [ 25.758  40.152  49.242  59.848  69.697  78.03   77.273  78.788  79.545  80.303]
-
-#       alpha first time
-#   [ 40.299  46.642  61.567  63.806  69.776  60.821  66.791  68.657  71.269  72.015]
-#   [ 18.182  31.061  32.576  34.091  39.394  36.364  43.939  43.182  43.939  43.939]
-
-#     32.81   36.72   53.90   59.38   67.97   63.28   68.75   75.00   75.78   79.69
-
-
-def loadtest(trainx, testx, trainy, testy, As=None):
-    mlmnn = MLMNN.load('temp.MLMNN')
 
     acc = []
-    for Time2 in np.linspace(0.1, 1, 10):
-        f = lambda x: x.reshape(x.shape[0], 10, -1)[:, :int(Time2*10), :].reshape(x.shape[0], -1)
+    for Time2 in np.linspace(0, 1, G+1)[1:]:
+        g = int(Time2*G)
+        print 'g={}'.format(g)
+        f = lambda x: x.reshape(x.shape[0], G, -1)[:, :g, :].reshape(x.shape[0], -1)
         ttrainx = f(trainx)
         ttestx = f(testx)
         if As:
-            acc.append(mlmnn.fittest(ttrainx, ttestx, trainy, testy, int(Time2*10), alpha=As[int(Time2*10)-1]))
+            acc.append(mlmnn.fittest(ttrainx, ttestx, trainy, testy, g, alpha=As[int(Time2*10)-1]))
         else:
-            acc.append(mlmnn.fittest(ttrainx, ttestx, trainy, testy, int(Time2*10)))
+            acc.append(mlmnn.fittest(ttrainx, ttestx, trainy, testy, g))
 
     print acc
     acc = np.array(acc)
@@ -590,26 +536,64 @@ if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
     theano.config.exception_verbosity = 'high'
 
-    K = 200
+    K = 300
     Time = 1.0
-    groups = 10
-    from names import featureDir, globalcodedfilename
-    if groups == 10:
-        x, y = cPickle.load(open('{}/[K={}][T={}]BoWInGroup.pkl'.format(featureDir, K, 1.0), 'r'))
-    else:
-        x, y = cPickle.load(open(globalcodedfilename(K, 1.0, groups), 'r'))
-    x = x.reshape(x.shape[0], 10, -1)[:, :int(Time*10), :].reshape(x.shape[0], -1)
+    G = 10
+    import names
+    from names import histogramFilename, dataset_name
+    print dataset_name 
+    data = np.load(open(histogramFilename(K, G), 'r'))
+    x, y = data['x'], data['y']
+    x = x.reshape(x.shape[0], G, -1)[:, :int(Time*G), :].reshape(x.shape[0], -1)
     print y
     trainx, testx, trainy, testy = \
-        train_test_split(x, y, test_size=0.33, random_state=138)
+        train_test_split(x, y, test_size=0.32, random_state=32)
     print trainx.shape
     print trainy.shape
 
-    train()
-    acc1 = loadtest(trainx, testx, trainy, testy)
 
-#   [ 56.343   73.134   88.06    94.776   98.881  100.      99.627  100.     100.      99.627]
-#   [ 17.424  33.333  43.182  52.273  65.909  75.     76.515  78.03   75.     76.515]
+    mlmnn = MLMNN(granularity=int(Time*G),
+            K=len(set(y)),
+            mu=0.5, lmdb=0.10, gamma=2.00,
+            dim=200, alpha_based=0.0,
+            normalizeFunction=normalize)
+    try:
+        mlmnn.fit(trainx, trainy, testx, testy,
+            tripleCount=10000, 
+            learning_rate=0.5, alpha_learning_rate=5e-5,
+            max_iter=2, reset_iter=5, epochs=10,
+            verbose=True,
+            autosaveName='{}.model'.format(names.dataset_name))
+    except:
+        print 'early break'
+
+    acc1 = loadtest(trainx, testx, trainy, testy, model=mlmnn)
+
+# gamma = 2.00
+#   [  38.272   75.309   88.889   96.296  100.     100.     100.     100.     100.     100.   ]
+#   [ 12.821  41.026  61.538  76.923  92.308  92.308  94.872  92.308  92.308  92.308]
+# gamma = 1.00
+#   [  46.914   76.543   88.889   97.531  100.     100.     100.     100.     100.     100.   ]
+#   [ 28.205  38.462  61.538  79.487  92.308  92.308  92.308  92.308  92.308  92.308]
+# gamma = 0.00
+#   [  46.914   70.37    85.185   97.531  100.     100.     100.     100.     100.     100.   ]
+#   [ 28.205  35.897  64.103  84.615  89.744  92.308  94.872  94.872  92.308  92.308]
+
+
+#   UTI
+#   [  42.5    75.     90.    100.    100.    100.    100.     98.75  100.    100.  ]
+#   [  7.5  40.   50.   67.5  82.5  85.   82.5  90.   85.   85. ]
+#   without training
+#   [ 28.125  54.167  66.667  73.958  76.042  85.417  83.333  84.375  84.375  83.333]
+#   [ 29.167  45.833  54.167  79.167  83.333  87.5    79.167  91.667  91.667  91.667]
+
+# BIT K=200
+#   [ 46.324  67.279  74.632  81.25   89.706  95.221  96.324  96.691  96.691  96.691]
+#   [ 18.75   31.25   44.531  60.156  67.969  75.     79.688  78.906  78.125  78.125]
+
+#   [ 46.691  63.235  77.941  81.618  91.912  95.588  96.324  96.324  96.324  95.956]
+#   [ 18.75   34.375  46.875  62.5    71.094  76.562  77.344  78.906  78.125  80.469]
+
 
 #   testmcml()
 
