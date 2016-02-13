@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
         mlmnn = MLMNN(granularity=int(Time*G),
                 K=len(set(y)),
-                mu=0.5, lmdb=0.10, gamma=5.00,
+                mu=0.5, lmdb=0.25, gamma=5.00,
                 dim=110, alpha_based=0.0,
                 normalizeFunction=normalize)
         mlmnn.fit(trainx, trainy, testx, testy,
@@ -74,5 +74,5 @@ if __name__ == '__main__':
     print np.mean(train_acc)
     print np.mean(test_acc)
 
-    cPickle.dump((train_acc, test_acc), open('{}/log7.pkl'.format('UTI'), 'w'))
+    cPickle.dump((train_acc, test_acc), open('{}/log11.pkl'.format('UTI'), 'w'))
 

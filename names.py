@@ -8,6 +8,7 @@ harris3d_dir = './tools/stip-2.0-linux'
 dataset_name = 'BIT'
 #dataset_name = 'UTI'
 #dataset_name = 'TV'
+#dataset_name = 'UCF11'
 videolistFile = './{}/video-list.txt'.format(dataset_name)
 POI = './{}/POI.txt'.format(dataset_name)
 denseDir = './{}/dense'.format(dataset_name)

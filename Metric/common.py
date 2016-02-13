@@ -24,6 +24,37 @@ def pca(trainx, testx, p = 0.95, verbose=False, n_components=False, get_pca=Fals
     if get_pca: ret += (pca,)
     return ret
 
+
+import sys
+sys.path.append('/home/shaofan/Projects') 
+from FastML import KNN
+
+def knn(train_x, test_x, train_y, test_y, M=None, K=5, verbose=False, cfmatrix=False, prediction=False):
+    # M is not more useful
+    predicts = KNN(K).fit(train_x, train_y).predict(test_x)
+    acc = 0
+    m = len(set(train_y))
+    rec = np.zeros((m, m))
+    for predict, y in zip(predicts, test_y):
+        if predict == y: 
+            acc += 1
+        rec[y][predict] += 1
+    if verbose:
+        print '{}/{}'.format(acc, test_y.shape[0])
+
+    acc = float(acc)/test_y.shape[0]*100 
+    res = (acc, )
+    if cfmatrix:
+        res = res+(rec,)
+    if prediction:
+        res = res+(np.array(predicts, dtype='int32'),)
+    return res
+
+
+
+
+
+
 import theano
 import theano.tensor as T
 from theano.tensor.nlinalg import diag as __gdiag
@@ -38,29 +69,31 @@ __gv = (__gx-__gxs)/T.sqrt(__gx+__gxs+1e-20)
 __gdist = __gdiag(__gv.dot(__gM).dot(__gv.T))
 __dist1vsNchisquare = theano.function([__gx, __gxs, __gM], __gdist, allow_input_downcast=True)
 
-
-
-def knn(train_x, test_x, train_y, test_y, M, K=5, verbose=False, cfmatrix=False):
+def oldknn(train_x, test_x, train_y, test_y, M, K=5, verbose=False, cfmatrix=False, prediction=False):
     n = len(train_x)
     m = len(set(train_y))
     if M is None:
         M = np.eye(len(train_x[0]))
     acc = 0
     rec = np.zeros((m, m))
+    predicts = []
     for x, y in zip(test_x, test_y):
         dist = __dist1vsN(x, train_x, M) 
 
         predict = np.bincount(train_y[dist.argsort()[:K]]).argmax()
+        predicts.append(predict)
         if predict == y: acc += 1
         rec[y][predict] += 1
     if verbose:
         print '{}/{}'.format(acc, test_y.shape[0])
 
     acc = float(acc)/test_y.shape[0]*100 
+    res = (acc, )
     if cfmatrix:
-        return acc, rec
-    else:
-        return acc
+        res = res+(rec,)
+    if prediction:
+        res = res+(np.array(predicts, dtype='int32'),)
+    return res
 
 def knnchisqaure(train_x, test_x, train_y, test_y, M, K=5, verbose=False, cfmatrix=False):
     n = len(train_x)

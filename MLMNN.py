@@ -212,11 +212,11 @@ class MLMNN(object):
         return x
 
     def transform(self, x, M=-1, nostack=False, alpha=None):
-        print x.shape
+        #print x.shape
         if M == -1: M = self.granularity
         if alpha == None: 
             alpha = (self.alpha_based+self.Talpha[M-1].get_value().flatten())# np.ones((M,))
-            print alpha
+        print 'alpha=', alpha
         x = self.preprocess(x)
 
         #pca
@@ -554,14 +554,14 @@ if __name__ == '__main__':
 
     mlmnn = MLMNN(granularity=int(Time*G),
             K=len(set(y)),
-            mu=0.5, lmdb=0.10, gamma=2.00,
+            mu=0.5, lmdb=0.05, gamma=2.00,
             dim=200, alpha_based=0.0,
             normalizeFunction=normalize)
     try:
         mlmnn.fit(trainx, trainy, testx, testy,
             tripleCount=10000, 
             learning_rate=0.5, alpha_learning_rate=5e-5,
-            max_iter=2, reset_iter=5, epochs=10,
+            max_iter=5, reset_iter=5, epochs=10,
             verbose=True,
             autosaveName='{}.model'.format(names.dataset_name))
     except:
@@ -569,31 +569,12 @@ if __name__ == '__main__':
 
     acc1 = loadtest(trainx, testx, trainy, testy, model=mlmnn)
 
-# gamma = 2.00
-#   [  38.272   75.309   88.889   96.296  100.     100.     100.     100.     100.     100.   ]
-#   [ 12.821  41.026  61.538  76.923  92.308  92.308  94.872  92.308  92.308  92.308]
-# gamma = 1.00
-#   [  46.914   76.543   88.889   97.531  100.     100.     100.     100.     100.     100.   ]
-#   [ 28.205  38.462  61.538  79.487  92.308  92.308  92.308  92.308  92.308  92.308]
-# gamma = 0.00
-#   [  46.914   70.37    85.185   97.531  100.     100.     100.     100.     100.     100.   ]
-#   [ 28.205  35.897  64.103  84.615  89.744  92.308  94.872  94.872  92.308  92.308]
-
-
-#   UTI
-#   [  42.5    75.     90.    100.    100.    100.    100.     98.75  100.    100.  ]
-#   [  7.5  40.   50.   67.5  82.5  85.   82.5  90.   85.   85. ]
-#   without training
-#   [ 28.125  54.167  66.667  73.958  76.042  85.417  83.333  84.375  84.375  83.333]
-#   [ 29.167  45.833  54.167  79.167  83.333  87.5    79.167  91.667  91.667  91.667]
-
-# BIT K=200
-#   [ 46.324  67.279  74.632  81.25   89.706  95.221  96.324  96.691  96.691  96.691]
-#   [ 18.75   31.25   44.531  60.156  67.969  75.     79.688  78.906  78.125  78.125]
-
-#   [ 46.691  63.235  77.941  81.618  91.912  95.588  96.324  96.324  96.324  95.956]
-#   [ 18.75   34.375  46.875  62.5    71.094  76.562  77.344  78.906  78.125  80.469]
-
+# lmdb 0.00
+#   [ 56.25   74.265  86.765  93.382  97.794  98.897  99.265  99.632  99.632  99.632]
+#   [ 18.75   33.594  51.562  64.062  75.     77.344  79.688  79.688  81.25   80.469]
+# lmdb 0.50
+#   [ 48.162  64.706  81.25   81.618  89.338  94.485  95.221  94.853  94.853  95.221]
+#   [ 21.875  32.031  48.438  59.375  71.094  74.219  74.219  77.344  75.     76.562]
 
 #   testmcml()
 

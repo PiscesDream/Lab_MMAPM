@@ -17,13 +17,13 @@ def getCodebook(lf, gf, K):
         for tag in lf:
             lx.extend(lf[tag]['x'])
             gx.extend(gf[tag]['x'])
-        lcodebook = __getCodebook(lx, K)
-        gcodebook = __getCodebook(gx, K)
+        lcodebook = _getCodebook(lx, K)
+        gcodebook = _getCodebook(gx, K)
         print 'Saving to {} ...'.format(filename)
         cPickle.dump((lcodebook, gcodebook), open(filename, 'w'))
         return lcodebook, gcodebook
 
-def __getCodebook(x, K):
+def _getCodebook(x, K):
     x = np.array(x).astype('float32')
     x = x.reshape(x.shape[0], -1)
     # normalization
@@ -53,13 +53,13 @@ def encode(K):
         gf = cPickle.load(open(globalFeaturesFilename, 'r'))
 
         lcodebook, gcodebook = getCodebook(lf, gf, K)
-        data = __encode(lf, gf, lcodebook, gcodebook)
+        data = _encode(lf, gf, lcodebook, gcodebook)
         print 'Saving to {} ...'.format(filename)
 #        np.savez_compress
         np.savez(open(filename, 'w'), **data)
         return data
 
-def __encode(lf, gf, lcodebook, gcodebook):
+def _encode(lf, gf, lcodebook, gcodebook):
     assert (lf.keys() == gf.keys())
     data = {}
     y = []
@@ -104,11 +104,11 @@ def getHistogram(K, G):
         y = []
         for i in range(N):
             lx = data['lx{}'.format(i)]
-            lx = __getHistogram(lx[0], lx[1], K, G)
+            lx = _getHistogram(lx[0], lx[1], K, G)
             # dim = (G, K)
 
             gx = data['gx{}'.format(i)]
-            gx = __getHistogram(gx[0], gx[1], K, G)
+            gx = _getHistogram(gx[0], gx[1], K, G)
             # dim = (G, K)
 
             x.append(np.hstack([lx, gx]).astype('float32')) # dim=(G, 2*K)
@@ -119,7 +119,7 @@ def getHistogram(K, G):
         np.savez(open(filename, 'w'), x=np.array(x).astype('float32'), y=y)
         return x, y 
 
-def __getHistogram(x, t, K, G):
+def _getHistogram(x, t, K, G, threshold=None):
     tmax = 1.0 #np.max(t)
     splitpoints = np.linspace(0, tmax, G+1)
     splitpoints[-1] = np.inf
@@ -127,6 +127,8 @@ def __getHistogram(x, t, K, G):
     histogram = np.zeros((G, K), dtype='float32')  
     for g, (start, end) in enumerate(zip(splitpoints[:-1], splitpoints[1:])):
         mask = (start<=t) & (t<end)
+        if threshold:
+            mask = mask & (t < threshold)
         for label in x[mask]:
             histogram[g] += np.bincount([label], minlength=K)
     return histogram

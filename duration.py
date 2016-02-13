@@ -20,6 +20,7 @@ from sklearn.decomposition import PCA
 import sys
 sys.path.append('/home/shaofan/Projects') 
 from FastML import LDL
+from FastML import KNN
 def colize(x):
     return [x[:, i] for i in range(x.shape[1])]
 
@@ -237,7 +238,11 @@ class LMNN_duration(object):
         L = LDL(self.TM.get_value(), combined=True)
         return x.dot(L)
 
+    def predict(self, x):
+        pass
+
     def save(self, filename):
+        print self.M
         cPickle.dump((self.__class__, self.__dict__), open(filename, 'w'))
 
     @staticmethod
@@ -278,6 +283,18 @@ def getD(x):
 #   lmnn = LMNN_alpha()
 #   lmnn.fit(D, y, max_iter=1000, lr=5e-4)
 
+def expand(x, y, K, G): 
+    newx = []
+    newy = []
+    for ele in x:
+        acc = np.zeros((2 * K))
+        ele = ele.reshape(G, -1)
+        for ind, dur in enumerate(ele):
+            acc = acc + dur
+            newx.append(acc)
+            newy.append(ind)
+    return np.array(newx), np.array(newy)
+
 if __name__ == '__main__':
     np.set_printoptions(linewidth=np.inf, precision=3)
 
@@ -290,20 +307,11 @@ if __name__ == '__main__':
     x, y = data['x'], data['y']
     x = x.reshape(x.shape[0], 10, -1)[:, :int(Time*10), :].reshape(x.shape[0], -1)
 
-    newx = []
-    newy = []
-    for ele in x:
-        acc = np.zeros((2 * K))
-        ele = ele.reshape(G, -1)
-        for ind, dur in enumerate(ele):
-            acc = acc + dur
-            newx.append(acc)
-            newy.append(ind)
-    x = np.array(newx)
-    y = np.array(newy)
-
     trainx, testx, trainy, testy = \
-        train_test_split(x, y, test_size=0.32, random_state=138)
+        train_test_split(x, y, test_size=0.32, random_state=32)
+
+    trainx, trainy = expand(trainx, trainy, K, G)
+    testx, testy = expand(testx, testy, K, G)
     print trainx.shape
     print trainy.shape
     
@@ -320,10 +328,11 @@ if __name__ == '__main__':
 #   print '{}/{} = {}'.format( (pred == testy).sum(), len(testy), (pred == testy).sum()/float(len(testy)) )
 #   print '{}'.format( pred - testy )
 
-    print knn(trainx, testx, trainy, testy, None, 5, cfmatrix=True)
+    print knn(trainx, testx, trainy, testy, M=None, K=2, cfmatrix=True, prediction=True)
+
     from sklearn.preprocessing import normalize
     lmnn = LMNN_duration(
-        dim=100, 
+        dim=200, 
         mu=0.5, K=10,
         kernelFunction=None,            # the explicit kernel
         normalizeFunction=None, #normalize,         # how data will be normalized
@@ -332,7 +341,7 @@ if __name__ == '__main__':
         tripleCount=10000,
         learning_rate=1e-6,
         max_iter=5,
-        reset_iter=30,
-        epochs=100,
+        reset_iter=10,
+        epochs=10,
         verbose=True,
         autosaveName='duration.model',)#'temp.MLMNN',
